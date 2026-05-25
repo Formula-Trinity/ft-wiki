@@ -1,17 +1,13 @@
-# Welcome to MkDocs
+# Formula Trinity Wiki
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<!-- ![ASCII](assets/images/homepage/ascii.png) -->
 
-## Commands
+Welcome to the Formula Trinity wiki.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+This documents Formula Trinity’s design, manufacturing, testing, and development work across each car and department. It is intended as a reference for current and future team members.
 
-## Project layout
+## Start Here
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [FTX7](ftx7/index.md) — the FSUK 2026 competition entry.
+- [Manufacturing](manufacturing/index.md) — team manufacturing methods & practices.
+- [How to Contribute](contributing.md) — how to edit and add pages to the wiki

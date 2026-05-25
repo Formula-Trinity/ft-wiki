@@ -1,1 +1,71 @@
-site_name: My Docs
+# ==================================
+#           DO NOT TOUCH!
+# ==================================
+
+site_name: Formula Trinity Wiki
+site_description: Engineering documentation for Formula Trinity
+site_url: https://formula-trinity.github.io/ft-wiki/
+# repo_url: https://github.com/Formula-Trinity/ft-wiki
+
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  name: material
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    # - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+  palette:
+    - scheme: default
+      primary: black
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: black
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+# ==================================
+#        END OF DO NOT TOUCH...
+# ==================================
+
+nav:
+  - Home: index.md
+  - FTX7:
+      - ftx7/index.md
+      - Powertrain:
+          - ftx7/powertrain/index.md
+      - Drivetrain:
+          - ftx7/drivetrain/index.md
+      - Chassis:
+          - ftx7/chassis/index.md
+      - Suspension:
+          - ftx7/suspension/index.md
+      - Aero:
+          - ftx7/aero/index.md
+      - Electronics:
+          - ftx7/electronics/index.md
+          - Subsystem 1: ftx7/electronics/subsystem-01/index.md
+          - Subsystem 2: ftx7/electronics/subsystem-02/index.md
+  - Manufacturing:
+      - manufacturing/index.md
+  - How to Contribute: contributing.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
