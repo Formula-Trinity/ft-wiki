@@ -7,6 +7,9 @@ site_description: Engineering documentation for Formula Trinity
 site_url: https://formula-trinity.github.io/ft-wiki/
 # repo_url: https://github.com/Formula-Trinity/ft-wiki
 
+extra:
+  generator: false
+
 extra_css:
   - stylesheets/extra.css
 
