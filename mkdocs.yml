@@ -70,6 +70,8 @@ nav:
           - Subsystem 2: ftx7/electronics/subsystem-02/index.md
   - Manufacturing:
       - manufacturing/index.md
+  - Competition:
+      - competition/index.md
   - How to Contribute: contributing.md
 
 markdown_extensions:
