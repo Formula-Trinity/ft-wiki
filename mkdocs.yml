@@ -72,6 +72,18 @@ nav:
       - manufacturing/index.md
   - Competition:
       - competition/index.md
+      - Static Events:
+        - competition/statics/index.md
+      - Scrutineering:
+        - competition/scrut/index.md
+        - Tech: competition/scrut/tech/index.md
+        - Safety: competition/scrut/safety/index.md
+        - Chassis: competition/scrut/chassis/index.md
+        - Tilt: competition/scrut/tilt/index.md
+        - Noise: competition/scrut/noise/index.md
+        - Brakes: competition/scrut/brakes/index.md
+      - Dynamic Events:
+        - competition/dynamics/index.md
   - How to Contribute: contributing.md
 
 markdown_extensions:
@@ -79,3 +91,8 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
