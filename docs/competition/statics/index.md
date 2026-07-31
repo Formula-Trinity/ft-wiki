@@ -19,6 +19,25 @@ The static events are covered in more detail in:
 - [Design Judging](./design/index.md)
 - [Cost & Manufacturing Judging](./cost/index.md)
 
+```mermaid
+---
+config:
+  theme: base
+  themeVariables:
+    pie1: "#A52332"
+    pie2: "#5D626C"
+
+    pieStrokeColor: "#111318"
+    pieStrokeWidth: "2px"
+    pieSectionTextColor: "#FFFFFF"
+    pieLegendTextColor: "#D6D8DE"
+    pieTitleTextColor: "#F2F3F5"
+---
+pie showData
+    "Design Judging" : 150
+    "Cost & Manufacturing" : 115
+```
+
 ---
 
 A sneak peek at what static judging looks like:

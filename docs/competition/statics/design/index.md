@@ -25,6 +25,36 @@ During FTX7 Design Judging, points were lost because the car was unfinished, som
 - Clearly explaining design decisions, trade-offs and validation
 - Ensuring answers are consistent across the team
 
+```mermaid
+---
+config:
+  theme: base
+  themeVariables:
+    pie1: "#C72C41"  # red
+    pie2: "#F28C28"  # Orange
+    pie3: "#E3B341"  # Gold
+    pie4: "#3B82C4"  # Blue
+    pie5: "#49A6A6"  # Teal
+    pie6: "#7A6FB0"  # Purple
+    pie7: "#79A85B"  # Green
+    pie8: "#AEB3BC"  # Light grey
+
+    pieStrokeColor: "#111318"
+    pieStrokeWidth: "2px"
+    pieSectionTextColor: "#FFFFFF"
+    pieLegendTextColor: "#D6D8DE"
+    pieTitleTextColor: "#F2F3F5"
+---
+pie showData
+    "Engineering Design Report" : 10
+    "Overall Vehicle Concept" : 30
+    "Structural Design inc. Suspension & Brakes" : 30
+    "Powertrain Concept & Choice, Simulation, Design & Analysis" : 35
+
+    "Overall Timing, Manufacturing, Procurement Plan plus Team Organisation Plan" : 20
+    "Design for Manufacture & Profit, Customer Respect and Innovation" : 25
+```
+
 ---
 
 ![Design Judging Image](../../../assets/images/competition/scrut/design1.jpeg)
