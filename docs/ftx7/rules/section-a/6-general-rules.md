@@ -104,15 +104,15 @@
 
 ##### A6.7.2
 
-> **[EV ONLY]** The detachable handle or key of the Tractive System Master Switch (TSMS) must be completely removed and kept by an ESO. The lockout/tagout function of the TSMS, see EV6.2.2, must be used.
+> **[EV ONLY]** The detachable handle or key of the Tractive System Master Switch (TSMS) must be completely removed and kept by an ESO. The lockout/tagout function of the TSMS, see [EV6.2.2](../section-ev/6-/#ev622), must be used.
 
 ##### A6.7.3
 
-> **[EV ONLY]** The High Voltage Disconnect (HVD), see EV4.8, must be disconnected at all times (including taking part in static events) if the vehicle has not passed electrical inspection.
+> **[EV ONLY]** The High Voltage Disconnect (HVD), see [EV4.8](../section-ev/4-/#ev48), must be disconnected at all times (including taking part in static events) if the vehicle has not passed electrical inspection.
 
 ##### A6.7.4
 
-> **[DV ONLY]** DV vehicles must also have their autonomous system deactivated when being moved around the paddock (see T14.6). The detachable handle or key of the Autonomous System Master Switch (ASMS) must be completely removed and kept by an ASR. The lockout/tagout function of the ASMS, see T14.6.8, must be used.
+> **[DV ONLY]** DV vehicles must also have their autonomous system deactivated when being moved around the paddock (see [T14.6](../section-t/)). The detachable handle or key of the Autonomous System Master Switch (ASMS) must be completely removed and kept by an ASR. The lockout/tagout function of the ASMS, see T14.6.8, must be used.
 
 ##### A6.7.5
 
