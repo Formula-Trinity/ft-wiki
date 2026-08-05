@@ -41,6 +41,19 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
 
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
 # ==================================
 #        END OF DO NOT TOUCH...
 # ==================================
@@ -70,12 +83,27 @@ nav:
           - Subsystem 2: ftx7/electronics/subsystem-02/index.md
   - Manufacturing:
       - manufacturing/index.md
-  - Competition:
+  - Competition Overview:
       - competition/index.md
+      - Static Events:
+        - competition/statics/index.md
+        - Design Judging:
+          - competition/statics/design/index.md
+          - Engineering Design Report: competition/statics/design/edr.md
+          - Overall Vehicle Concept: competition/statics/design/overall_concept.md
+          - Structural Design inc. Suspension & Brakes: competition/statics/design/struct_design.md
+          - Powertrain Concept & Choice, Simulation, Design & Analysis: competition/statics/design/pt.md
+          - Overall Timing, Manufacturing, Procurement Plan plus Team Organisation Plan: competition/statics/design/timing_planning.md
+          - Design for Manufacture & Profit, Customer Respect and Innovation: competition/statics/design/design_for_manufacture.md
+        - Cost & Manufacturing Judging: competition/statics/cost/index.md
+      - Scrutineering:
+        - competition/scrut/index.md
+        - Tech: competition/scrut/tech/index.md
+        - Safety: competition/scrut/safety/index.md
+        - Chassis: competition/scrut/chassis/index.md
+        - Tilt: competition/scrut/tilt/index.md
+        - Noise: competition/scrut/noise/index.md
+        - Brakes: competition/scrut/brakes/index.md
+      - Dynamic Events:
+        - competition/dynamics/index.md
   - How to Contribute: contributing.md
-
-markdown_extensions:
-  - admonition
-  - tables
-  - toc:
-      permalink: true
