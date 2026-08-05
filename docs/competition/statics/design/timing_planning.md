@@ -9,7 +9,7 @@ Team organisational structure, resource
 management, risk analysis and data sharing
 ```
 
-## FTX7 Feedback
+## FTX7 Official Feedback
 
 ### Positives
 

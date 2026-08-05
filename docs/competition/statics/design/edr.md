@@ -1,6 +1,6 @@
 # Engineering Design Report
 
-## FTX7 Feedback
+## FTX7 Official Feedback
 
 ```text
 Simple aim, finish Endurance, developmental approach.

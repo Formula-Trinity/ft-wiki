@@ -8,7 +8,7 @@ Load cases and load path appreciation. Safety
 considerations
 ```
 
-## FTX7 Feedback
+## FTX7 Official Feedback
 
 ### Positives
 

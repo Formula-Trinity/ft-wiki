@@ -21,7 +21,7 @@ etc.
 Includes complex long lead time parts, e.g. wings
 ```
 
-## FTX7 Feedback
+## FTX7 Official Feedback
 
 ### Positives
 

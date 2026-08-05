@@ -11,7 +11,7 @@ batteries (where used) and machine (kW, kWh, C-
 rates) with supporting validation
 ```
 
-## FTX7 Feedback
+## FTX7 Official Feedback
 
 ### Positives
 
