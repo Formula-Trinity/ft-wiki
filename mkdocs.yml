@@ -7,9 +7,6 @@ site_description: Engineering documentation for Formula Trinity
 site_url: https://formula-trinity.github.io/ft-wiki/
 # repo_url: https://github.com/Formula-Trinity/ft-wiki
 
-extra:
-  generator: false
-
 extra_css:
   - stylesheets/extra.css
 
@@ -51,31 +48,33 @@ nav:
       - ftx7/index.md
       - Powertrain:
           - ftx7/powertrain/index.md
-          - Subsystem 1: ftx7/powertrain/subsystem-01/index.md
       - Drivetrain:
           - ftx7/drivetrain/index.md
-          - Subsystem 1: ftx7/drivetrain/subsystem-01/index.md
       - Chassis:
           - ftx7/chassis/index.md
-          - Subsystem 1: ftx7/chassis/subsystem-01/index.md
       - Suspension:
           - ftx7/suspension/index.md
-          - Subsystem 1: ftx7/suspension/subsystem-01/index.md
       - Aero:
           - ftx7/aero/index.md
-          - Subsystem 1: ftx7/aero/subsystem-01/index.md
       - Electronics:
           - ftx7/electronics/index.md
           - Subsystem 1: ftx7/electronics/subsystem-01/index.md
           - Subsystem 2: ftx7/electronics/subsystem-02/index.md
   - Manufacturing:
       - manufacturing/index.md
-  - Competition:
-      - competition/index.md
   - How to Contribute: contributing.md
 
 markdown_extensions:
   - admonition
   - tables
+  - attr_list
+  - md_in_html
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
   - toc:
       permalink: true
