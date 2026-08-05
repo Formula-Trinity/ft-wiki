@@ -10,3 +10,12 @@ Chassis scrutineering checks that the manufactured chassis matches the approved 
 - Check the roll envelope
 - Fit a Percy model and confirm the required clearance from the roll envelope
 - Check the cockpit opening and internal cross-section using the relevant templates
+
+## Checklist
+
+- Bring printed copies of the SES and Impact Attenuator Data Sheet.
+- Bring the physical sample used for the impact attenuator test.
+- Check that the manufactured chassis matches the approved SES.
+- Inspect weld quality before presenting the car.
+- Be ready for tube wall thickness checks.
+- Check roll envelope, Percy clearance, cockpit opening and cockpit internal cross-section before queueing.

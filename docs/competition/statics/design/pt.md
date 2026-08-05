@@ -30,3 +30,7 @@ cooling routing compromised. Focus on systems
 rather than getting the car finished early enough,
 loose cables and unfinished gear shifting system.
 ```
+
+## Team Debrief Notes
+
+**Add notes here:** Record verbal judging comments, questions asked, what evidence worked well, and what should be prepared earlier next year.

@@ -2,7 +2,7 @@
 
 The static events assess the team’s understanding of the car, the engineering processes used to develop it, and the reasoning behind key design and manufacturing decisions.
 
-Unlike the dynamic events, these sessions are not focused on how the car performs. Instead, judges assess how well the team can explain and justify their work.
+Unlike the [dynamic events](../dynamics/index.md), these sessions are not focused on how the car performs. Instead, judges assess how well the team can explain and justify their work.
 
 Strong performance depends on:
 

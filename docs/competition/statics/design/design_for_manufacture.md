@@ -43,3 +43,7 @@ poor and led to manufacturing quality challenges.
 Car wasn’t finished and build quality as presented
 was poor.
 ```
+
+## Team Debrief Notes
+
+**Add notes here:** Record verbal judging comments, questions asked, what evidence worked well, and what should be prepared earlier next year.

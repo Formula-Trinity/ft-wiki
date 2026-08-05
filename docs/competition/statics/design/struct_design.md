@@ -29,3 +29,7 @@ height at rear and trade-off between kart-style
 steering not understood. Rear brakes and toe
 compliance both questionable.
 ```
+
+## Team Debrief Notes
+
+**Add notes here:** Record verbal judging comments, questions asked, what evidence worked well, and what should be prepared earlier next year.

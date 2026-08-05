@@ -20,3 +20,7 @@ Three years of development: please quantify the improvements.
 Well laid out pages and reasonable justifications.
 Drawings are a little short of dimensions.
 ```
+
+## Team Debrief Notes
+
+**Add notes here:** Record verbal judging comments, questions asked, what evidence worked well, and what should be prepared earlier next year.

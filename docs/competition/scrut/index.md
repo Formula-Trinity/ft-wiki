@@ -19,4 +19,14 @@ At FSUK 2026, scrutineering was open from Wednesday morning until Sunday at noon
 
 The completeness of the pre-scrutineering form determines the team's position in the initial queue on the first day. Once that queue has cleared, access is generally first come, first served.
 
+## Before Joining the Queue
+
+- Complete the pre-scrutineering form as thoroughly as possible before the event.
+- Check [FS Stats](https://www.fsstats.co.uk/) for live information on non-conformities during scrutineering.
+- Bring the most relevant four people for the stage being attempted.
+- Keep the printed rules available with any rules likely to be questioned highlighted.
+- Bring the required supporting documents and physical test samples for the stage.
+- Inspect the car in the pits before each attempt, especially after any repair or adjustment.
+- Record issues raised by scrutineers (even warnings).
+
 ![scrut sticker](../../assets/images/competition/scrut/scrut_sticker.jpg)
