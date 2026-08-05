@@ -1,6 +1,6 @@
 # Scrutineering
 
-Before the car can compete on track in any dynamic event, it must pass a series of technical inspections and safety tests known as **scrutineering**.
+Before the car can compete on track in any of the [dynamic events](../dynamics/index.md), it must pass a series of technical inspections and safety tests known as **scrutineering**.
 
 The car must progress through six separate stages, earning a new sticker at each stage:
 
