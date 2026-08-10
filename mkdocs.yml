@@ -77,6 +77,17 @@ nav:
       - Aero:
           - ftx7/aero/index.md
           - Subsystem 1: ftx7/aero/subsystem-01/index.md
+          - Aero Wiki: ftx7/aero/aero-wiki/index.md
+          - Nosecone & Body: ftx7/aero/nosecone-body/index.md
+          - Sidepods: ftx7/aero/sidepods/index.md
+          - Extras: ftx7/aero/extras/index.md
+      - Vehicle Dynamics & Tyre Data:
+          - ftx7/vehicle-dynamics-tyre-data/index.md
+          - Tyre Wiki: ftx7/vehicle-dynamics-tyre-data/tyre-wiki/index.md
+          - Tyre Data Wiki: ftx7/vehicle-dynamics-tyre-data/tyre-data-wiki/index.md
+          - Tyre Data Guide: ftx7/vehicle-dynamics-tyre-data/tyre-data-guide/index.md
+          - LTS Guide: ftx7/vehicle-dynamics-tyre-data/lts-guide/index.md
+          - LTS Data: ftx7/vehicle-dynamics-tyre-data/lts-data/index.md
       - Electronics:
           - ftx7/electronics/index.md
           - Subsystem 1: ftx7/electronics/subsystem-01/index.md
