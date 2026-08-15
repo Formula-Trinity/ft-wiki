@@ -38,6 +38,7 @@
 ##### T10.2.2
 
 > The following methods are accepted as positive locking mechanisms:
+> 
 > - Correctly installed safety wiring,
 > - Cotter pins,
 > - Nylon lock nuts (ISO 7040, ISO 10512, EN 1663 or equivalent) for low temperature

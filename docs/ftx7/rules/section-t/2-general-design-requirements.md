@@ -37,7 +37,7 @@
 ##### T2.2.2
 
 > In any section view, parallel to the centre line of the car, in front of the cockpit opening and
-> outside the area defined in T8.2, all parts of the bodywork must have no external concave
+> outside the area defined in [T8.2](./8-aerodynamic-devices.md/#t82-restrictions-for-aerodynamic-devices), all parts of the bodywork must have no external concave
 > radii of curvature. Any gaps between bodywork and other parts must be reduced to a
 > minimum.
 
@@ -151,8 +151,9 @@
 
 ##### T2.6.1
 
-> Steering systems using cables or belts for actuation are prohibited. [DV ONLY] This does not
-> apply for autonomous steering actuators.
+> Steering systems using cables or belts for actuation are prohibited. 
+> 
+> **[DV ONLY]** This does not apply for autonomous steering actuators.
 
 ##### T2.6.2
 

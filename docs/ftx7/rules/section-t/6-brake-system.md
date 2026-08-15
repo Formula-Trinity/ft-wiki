@@ -23,7 +23,7 @@
 > “Brake-by-wire” systems are prohibited.
 >
 > [DV ONLY] In autonomous mode, it is allowed to use “brake-by-wire”. In manual mode,
-> T6.1.1 applies.
+> [T6.1.1](#t611) applies.
 
 ##### T6.1.5
 
@@ -31,12 +31,12 @@
 
 ##### T6.1.6
 
-> The brake system must be protected from failure of the drivetrain, see T7.3.2, from
+> The brake system must be protected from failure of the drivetrain, see [T7.3.2](./7-powertrain.md/#t732), from
 > touching any movable part and from minor collisions.
 
 ##### T6.1.7
 
-> All parts of the brake system must be within the Surface Envelope, see T1.1.18.
+> All parts of the brake system must be within the Surface Envelope, see [T1.1.18](./1-definitions.md/#t1118).
 
 ##### T6.1.8
 
@@ -88,7 +88,7 @@
 > The vehicle must be equipped with one brake light that is illuminated if and only if one of
 > the following criteria are met:
 > - The hydraulic brake system is actuated,
-> - [EV ONLY] The regenerative braking system is actuated in accordance with T6.1.10,
+> - [EV ONLY] The regenerative braking system is actuated in accordance with [T6.1.10](#t6110),
 > - [EV ONLY] The regenerative braking system is actuated upon release of the accelerator
 > pedal and the deceleration exceeds 1m/s² ± 0.3m/s². The team must prove the function
 > of the brake light during technical inspection by elevating the rear of the car to an angle
@@ -98,7 +98,7 @@
 ##### T6.3.2
 
 > The brake light must be red, clearly visible from the rear and meet the  requirements of a
-> System Status Light, as per T11.10.
+> System Status Light, as per [T11.10](./11-electrical-components.md/#t1100).
 
 ##### T6.3.3
 

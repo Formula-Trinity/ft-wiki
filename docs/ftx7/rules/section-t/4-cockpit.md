@@ -74,6 +74,7 @@
 ##### T4.3.4
 
 > The figure has to be positioned in the vehicle as follows, see Figure 14:
+> 
 > - The seat adjusted to the rearmost position,
 > - The pedals adjusted to the front-most position,
 > - The bottom 200mm circle placed on the seat bottom. The distance between the centre
@@ -121,6 +122,7 @@
 > If the belts are attached to a laminated structure or the mounting brackets and tabs are not
 > made from steel at least 1.6mm thick, physical testing is required. The following
 > requirements must be met:
+> 
 > - Load is applied to a test sample representing the tubular or laminated structure and
 > must use the same brackets and/or tabs,
 > - Edges of the test fixture supporting the sample must be a minimum of 125mm from the
@@ -138,7 +140,7 @@
 
 > The lowest point of the driver’s seat must, in side view, not extend below the upper face of
 > the lowest side impact structure member or have a longitudinal tube (or tubes) that meets
-> the material requirements for the side impact structure (T3.2), passing underneath the
+> the material requirements for the side impact structure ([T3.2](./3-general-chassis-design.md/#t32-minimum-material-requirements)), passing underneath the
 > lowest point of the seat.
 
 ##### T4.6.2
@@ -148,6 +150,7 @@
 > external to the cockpit or incorporated with the driver’s seat or firewall. The design must
 > meet the following minimum requirements between the heat source and the part that the
 > driver could contact:
+> 
 > - Convection insulation by a minimum air gap of 25mm
 > - Radiation insulation by:
 > i. A solid metal heat shield with a minimum thickness of 0.4mm, or,
@@ -188,23 +191,24 @@
 ##### T4.8.1
 
 > A firewall must separate the driver compartment from all components of:
+> 
 > - The fuel supply system,
 > - The engine oil,
 > - The liquid cooling systems,
 > - The low voltage battery,
 > - Any part of the air intake system forward of a vertical plane through the front face of the
 > driver head restraint support, excluding any padding, set to its most rearward position,
-> - Any TS component, see EV1.1.1.
+> - Any TS component, see [EV1.1.1](../section-ev/1-definitions.md/#ev111).
 
 ##### T4.8.2
 
-> The firewall must cover any line projected from any point on the parts mentioned in T4.8.1
+> The firewall must cover any line projected from any point on the parts mentioned in [T4.8.1](#t481)
 > to any part of the tallest driver below a plane 100mm above the bottom of the helmet.
 
 ##### T4.8.3
 
 > The firewall must be a non-permeable surface made from a rigid, fire-retardant material,
-> see T1.2.1, which must be rigidly mounted to the vehicle’s structure.
+> see [T1.2.1](./1-definitions.md/#t121), which must be rigidly mounted to the vehicle’s structure.
 
 ##### T4.8.4
 
@@ -226,9 +230,10 @@
 
 > [EV ONLY] The tractive system firewall between driver and tractive system components
 > must be composed of two layers:
+> 
 > - One solid layer, facing the tractive system side, must be made of aluminium with a
 > thickness of at least 0.5mm. This part of the tractive system firewall must be grounded
-> according to EV3.1,
+> according to [EV3.1](../section-ev/3-general-requirements.md/#ev31-grounding),
 > - The second layer, facing the driver, must be made of an electrically insulating and fire-
 > retardant material, see T1.2.1. The second layer must not be made of CFRP,
 > - The thickness of the second layer must be sufficient to prevent penetrating this layer
@@ -245,7 +250,7 @@
 ##### T4.8.9
 
 > [EV ONLY] TS parts outside of the Rollover Protection Envelope that meet the requirements
-> of EV4.4.4 do not need a firewall.
+> of [EV4.4.4](../section-ev/4-tractive-system.md/#ev444) do not need a firewall.
 
 ### T4.9 Accessibility of Controls
 
@@ -266,15 +271,15 @@
 
 ##### T4.10.2
 
-> If mirrors are required to meet T4.10.1, they must remain in place and be adjusted to
+> If mirrors are required to meet [T4.10.1](#t4101), they must remain in place and be adjusted to
 > enable the required visibility throughout all dynamic events.
 
 ### T4.11 Driver Egress
 
 ##### T4.11.1
 
-> All drivers must be able to exit to the side of the vehicle in less than 5 s with the driver in
+> All drivers must be able to exit to the side of the vehicle in less than 5s with the driver in
 > the fully seated position, hands in the driving position on the connected steering wheel (in
-> all possible steering positions), wearing the required driver equipment as in T13.3 and
-> properly secured by the Driver Restrain System as in T5. The egress time will stop when the
+> all possible steering positions), wearing the required driver equipment as in [T13.3](./13-vehicle-and-driver-equipment.md/#t133-driver-equipment) and
+> properly secured by the Driver Restrain System as in [T5](./5-driver-restraint-system.md). The egress time will stop when the
 > driver has both feet on the ground.

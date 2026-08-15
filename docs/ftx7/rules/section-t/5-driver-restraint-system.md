@@ -16,13 +16,13 @@
 
 > Upright driving position – Position with a seat back angled at 30° or less from the vertical as
 > measured along the line joining the two 200mm circles of the 95th percentile male template
-> as defined in T4.3 and positioned per T4.3.4.
+> as defined in T4.3 and positioned per [T4.3.4](./4-cockpit.md/#t434).
 
 ##### T5.1.4
 
 > Reclined driving position – Position with a seat back angled at more than 30° from the
 > vertical as measured along the line joining the two 200mm circles of the 95th percentile
-> male template as defined in T4.3 and positioned per T4.3.4.
+> male template as defined in T4.3 and positioned per [T4.3.4](./4-cockpit.md/#t434).
 
 ### T5.2 Belts - General
 
@@ -30,6 +30,7 @@
 
 > All drivers must use a 6-point or 7-point restraint harness meeting the following
 > specifications:
+> 
 > - All driver restraint systems must meet SFI Specification 16.1, SFI Specification 16.5, SFI
 > Specification 16.6, FIA specification 8853/98 or FIA specification 8853/2016,
 > - The belts must bear the appropriate dated labels,
@@ -64,7 +65,7 @@
 
 > The lap belt, shoulder harness and anti-submarine strap(s) must be securely mounted to
 > the Primary Structure. This structure and any guide or support for the belts must meet the
-> minimum requirements of T3.2.
+> minimum requirements of [T3.2](./3-general-chassis-design.md/#t32-minimum-material-requirements).
 
 ##### T5.3.2
 
@@ -86,7 +87,7 @@
 ##### T5.3.4
 
 > The attachment of the driver’s restraint system to a monocoque structure requires an
-> approved SES per T3.6. The lap belts and anti-submarine belts must not be routed over the
+> approved SES per [T3.6](./3-general-chassis-design.md/#t36-structural-documentation). The lap belts and anti-submarine belts must not be routed over the
 > sides of the seat. Where the belts or harness pass through a hole in the seat, the seat must
 > be rolled or grommeted to prevent chafing of the belts.
 
@@ -116,6 +117,7 @@
 ##### T5.4.5
 
 > With an “upright driving position”:
+> 
 > - In side view the lap belt must be at an angle of between 45° and 65° to the
 >   horizontal.
 > - The centreline of the lap belt at the seat bottom should be between 0mm to 76mm
@@ -124,6 +126,7 @@
 ##### T5.4.6
 
 > With a “reclined driving position”:
+> 
 > - In side view the lap belt must be between an angle of 60° and 80° to the horizontal.
 > - The centreline of the lap belt at the seat bottom may be forward or rearward of the
 >   seat back to seat bottom junction as in Figure 15, provided all other requirements
@@ -148,7 +151,7 @@
 > Analysis method: Use 7kN load per attachment and the range of angles in T5.5.5, calculate
 > that the bent shoulder harness bar triangulation stresses are less than as welded yield
 > strength T3.2.4 for combined bending and shear and does not fail in column buckling. If the
-> team chooses not to perform the strength analysis T3.2.6 will apply.
+> team chooses not to perform the strength analysis [T3.2.6](./3-general-chassis-design.md/#t326) will apply.
 
 ##### T5.5.3
 
@@ -183,13 +186,14 @@
 
 ##### T5.5.8
 
-> Where T5.5.7 applies, the shoulder harness installation must be rules legal for all drivers.
+> Where [T5.5.7](#t557) applies, the shoulder harness installation must be rules legal for all drivers.
 
 ### T5.6 Anti-Submarine Belt Mounting
 
 ##### T5.6.1
 
 > The anti-submarine belts of a 6-point or 7-point harness must be mounted either:
+> 
 > - With the belts going vertically down from the groin or angled up to twenty degrees (20°)
 > rearwards, the anchorage points should be approximately 100mm (4 inches) apart, see
 > Figure 16.
@@ -223,6 +227,7 @@
 ##### T5.7.2
 
 > The Head Restraint padding must:
+> 
 > - Be vertical or near vertical in side view,
 > - Be an energy absorbing material that meets SFI Spec 45.2, or is listed in the FIA Technical
 > List No. 17 as a “Type B Material for single seater cars”: CONFOR M foam CF-42 (pink) or
@@ -239,7 +244,7 @@
 > - The contact point of the back of the driver’s helmet on the Head Restraint is no less than
 > 50mm from any edge of the Head Restraint,
 > - All material and structure of the Head Restraint is within the Rollover Protection
-> Envelope (see T1.1.16).
+> Envelope (see [T1.1.16](./1-definitions.md/#t1116)).
 
 ##### T5.7.3
 
@@ -275,6 +280,7 @@
 > such that while the driver is in the fully seated position, hands in the driving position on the
 > connected steering wheel (in all possible steering positions) and wearing the required
 > driver equipment:
+> 
 > - Can turn the steering wheel lock to lock.
 > - Cannot move their arms (while still holding onto the connected steering wheel) such that
 > any part of the driver falls outside of the Rollover Protection Envelope. (e.g. the arm

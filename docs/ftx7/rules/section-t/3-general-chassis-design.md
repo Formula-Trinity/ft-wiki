@@ -5,6 +5,7 @@
 ##### T3.1.1
 
 > Among other requirements, the vehicle’s structure must include:
+> 
 > - Two Roll Hoops that are braced
 > - A Front Bulkhead with support system and Impact Attenuator (IA)
 > - Side Impact Structures
@@ -30,9 +31,9 @@
 
 > The Primary Structure of the car must be constructed of:
 > - Round, mild or alloy steel (minimum 0.1% carbon) of the minimum dimensions specified
-> in T3.2.1
-> - Approved ‘Alternative Materials’ as per T3.3.
-> - Approved ‘Composite Structure’ as per T3.4.
+> in [T3.2.1](#t321)
+> - Approved ‘Alternative Materials’ as per [T3.3](#t33-alternative-materials).
+> - Approved ‘Composite Structure’ as per [T3.4](#t34-composite-structures).
 
 ##### T3.2.3
 
@@ -65,6 +66,7 @@
 
 > If a member of the Primary Structure (except for the roll hoops) is a bent tube or made
 > from multiple tubes an additional tube must support it. This support tube must:
+> 
 > - Have its attachment point at the position along the bend tube where it deviates farthest
 > from a straight line connecting both ends.
 > - Be of the same dimension as the supported tube(s).
@@ -88,6 +90,7 @@
 
 > Alternative materials may be used for all parts of the Primary Structure and the TSAC with
 > the following exceptions:
+> 
 > - The main hoop and the main hoop bracing must be steel
 > - The front hoop must be metal
 > - Any welded structures of the Primary Structure must be steel
@@ -97,7 +100,7 @@
 
 > If any materials other than steel tubing are used in the Primary Structure or the TSAC,
 > physical testing is required to show equivalency to the minimum material properties for
-> steel in T3.2.
+> steel in [T3.2](#t32-minimum-material-requirements).
 
 ##### T3.3.3
 
@@ -123,6 +126,7 @@
 ##### T3.4.2
 
 > If composite materials are used in the Primary Structure or the TSAC the SES must include:
+> 
 > - Material type(s)
 > - Cloth weights
 > - Resin type
@@ -130,8 +134,7 @@
 > - Number of layers
 > - Core material
 > - Lay-up technique
-> - 3-point-bend test and shear test data (AIPs are exempt from this, but must comply with
-> T3.17.3 or T3.17.5.
+> - 3-point-bend test and shear test data (AIPs are exempt from this, but must comply with [T3.17.3](#t3173) or [T3.17.5](#t3175).
 
 ##### T3.4.3
 
@@ -160,6 +163,7 @@
 
 > If composite materials are used for any part of the Primary Structure or the TSAC the team
 > must:
+> 
 > - Build a representative test panel which must measure exactly 275mm × 500mm that has
 > the same design, laminate and fabrication method as used for the respective part of the
 > Primary Structure represented as a flat panel. The sides of the test panel must not be
@@ -168,7 +172,7 @@
 > - The data from these tests and pictures of the test samples and test setup must be
 > included in the SES. In the pictures, the following must be identifiable: distance between
 > the two supports, dimensions of the load applicator and test sample marking as per
-> T3.5.6. The test results must be used to derive strength and stiffness properties used in
+> [T3.5.6](#t356). The test results must be used to derive strength and stiffness properties used in
 > the SES formula for all laminate panels.
 > - Where a TSAC panel core thickness is <=5mm, it is permitted to use a smaller 150mm x
 > 275mm test panel. The distance between the test panel supports must be >=200mm
@@ -212,7 +216,7 @@
 ##### T3.5.8
 
 > The load applicator used to test any panel or tube must be metallic and have a radius of
-> 50mm, other than deviations allowed under T.3.5.1.
+> 50mm, other than deviations allowed under [T.3.5.1](#t351).
 
 ##### T3.5.9
 
@@ -268,12 +272,12 @@
 > Primary Structure design with that of the most recent previous.
 >
 > SES demonstrating minimal change in design between their old and new chassis will be
-> passed to the Design Judges for consideration of penalty points under Rule S5.7.2.
+> passed to the Design Judges for consideration of penalty points under Rule [S5.7.2](../section-s/5-engineering-design-event-fs.md/#s572).
 >
 > Photographic evidence demonstrating a ‘new chassis’ will be required for Chassis
-> Scrutineering as per Rule IN5.1.1.
+> Scrutineering as per Rule [IN5.1.1](../section-in/5-mechanical-inspection.md/#in511).
 >
-> Teams who fail to satisfy Rule A2.2 will be disqualified from the competition.
+> Teams who fail to satisfy Rule [A2.2](../section-a/2-vehicle-eligibility.md/#a22-first-year-vehicles) will be disqualified from the competition.
 
 ##### T3.6.7
 
@@ -384,7 +388,7 @@
 
 > Fully laminating the front hoop to the monocoque is acceptable. Fully laminating means
 > that the hoop must be encapsulated with laminate around its whole circumference, see
-> Figure 5. Equivalence to T3.7.4 must be shown in the SES. The laminate encapsulating the
+> Figure 5. Equivalence to [T3.7.4](#t374) must be shown in the SES. The laminate encapsulating the
 > front hoop must overlap by at least 25mm on each side. It must have the same lay-up as
 > the laminate that it is connecting to.
 
@@ -478,7 +482,7 @@
 ##### T3.12.2
 
 > If threaded fasteners are used, they are considered critical fasteners and must comply with
-> T10.1.
+> [T10.1](./10-fasteners.md/#t101-critical-fasteners).
 
 ##### T3.12.3
 
@@ -523,6 +527,7 @@
 > The front bulkhead must be supported back to the front hoop by a minimum of three tubes
 > on each side; an upper member, a lower member and diagonal bracing to provide
 > triangulation.
+> 
 > - The upper support member must be attached a maximum of 50mm below the top-most
 > surface of the front bulkhead and a maximum of 50mm below to 100mm above the
 > intersection of the front hoop and upper side impact member.
@@ -530,6 +535,7 @@
 > If the attachment point of the upper support member is greater than 100mm above the
 > upper side impact member, node-to-node triangulated bracing is required to transfer
 > load to the main hoop.
+> 
 > - The lower support member must be attached to the base of the front bulkhead and the
 > base of the front hoop.
 > - The diagonal bracing must triangulate the upper and lower support members node-to-
@@ -570,7 +576,8 @@
 
 ##### T3.15.2
 
-> Other impact structures, see CV1.3.2, EV4.4.2 and EV5.5.2, must be:
+> Other impact structures, see [CV1.3.2](../section-cv/1-internal-combustion-engine-powertrains.md/#cv132), [EV4.4.2](../section-ev/4-tractive-system.md/#ev442) and [EV5.5.2](../section-ev/5-tractive-system-energy-storage.md/#ev552), must be:
+> 
 > - Fully triangulated structures.
 >
 > - Consist of at least three steel tubes, see T3.2, on each side and rearward of the
@@ -590,6 +597,7 @@
 ##### T3.15.4
 
 > If the impact structure is part of a composite structure, the following is required:
+> 
 > - The region of the structure up to a height of 320mm above the lowest point inside the
 > chassis between the front and main hoops must have an EI equal to the three baseline
 > steel tubes that it replaces, see Figure 10.
@@ -641,6 +649,7 @@
 > For bolted AIP to Front Bulkhead attachments, and if two or more panels or plates in the
 > Primary Structure are bolted together, a minimum of one 8 mm metric grade 8.8 bolt must
 > be used for each 200 mm increment of reference perimeter.
+> 
 > - The bolts must be evenly spaced around the circumference.
 > - Smaller bolts may be used if equivalency is proven and the number of bolts is
 >   increased accordingly.
@@ -651,7 +660,7 @@
 
 ##### T3.16.7
 
-> Where blind inserts are used for attachments per T3.16.6, physical tests that prove the
+> Where blind inserts are used for attachments per [T3.16.6](#t3166), physical tests that prove the
 > attachment can withstand >=15kN must be completed and documented in the SES.
 
 ### T3.17 Impact Attenuator
@@ -680,9 +689,9 @@
 ##### T3.17.3
 
 > The AIP must be 1.5mm solid steel, 4.0mm solid aluminium or permitted alternative
-> (T3.17.5).
+> ([T3.17.5](#t3175)).
 > - If the AIP is bolted to the front bulkhead, it must be the same size as the outside
-> dimensions of the front bulkhead and comply with T3.16.6,
+> dimensions of the front bulkhead and comply with [T3.16.6](#t3166),
 > - If it is welded to the front bulkhead, it must extend at least to the centreline of the front
 > bulkhead tubing in all directions,
 > - The AIP must not extend past the outside edges of the front bulkhead.
@@ -694,8 +703,8 @@
 
 ##### T3.17.5
 
-> Alternative AIP designs are permissible if equivalency to T3.17.3 is proven by physical
-> testing as per T3.19.
+> Alternative AIP designs are permissible if equivalency to [T3.17.3](#t3173) is proven by physical
+> testing as per [T3.19](#t319-impact-attenuator-test-requirements).
 
 ##### T3.17.6
 
@@ -706,14 +715,14 @@
 
 ##### T3.17.7
 
-> The attachment of the IA and/or AIP to a monocoque structure must comply with T3.16.6
-> and requires an approved SES, as per T3.6.
+> The attachment of the IA and/or AIP to a monocoque structure must comply with [T3.16.6](#t3166)
+> and requires an approved SES, as per [T3.6](#t36-structural-documentation).
 
 ##### T3.17.8
 
 > If a team uses a standard FSAE IA and the front bulkhead  width is greater than 400mm
 > and/or its height is greater than 350mm, a diagonal or X-bracing made from 25mm ×
-> 1.5mm steel tubing, or an approved equivalent per T3.2, must be included in the front
+> 1.5mm steel tubing, or an approved equivalent per [T3.2](#t32-minimum-material-requirements), must be included in the front
 > bulkhead.
 
 ##### T3.17.9
@@ -725,7 +734,7 @@
 
 ##### T3.17.10
 
-> If a standard IA is used but does not comply with the requirements of T3.17.8, physical
+> If a standard IA is used but does not comply with the requirements of [T3.17.8](#t3178), physical
 > testing must be carried out to prove that the AIP does not permanently deflect more than
 > 25 mm.
 
@@ -735,13 +744,14 @@
 
 > All teams must submit an IA Data report using the Impact Attenuator Data (IAD) template
 > provided on the Formula Student website.
+> 
 > - If a report does not use this template, it will automatically incur a 10-point design
 > penalty,
 > - Templates from other Formula Student/FSAE competitions are not acceptable. The
 > report will still be assessed to ensure that the IA meets the rules requirements and
 > to allow the team to compete,
 > - Minor violations in report layout will be dealt with via the downgrading process
-> outlined in Rule T3.18.5.
+> outlined in Rule [T3.18.5](#t3185).
 
 ##### T3.18.2
 
@@ -753,7 +763,7 @@
 
 > Reports submitted on time, but which do not contain the required information (e.g. a
 > “placeholder report” submitted to avoid penalties but without the required test data) will
-> be treated as a non-submission and dealt with according to Rule T3.18.2.
+> be treated as a non-submission and dealt with according to Rule [T3.18.2](#t3182).
 
 ##### T3.18.4
 
@@ -764,6 +774,7 @@
 
 > Reports will be assessed according to the following process, in order to grade them from A
 > to F:
+> 
 > - Reports are initially assigned a grade according to the type of testing carried out.
 > Dynamic tests are initially assigned a ‘B’ grade; Quasi-static (crush) tests a ‘C’ grade;
 > and teams using a Standard IA an ‘E’ grade.
@@ -785,6 +796,7 @@
 
 > Once the report has been graded, the grade will be converted into design penalty points as
 > follows:
+> 
 > - A = 0 points; B = 0 points; C = 1 point; D = 4 points; E = 8 points; F = 10 points.
 > - These penalties will be forwarded to the Head Design Judge for inclusion in the overall
 > design score.
@@ -796,6 +808,7 @@
 > The IA assembly, when mounted on the front of a vehicle with a total mass of 300 kg and
 > impacting a solid, non-yielding impact barrier with a velocity of impact of 7 m/s, must meet
 > the following requirements:
+> 
 > - Decelerate the vehicle at a rate not exceeding 20g average and 40g peak,
 > - The energy absorbed in this event must meet or exceed 7350 J,
 > - Teams using the standard IA are not required to submit test data with their IAD report,
@@ -804,6 +817,7 @@
 ##### T3.19.2
 
 > During the IA test:
+> 
 > - The IA must be attached to the AIP using the intended vehicle attachment method,
 > - The IA assembly must be attached to a test fixture that has geometry, stiffness and
 > strength equal to or greater than the intended chassis. When alternative materials are
@@ -824,7 +838,7 @@
 ##### T3.19.4
 
 > Vehicles with aerodynamic devices and/or sensors in front of the AIP must not exceed the
-> peak deceleration of T3.19.1 for the combination of their IA assembly and the non-
+> peak deceleration of [T3.19.1](#t3191) for the combination of their IA assembly and the non-
 > crushable object(s). Any of the following three methods may be used to prove the design
 > does not exceed 120kN:
 > - Physical testing of the IA assembly including any attached non-crushable object(s), or

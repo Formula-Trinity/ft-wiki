@@ -6,7 +6,7 @@
 
 > The Low Voltage System (LVS) is defined as
 > - [CV ONLY] all electrical circuits of the vehicle,
-> - [EV ONLY] every electrical part that is not part of the TS, see EV1.1.1.
+> - [EV ONLY] every electrical part that is not part of the TS, see [EV1.1.1](../section-ev/1-definitions.md/#ev111).
 
 ##### T11.1.2
 
@@ -19,7 +19,8 @@
 
 ##### T11.1.4
 
-> [CV ONLY] The following systems are excluded from the LVS voltage limit, see T11.1.2:
+> [CV ONLY] The following systems are excluded from the LVS voltage limit, see [T11.1.2](#t1112):
+> 
 > - High voltage systems for ignition,
 > - High voltage systems for injectors,
 > - Voltages internal to OEM charging systems designed for <60 VDC output.
@@ -41,7 +42,7 @@
 
 ##### T11.2.1
 
-> Master switches, see T11.3, EV6.2 and T14.6, must be a mechanical switch of the rotary
+> Master switches, see [T11.3](#t113-low-voltage-master-switch), [EV6.2](../section-ev/6-ev-shutdown-circuit-and-systems.md/#ev62-tractive-system-master-switch) and [T14.6](./14-autonomous-system.md/#t146-autonomous-system-master-switch), must be a mechanical switch of the rotary
 > type, with a red, removable handle. The handle must have a width of at least 50mm and
 > must only be removable in electrically open position. They must be direct acting, i.e. they
 > must not act through a relay or logic.
@@ -49,9 +50,9 @@
 ##### T11.2.2
 
 > Master switches must be located on the right side of the vehicle, in proximity to the main
-> hoop, at the 95th percentile male driver’s shoulder height, as defined in T4.3, and be easily
+> hoop, at the 95th percentile male driver’s shoulder height, as defined in [T4.3](./4-cockpit.md/#t43-percy-95th-percentile-male), and be easily
 > actuated from outside the vehicle. The centre of any master switch must not be mounted
-> lower than the vertical distance of the template’s (see T4.3) middle circle centre to the
+> lower than the vertical distance of the template’s (see [T4.3](./4-cockpit.md/#t43-percy-95th-percentile-male)) middle circle centre to the
 > ground surface multiplied by 0.8.
 
 ##### T11.2.3
@@ -72,7 +73,8 @@
 
 ##### T11.3.1
 
-> An LVMS according to T11.2 must completely disable
+> An LVMS according to [T11.2](#t112-master-switches) must completely disable
+> 
 > - [EV ONLY] power to the LVS,
 > - [CV ONLY] power from the Low Voltage (LV) battery and the alternator to the LVS.
 
@@ -95,7 +97,7 @@
 ##### T11.4.2
 
 > Each shutdown button must be a push-pull or push-rotate mechanical emergency switch
-> where pushing the button opens the shutdown circuit, see EV6.1 and CV4.1.
+> where pushing the button opens the shutdown circuit, see [EV6.1](../section-ev/6-ev-shutdown-circuit-and-systems.md/#ev61-shutdown-circuit) and [CV4.1](../section-cv/4-shutdown-system.md/#cv41-shutdown-circuit).
 
 ##### T11.4.3
 
@@ -130,7 +132,7 @@
 
 ##### T11.5.1
 
-> An inertia switch must be part of the shutdown circuit, see EV6.1 and CV4.1, such that an
+> An inertia switch must be part of the shutdown circuit, see [EV6.1](../section-ev/6-ev-shutdown-circuit-and-systems.md/#ev61-shutdown-circuit) and [CV4.1](../section-cv/4-shutdown-system.md/#cv41-shutdown-circuit), such that an
 > impact will result in the shutdown circuit being opened. The inertia switch must latch until
 > manually reset.
 
@@ -155,7 +157,8 @@
 ##### T11.6.1
 
 > A standalone non-programmable circuit, the BSPD, must open the shutdown circuit, see
-> EV6.1 and CV4.1, when hard braking occurs, whilst
+> [EV6.1](../section-ev/6-ev-shutdown-circuit-and-systems.md/#ev61-shutdown-circuit) and [CV4.1](../section-cv/4-shutdown-system.md/#cv41-shutdown-circuit), when hard braking occurs, whilst
+> 
 > - [EV ONLY] ≥5 kW power is delivered to the motors,
 > - [CV ONLY] The throttle position is more than 25% over idle position.
 >
@@ -169,7 +172,7 @@
 
 ##### T11.6.3
 
-> The BSPD must be directly supplied, see T1.3.1, from the LVMS, see T11.3.
+> The BSPD must be directly supplied, see [T1.3.1](./1-definitions.md/#t131), from the LVMS, see [T11.3](#t113-low-voltage-master-switch).
 
 ##### T11.6.4
 
@@ -195,7 +198,7 @@
 
 ##### T11.6.8
 
-> All necessary signals are System Critical Signal (SCS), see T11.9.
+> All necessary signals are System Critical Signal (SCS), see [T11.9](#t119-system-critical-signal).
 
 ##### T11.6.9
 
@@ -217,7 +220,7 @@
 ##### T11.7.2
 
 > LV batteries must be securely attached to the chassis and located within the rollover
-> protection envelope, see T1.1.16.
+> protection envelope, see [T1.1.16](./1-definitions.md/#t1116).
 
 ##### T11.7.3
 
@@ -246,6 +249,7 @@
 ##### T11.7.7
 
 > All LV batteries using chemistries other than lead acid must be:
+> 
 > - Presented at technical inspection with markings identifying it for comparison to a
 > datasheet and/or other documentation proving the pack and supporting electronics
 > meet all rules requirements.
@@ -267,9 +271,10 @@
 >
 > NOTE: A tube routed from an engine bay opening to the battery packs could be
 > acceptable if compliant with the rules.
+> 
 > - Identified with the symbol below (minimum height 75mm and showing the appropriate
 > battery chemistry) on each side of the car AND adjacent to any labels required by
-> T11.7.7.
+> [T11.7.7](#t1177).
 
 <div style="height: 251px;" aria-hidden="true"></div>
 
@@ -279,10 +284,11 @@
 
 > Battery packs based on lithium chemistry other than lithium iron phosphate (LiFePO4) and
 > all LV hybrid system energy stores, regardless of chemistry type:
+> 
 > - Must include overcurrent protection that trips at or below the maximum specified
 > discharge current of the cells,
-> - Must have a fire-retardant casing, see T1.2.1.
-> - Must include overtemperature protection of at least 30 % of the cells, meeting EV5.8.4,
+> - Must have a fire-retardant casing, see [T1.2.1](./1-definitions.md/#t121).
+> - Must include overtemperature protection of at least 30 % of the cells, meeting [EV5.8.4](../section-ev/5-tractive-system-energy-storage.md/#ev584),
 > that trips when any cell leaves the allowed temperature range according to the
 > manufacturer’s datasheet, but not more than 60°C, for more than 1s and disconnects
 > the battery,
@@ -291,24 +297,24 @@
 > disconnects the battery,
 > - It must be possible to display all cell voltages and measured temperatures, e.g. by
 > connecting a laptop,
-> - Signals needed to fulfil these requirements are SCS, see T11.9.
+> - Signals needed to fulfil these requirements are SCS, see [T11.9](#t119-system-critical-signal).
 
 ##### T11.7.9
 
 > All batteries must be separated from the driver and sources of heat by a firewall as
-> specified in T4.8.
+> specified in [T4.8](./4-cockpit.md/#t48-firewall).
 
 ##### T11.7.10
 
 > All batteries that are less than 350mm above the ground must be shielded from front, side
-> and rear impact collisions, by a fully triangulated structure meeting T3.2 or equivalent.
+> and rear impact collisions, by a fully triangulated structure meeting [T3.2](./3-general-chassis-design.md/#t32-minimum-material-requirements) or equivalent.
 
 ### T11.8 Accelerator Pedal Position Sensor (APPS)
 
 ##### T11.8.1
 
 > T11.8 only applies for electric vehicles, see chapter EV, or internal combustion vehicles
-> using Electronic Throttle Control (ETC), see CV1.6.
+> using Electronic Throttle Control (ETC), see [CV1.6](../section-cv/1-internal-combustion-engine-powertrains.md/#cv16-electronic-throttle-control).
 
 ##### T11.8.2
 
@@ -337,16 +343,17 @@
 
 > If analogue sensors are used, they must have different, non-intersecting transfer functions.
 > A short circuit between the signal lines must always result in an implausibility according to
-> T11.8.9.
+> [T11.8.9](#t1189).
 
 ##### T11.8.7
 
-> The APPS signals are SCSs, see T11.9.
+> The APPS signals are SCSs, see [T11.9](#t119-system-critical-signal).
 
 ##### T11.8.8
 
 > If an implausibility occurs between the values of the APPSs and persists for more than
 > 100ms
+> 
 > - [EV ONLY] The power to the motor(s) must be immediately shut down completely. It is
 > not necessary to completely deactivate the tractive system, the motor controller(s)
 > shutting down the power to the motor(s) is sufficient,
@@ -355,7 +362,7 @@
 ##### T11.8.9
 
 > Implausibility is defined as a deviation of more than ten percentage points pedal travel
-> between any of the used APPSs or any failure according to T11.9.
+> between any of the used APPSs or any failure according to [T11.9](#t119-system-critical-signal).
 
 ##### T11.8.10
 
@@ -370,6 +377,7 @@
 ##### T11.8.12
 
 > A fully released accelerator pedal in manual mode must result in:
+> 
 > - [EV ONLY] A wheel torque of ≤0 Nm,
 > - [CV ONLY] An idle position or lower throttle set-point. This may only be exceeded during
 > a gearshift for a maximum of 500ms.
@@ -395,15 +403,17 @@
 ##### T11.9.1
 
 > SCS are defined as all electrical signals which
-> - Influence actions on the shutdown circuit, see EV6.1 and CV4.1,
+> 
+> - Influence actions on the shutdown circuit, see [EV6.1](../section-ev/6-ev-shutdown-circuit-and-systems.md/#ev61-shutdown-circuit) and CV4.1,
 > - Influence the wheel torque,
-> - [EV ONLY] Influence indicators according to EV5.8.9, EV4.10 or EV6.3.8,
+> - [EV ONLY] Influence indicators according to [EV5.8.9](../section-ev/5-tractive-system-energy-storage.md/#ev589), [EV4.10](../section-ev/4-tractive-system.md/#ev410-tractive-system-active-light) or [EV6.3.8](../section-ev/6-ev-shutdown-circuit-and-systems.md/#ev638),
 > - [DV ONLY] Influence indicator according to T15.3.3.
 
 ##### T11.9.2
 
 > Any of the following SCS signal failures must result in a safe or error state of all connected
 > systems:
+> 
 > - Failures of signals transmitted by cable:
 > i. Open circuit,
 > ii. Short circuit to ground.
@@ -426,13 +436,14 @@
 
 ##### T11.9.4
 
-> The maximum allowed delay of messages according to T11.9.2.d must be chosen
+> The maximum allowed delay of messages according to [T11.9.2](#t1192) must be chosen
 > depending on the impact of delayed messages to the connected system but must not
 > exceed 500ms.
 
 ##### T11.9.5
 
 > Safe and error states are defined depending on the signals as follows:
+> 
 > - Error State
 > i. signals only influencing indicators – indicator(s) not illuminated which indicate a
 >   failure of its own function or of the connected system,
@@ -451,7 +462,7 @@
 
 ##### T11.9.6
 
-> Indicators according to T11.9.1 with safe state “illuminated” (e.g. absence of failures is not
+> Indicators according to [T11.9.1](#t1191) with safe state “illuminated” (e.g. absence of failures is not
 > actively indicated) must be illuminated for 1s to 3s for visible check after power cycling the
 > LVMS.
 
@@ -467,7 +478,8 @@
 
 ##### T11.10.1
 
-> Any system status light(s), see T6.3 and T14.10, must meet the following requirements:
+> Any system status light(s), see [T6.3](./6-brake-system.md/#t63-brake-light) and [T14.10](./14-autonomous-system.md/#t1410-autonomous-system-status-indicators), must meet the following requirements:
+> 
 > - Black background,
 > - Rectangular, triangular, or near-round shape,
 > - Minimum illuminated surface of 15cm2 with even luminous intensity,
@@ -479,7 +491,7 @@
 
 ##### T11.11.1
 
-> All sensors and components must be securely mounted. For all mounts, T2.2.4 applies.
+> All sensors and components must be securely mounted. For all mounts, [T2.2.4](./2-general-design-requirements.md/#t224) applies.
 
 ##### T11.11.2
 
@@ -488,8 +500,8 @@
 
 ##### T11.11.3
 
-> All sensors and components must be positioned within the surface envelope, see T1.1.18.
-> Actors for aerodynamic devices must be within the box defined in T8.2.
+> All sensors and components must be positioned within the surface envelope, see [T1.1.18](./1-definitions.md/#t1118).
+> Actors for aerodynamic devices must be within the box defined in [T8.2](./8-aerodynamic-devices.md/#t82-restrictions-for-aerodynamic-devices).
 
 ##### T11.11.4
 

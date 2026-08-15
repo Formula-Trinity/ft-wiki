@@ -18,6 +18,7 @@
 ##### T8.2.1
 
 > Height restrictions:
+> 
 > - All aerodynamic devices forward of a vertical plane through the rearmost portion of the
 > front face of the driver head restraint support, excluding any padding, set to its most
 > rearward position, must be lower than 500mm from the ground.
@@ -31,6 +32,7 @@
 ##### T8.2.2
 
 > Width restrictions:
+> 
 > - All aerodynamic devices lower than 500mm from the ground and further rearward than
 > the front axle, must not be wider than a vertical plane touching the most outboard point
 > of the front and rear wheel/tyre.
@@ -40,6 +42,7 @@
 ##### T8.2.3
 
 > Length restrictions:
+> 
 > - All aerodynamic devices must not extend further rearward than 250mm from the
 > rearmost part of the rear tyres.
 > - All aerodynamic devices must not extend further forward than 700mm from the fronts
@@ -54,7 +57,7 @@
 
 <small><em>Figure 18: Maximum dimensions and positioning of aerodynamic devices.</em></small>
 
-> The positioning space is further restricted, see T2.1
+> The positioning space is further restricted, see [T2.1](./2-general-design-requirements.md/#t21-vehicle-configuration)
 
 ### T8.3 Minimum Edge Radii of Aerodynamic Devices
 
@@ -80,7 +83,7 @@
 ##### T8.4.3
 
 > A lower force may be applied, e.g. 100N instead of 200N. The allowable deflections will be
-> scaled by the ratio of the applied load/200N for T8.4.1 or applied load/50N for T8.4.2.
+> scaled by the ratio of the applied load/200N for T8.4.1 or applied load/50N for [T8.4.2](#t842).
 
 ##### T8.4.4
 

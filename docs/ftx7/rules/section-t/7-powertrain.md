@@ -25,7 +25,7 @@
 
 > Cooling systems using plain water (except outboard wheel motors and their cooling hoses)
 > must have a heat resistant (permanently rated for at least 100 °C), rigid and rigidly
-> mounted cover which meets the requirements of T4.8.
+> mounted cover which meets the requirements of [T4.8](./4-cockpit.md/#t48-firewall).
 
 ##### T7.2.4
 
@@ -74,6 +74,7 @@
 
 > Exposed rotating final drivetrain parts, chains, belts and brake discs not mounted within a
 > wheel, must be fitted with scatter shields. Scatter shields and their mountings must:
+> 
 > - Cover chains and belts from the drive sprocket to the driven sprocket/chain wheel/belt
 > or pulley.
 > - Start and end parallel to the lowest point of the driven sprocket/chain wheel/belt or
@@ -87,7 +88,7 @@
 ##### T7.3.3
 
 > Scatter shields for high-speed rotating final drivetrain parts (such as electric motors,
-> clutches, sprockets, gears etc.) that have an OEM casing that do not comply with T7.3.2
+> clutches, sprockets, gears etc.) that have an OEM casing that do not comply with [T7.3.2](./7-powertrain.md/#t732)
 > may be used, if material is added to achieve the minimum required thickness.
 
 ##### T7.3.4
@@ -101,6 +102,7 @@
 > Scatter shields for chains, belts and brake discs must have a minimum width of at least
 > three times the width of the chain, belt or brake disc. The minimum material requirements
 > are:
+> 
 > - For metallic chains, belts and brake discs: 2mm steel.
 > - For non-metallic chains and belts: 3mm aluminium alloy 6061-T6.
 

@@ -5,10 +5,11 @@
 ##### T9.1.1
 
 > The following components are classed as Critical:
-> - HSCs as per CV5.2
-> - TSACs as per EV5.5
-> - Compressed Gas Cylinders or Tanks as per T9.3
-> - High Pressure Hydraulic Pumps as per T9.4
+> 
+> - HSCs as per [CV5.2](../section-cv/5-lv-hybrid-system.md/#cv52-hybrid-storage-container)
+> - TSACs as per [EV5.5](../section-ev/5-tractive-system-energy-storage.md/#ev55-tractive-system-energy-storage--mechanical-configuration)
+> - Compressed Gas Cylinders or Tanks as per [T9.3](#t93-compressed-gas-systems)
+> - High Pressure Hydraulic Pumps as per [T9.4](#t94-high-pressure-hydraulic-pumps-and-lines)
 > - Any AFV component deemed as being Critical by the relevant official.
 
 ### T9.2 Critical Component Load Requirements
@@ -17,6 +18,7 @@
 
 > Critical Components and their mounts must be able to withstand the following
 > accelerations:
+> 
 > - 40g in the longitudinal direction (forward/aft),
 > - 40g in the lateral direction (left/right),
 > - 20g in the vertical direction (up/down).
@@ -31,6 +33,7 @@
 
 > Any system on the vehicle that uses a compressed gas as an actuating medium, except for
 > gas springs, must comply with the following requirements:
+> 
 > - The working gas must be non-flammable.
 > - The pressure inside compressed gas systems must not exceed 10bar.
 > - Compressed gas cylinders/tanks may exceed the 10bar limit, if a pressure regulator,
@@ -85,10 +88,10 @@
 > installation of gas systems.
 > - Cylinder Location- The gas cylinder/tank and the pressure regulator must be located
 > either rearward of the Main Roll Hoop and within the Primary Structure envelope, or
-> in a structural side-pod that meets the requirements of T3.2. It must not be located in
+> in a structural side-pod that meets the requirements of [T3.2](./3-general-chassis-design.md/#t32-minimum-material-requirements). It must not be located in
 > the cockpit.
 > - Cylinder Mounting - The gas cylinder/tank must be securely mounted to the Frame,
-> engine or transmission and meet the requirements of T9.2.
+> engine or transmission and meet the requirements of [T9.2](./9-critical-fasteners.md/#t92-critical-component-load-requirements).
 > - Cylinder Axis - The axis of the gas cylinder/tank must not point at the driver.
 > - Insulation - The gas cylinder/tank must be insulated from any heat sources, e.g. the
 > exhaust system.
