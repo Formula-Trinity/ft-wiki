@@ -11,12 +11,13 @@
 ##### T12.1.2
 
 > Vehicle numbers must appear on the vehicle at the front and both sides as follows:
+> 
 > - Height: At least 150mm high.
 > - Font: Roman Sans-Serif characters. Italic, outline, serif, or shadow numbers are
 > prohibited.
 > - Stroke width and spacing between numbers: At least 20mm.
 > - Colour: Either white numbers on a black background or black numbers on a white
-> background, except as described in T12.1.3 and T12.1.4.
+> background, except as described in [T12.1.3](#t1213) and [T12.1.4](#t1214).
 > - Background shape: The number background must be one of the following: round, oval,
 > square or rectangular. There must be at least 25mm between the edge of the numbers
 > and the edge of the background.
@@ -44,6 +45,7 @@
 
 > The university name must be written fully. Only the following abbreviations in the
 > university name are accepted, if the city name is written fully:
+> 
 > - University - Uni
 > - Technical University - TU
 > - University of Applied Sciences - UAS
@@ -70,6 +72,7 @@
 ##### T12.3.2
 
 > The transponder mounting requirements are:
+> 
 > - Orientation – The transponder must be mounted vertically and orientated so the
 > number can be read “right-side up”.
 > - Location – The transponder must be mounted on the driver’s right side of the car
@@ -93,7 +96,7 @@
 > supplied by the organisers). No sponsor or other markings will be permitted to encroach on
 > these areas. A document showing the requirements can be found here:
 >
-> https://www.imeche.org/events/formula-student/team-information/logo-usage
+> [Logo Usage](https://www.imeche.org/events/formula-student/team-information/logo-usage)
 >
 > Alternatively, teams may incorporate the Formula Student logo into their own
 > colour/graphics schemes, in any of the permitted colour options, providing the logo meets

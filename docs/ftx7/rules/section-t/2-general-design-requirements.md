@@ -22,8 +22,7 @@
 > keep-out zone extends laterally from the outside plane of the wheel/tyre to the inboard
 > plane of the wheel/tyre assembly.
 
-<div style="height: 277px;" aria-hidden="true"></div>
-
+![Keep-out-zones](Images/Keep-out-zone.png)
 <small><em>Figure 4: Keep-out-zones for the definition of an open-wheeled vehicle</em></small>
 
 ### T2.2 Bodywork
@@ -124,12 +123,13 @@
 > - Dry tyres - The tyres on the vehicle when it is presented for technical inspection are
 > defined as its “dry tyres”.
 > - Wet tyres - Wet tyres may be any size or type of treaded or grooved tyre provided:
-> i. The tread pattern or grooves were moulded in by the tyre manufacturer or were
+> 
+>       i. The tread pattern or grooves were moulded in by the tyre manufacturer or were
 >   cut by the tyre manufacturer or their appointed agent. Any grooves that have
 >   been cut must have documentary proof that it was done in accordance with these
 >   rules.
 >
-> ii. There is a minimum tread depth of 2.4 mm.
+>       ii. There is a minimum tread depth of 2.4 mm.
 
 ##### T2.5.2
 

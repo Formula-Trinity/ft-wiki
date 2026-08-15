@@ -290,12 +290,18 @@
 > SES submission will be graded based on the completeness and quality of information
 > provided in SES. It will not be an appraisal of the quality of design. Grades will range from A
 > to F based on the following definitions:
+> 
 > A. Completed to a high standard with clear graphics, notes and engineering justification.
+> 
 > B. Completed to a good standard with clear graphics and notes.
+> 
 > C. Completed to a minimum acceptable standard.
+> 
 > D. Notes and graphics difficult to read and/or poorly presented.
+> 
 > E. Repeat of the same errors for the same or similar design as in a previous year’s original
 > submission.
+> 
 > F. Late submission, incorrect SES template or major sections missing such that SES is
 > deemed a 'non-submission’.
 >
@@ -392,8 +398,7 @@
 > front hoop must overlap by at least 25mm on each side. It must have the same lay-up as
 > the laminate that it is connecting to.
 
-<div style="height: 103px;" aria-hidden="true"></div>
-
+![Front Hoop Laminating Requirements](Images/laminating-requirements.png)
 <small><em>Figure 5: Front hoop laminating requirements</em></small>
 
 ### T3.10 Main Hoop Bracing
@@ -444,7 +449,7 @@
 > The front hoop bracing structure must be attached no lower than 50mm below the top-
 > most surface of the front hoop, see Figure 6.
 
-<div style="height: 154px;" aria-hidden="true"></div>
+![Front hoop bracing, main hoop bracing and steering wheel requirements](Images/Fig6.png)
 
 <small><em>Figure 6: Front hoop bracing, main hoop bracing and steering wheel requirements</em></small>
 
@@ -462,7 +467,7 @@
 ##### T3.11.5
 
 > Cutouts in any composite Front Hoop Bracing or Front Bulkhead Support must not exceed
-> 625cm2.
+> 625cm<sup>2</sup>.
 
 ### T3.12 Mechanically Attached Roll Hoop Bracing
 
@@ -471,11 +476,11 @@
 > Any non-welded joint at either end of a bracing must be either a double-lug joint, see
 > Figure 7, or a sleeved joint, see Figure 8. Spherical rod ends are prohibited.
 
-<div style="height: 153px;" aria-hidden="true"></div>
+![Double lug joint](Images/double-lug.png)
 
 <small><em>Figure 7: Double lug joint</em></small>
 
-<div style="height: 160px;" aria-hidden="true"></div>
+![Sleeved joint](Images/sleeved-joint.png)
 
 <small><em>Figure 8: Sleeved joint</em></small>
 
@@ -560,8 +565,9 @@
 
 ##### T3.15.1
 
-> The Side Impact Structure must consist of at least three steel tubes, see T3.2, on each side
+> The Side Impact Structure must consist of at least three steel tubes, see [T3.2](#t32-minimum-material-requirements), on each side
 > of the cockpit, see Figure 9.
+> 
 > - The upper member must connect the main hoop and the front hoop. It must be at a
 > height between 240mm and 320mm above the lowest point inside the chassis between
 > the front and main hoop.
@@ -570,8 +576,7 @@
 > - The diagonal member must triangulate the upper and lower member between the roll
 > hoops node-to-node.
 
-<div style="height: 175px;" aria-hidden="true"></div>
-
+![Side impact structure](Images/side-impact-struct.png)
 <small><em>Figure 9: Side impact structure</em></small>
 
 ##### T3.15.2
@@ -580,7 +585,7 @@
 > 
 > - Fully triangulated structures.
 >
-> - Consist of at least three steel tubes, see T3.2, on each side and rearward of the
+> - Consist of at least three steel tubes, see [T3.2](#t32-minimum-material-requirements), on each side and rearward of the
 > component(s) requiring protection.
 >
 > - If the component projects outwards to the side of the roll hoops, the front of the
@@ -608,8 +613,7 @@
 >
 > - The perimeter shear strength must be at least 7.5kN.
 
-<div style="height: 159px;" aria-hidden="true"></div>
-
+![Monocoque Side Impact Structure](Images/monocoque-side-impact.png)
 <small><em>Figure 10: Monocoque Side Impact Structure</em></small>
 
 ### T3.16 Bolted Primary Structure Attachments
@@ -635,8 +639,7 @@
 > support to the Primary Structure, the use of one 10mm metric grade 8.8 bolt is sufficient, if
 > the bolt is on the centreline of the tube, see Figure 11.
 
-<div style="height: 171px;" aria-hidden="true"></div>
-
+![alt text](Images/Bolted-bracing.png)
 <small><em>Figure 11: Bolted roll hoop bracing support</em></small>
 
 ##### T3.16.5
@@ -673,6 +676,7 @@
 ##### T3.17.2
 
 > The IA must be:
+> 
 > - Installed forward of the front bulkhead,
 > - At least 100mm high and 200mm wide for a minimum distance of 200mm forward of
 > the front bulkhead,
@@ -690,6 +694,7 @@
 
 > The AIP must be 1.5mm solid steel, 4.0mm solid aluminium or permitted alternative
 > ([T3.17.5](#t3175)).
+> 
 > - If the AIP is bolted to the front bulkhead, it must be the same size as the outside
 > dimensions of the front bulkhead and comply with [T3.16.6](#t3166),
 > - If it is welded to the front bulkhead, it must extend at least to the centreline of the front
@@ -841,6 +846,7 @@
 > peak deceleration of [T3.19.1](#t3191) for the combination of their IA assembly and the non-
 > crushable object(s). Any of the following three methods may be used to prove the design
 > does not exceed 120kN:
+> 
 > - Physical testing of the IA assembly including any attached non-crushable object(s), or
 > structurally representative dummies, in front of the AIP,
 > - Combining the peak force from physical testing of the IA assembly with the failure load

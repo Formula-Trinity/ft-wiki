@@ -44,7 +44,7 @@
 > - Gas cylinders/tanks and lines must be protected from rollover, collision from any
 > direction, or damage resulting from the failure of rotating equipment.
 > - Gas cylinders/tanks and their pressure regulators must be located within the rollover
-> protection envelope T1.1.16 but must not be located in the cockpit.
+> protection envelope [T1.1.16](./1-definitions.md/#t1116) but must not be located in the cockpit.
 > - Gas cylinders/tanks must be securely mounted to the chassis, engine or transmission.
 > - The axis of gas cylinders/tanks must not point at the driver.
 > - Gas cylinders/tanks must be insulated from any heat sources.
@@ -99,19 +99,24 @@
 > possible operating pressure of the system and must be assembled according to
 > manufacturer’s recommendations. As part of the safety form, for gas systems teams
 > must:
-> i. Provide gas system diagrams,
-> ii. Provide details of all components used in the system so that they can be approved
+> 
+>       **i.** Provide gas system diagrams,
+> 
+>       **ii.** Provide details of all components used in the system so that they can be approved
 >   by the rules committee. (These can be approved prior to submission of the safety
 >   documents if required),
-> iii. Provide details of proof testing for pressurization of the whole system to working
+> 
+>       **iii.** Provide details of proof testing for pressurization of the whole system to working
 > pressure in addition to a leak test on all fittings. (If the testing is not conducted
 > before the safety documentation is submitted then this information must be
 > available at scrutineering),
-> iv. Demonstrate single failure tolerant design; other than the tank and gas lines, the
+> 
+>       **iv.** Demonstrate single failure tolerant design; other than the tank and gas lines, the
 > system must be capable of containing the gas in the event that any failure occurs
 > in any one component. Where reasonably possible a component failure should
 > cause the fuel solenoid to close. Teams must be able to demonstrate how to
 > identify whether a component functions correctly or not.
+> 
 > - The maximum allowable storage pressure is 350bar.
 > - All gas cylinders, regulators, solenoid valves and other equipment exposed to
 > pressurized gas must be appropriately certified for use with the gas being used and the

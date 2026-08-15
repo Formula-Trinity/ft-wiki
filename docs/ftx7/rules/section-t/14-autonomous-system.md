@@ -1,15 +1,16 @@
-# [DV Only] Autonomous System
+# **[DV Only]** Autonomous System
 
 ### T14.1 Definitions
 
 ##### T14.1.1
 
-> Each vehicle must implement a full AS according to T14, to run in autonomous mode.
+> Each vehicle must implement a full AS according to [T14](./14-autonomous-system.md), to run in autonomous mode.
 
 ##### T14.1.2
 
-> [CV ONLY] The following definitions apply to maintain the same wording as for Electric
+> **[CV ONLY]** The following definitions apply to maintain the same wording as for Electric
 > Vehicles:
+> 
 > - Ready-to-drive (R2D) – Engine is running, and a gear is engaged,
 > - TS active – Engine is running but gearbox is in neutral (also assumed for TS not active),
 > - TS activation button – The engine start button is the equivalent,
@@ -50,8 +51,9 @@
 ##### T14.4.3
 
 > The RES has two functions:
+> 
 > - When the remote emergency stop button is pressed, it must open the DV Shutdown
-> Circuit (SDC) defined in T14.5,
+> Circuit (SDC) defined in [T14.5](#t145-shutdown-circuit),
 > - When the “Go” button is pressed, the preselected autonomous mission is started.
 
 ##### T14.4.4
@@ -62,7 +64,7 @@
 ##### T14.4.5
 
 > The RES relay, which is integrated into the SDC, must be bypassed by a normally closed
-> relay, when driving manually. The relay must be directly supplied by the ASMS, see T14.6,
+> relay, when driving manually. The relay must be directly supplied by the ASMS, see [T14.6](#t146-autonomous-system-master-switch),
 > and must have either a forcibly guided or a mirrored normally open contact which is
 > directly connected in series to the ASMS.
 
@@ -82,6 +84,7 @@
 ##### T14.5.2
 
 > The SDC may only be closed by the AS, if the following conditions are fulfilled:
+> 
 > - Manual Driving: Manual Mission is selected, the AS has checked that ASB is deactivated
 > (No autonomous brake actuation possible),
 > - Autonomous Driving: Autonomous Mission is selected, ASMS is switched on and
@@ -91,7 +94,7 @@
 
 ##### T14.6.1
 
-> Each vehicle must be equipped with an ASMS, according to T11.2.
+> Each vehicle must be equipped with an ASMS, according to [T11.2](./11-electrical-components.md/#t112-master-switches).
 
 ##### T14.6.2
 
@@ -105,19 +108,21 @@
 ##### T14.6.4
 
 > The power supply of the steering and braking actuators must be switched by
+> 
 > - LVMS,
 > - ASMS,
 > - The normally-open contact of the RES bypass relay.
 >
-> Other than stated in T11.2.1, non-programmable logic may be used as part of the ASMS.
+> Other than stated in [T11.2.1](./11-electrical-components.md/#t1121), non-programmable logic may be used as part of the ASMS.
 
 ##### T14.6.5
 
 > When the ASMS is in “Off” position, the following must be fulfilled:
+> 
 > - No steering, braking and propulsion actuation can be performed by request of the
 > autonomous system,
 > - The sensors and the processing units can stay operational,
-> - The vehicle must be able to be pushed as specified in A6.7,
+> - The vehicle must be able to be pushed as specified in [A6.7](../section-a/6-general-rules.md/#a67-vehicle-movement),
 > - It must be possible to operate the vehicle manually as a normal CV or EV.
 
 ##### T14.6.6
@@ -161,6 +166,7 @@
 ##### T14.8.2
 
 > The actuators may be disconnected for manual driving if:
+> 
 > - No parts are removed for disconnection,
 > - The disconnection mechanism cannot block manual operation in any position,
 > - The disconnection mechanism is securely locked in both positions.
@@ -170,20 +176,19 @@
 ##### T14.9.1
 
 > The Emergency Brake System (EBS) is considered to be “activated”, if its power supply is cut
-> after passing the initial check-up sequence (T15.3.1). Brakes may only be released by
-> operating the deactivation points defined in T15.1.7. .
+> after passing the initial check-up sequence ([T15.3.1](./15-autonomous-system-brake.md/#t1531)). Brakes may only be released by
+> operating the deactivation points defined in ([T15.1.7](./15-autonomous-system-brake.md/#t1517)).
 
 ##### T14.9.2
 
 > The EBS is no longer considered to be activated if all brakes have been released using the
-> deactivation points defined in [T15.1.7]
+> deactivation points defined in [T15.1.7](./15-autonomous-system-brake.md/#t1517).
 
 ##### T14.9.3
 
 > The status of the AS must be determined according to the flowchart in Figure 22.
 
-<div style="height: 248px;" aria-hidden="true"></div>
-
+![AS Status Flowchart](Images/AS%20Status.png)
 <small><em>Figure 22: AS Status Flowchart</em></small>
 
 ##### T14.9.4
@@ -201,7 +206,7 @@
 ##### T14.10.1
 
 > The vehicle must include three ASSIs that must indicate the status of the AS (as defined in
-> T14.10) correlating to illumination as shown:
+> [T14.10](#t1410-autonomous-system-status-indicators)) correlating to illumination as shown:
 >
 > AS Off AS Ready AS Driving AS Emergency AS Finished
 > off yellow yellow flashing blue flashing blue continuous
@@ -223,12 +228,13 @@
 
 ##### T14.10.4
 
-> Each ASSI must meet the requirements of a System Status Light, according to T11.10.
+> Each ASSI must meet the requirements of a System Status Light, according to [T11.10](./11-electrical-components.md/#t1110-system-status-light).
 
 ##### T14.10.5
 
 > The status “AS Emergency” has to be indicated by an intermittent sound with the following
 > parameters:
+> 
 > - On-/off-frequency: 1Hz to 5Hz,
 > - Duty cycle 50%,
 > - Sound level greater than 80dBA, fast weighting in a radius of 2m around the vehicle,
@@ -239,10 +245,11 @@
 ##### T14.11.1
 
 > The AS must at least implement the following missions:
+> 
 > - Acceleration,
 > - Skidpad,
-> - [DC ONLY] Autocross,
-> - [DC ONLY] Trackdrive,
+> - **[DC ONLY]** Autocross,
+> - **[DC ONLY]** Trackdrive,
 > - EBS test,
 > - Inspection,
 > - Manual driving.

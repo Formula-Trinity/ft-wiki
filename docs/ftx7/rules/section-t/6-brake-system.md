@@ -22,7 +22,7 @@
 
 > “Brake-by-wire” systems are prohibited.
 >
-> [DV ONLY] In autonomous mode, it is allowed to use “brake-by-wire”. In manual mode,
+> **[DV ONLY]** In autonomous mode, it is allowed to use “brake-by-wire”. In manual mode,
 > [T6.1.1](#t611) applies.
 
 ##### T6.1.5
@@ -65,7 +65,7 @@
 ##### T6.2.1
 
 > A brake pedal over-travel switch must be installed on the vehicle as part of the shutdown
-> circuit, as in EV6 or CV4.1. This switch must be installed so that in the event of a failure in at
+> circuit, as in [EV6](../section-ev/6-ev-shutdown-circuit-and-systems.md) or [CV4.1](../section-cv/4-shutdown-system.md/#cv41-shutdown-circuit). This switch must be installed so that in the event of a failure in at
 > least one of the brake circuits the brake pedal over-travel will result in the shutdown circuit
 > being opened. This must function for all possible brake pedal and brake balance settings
 > without damaging any part of the vehicle.
@@ -87,9 +87,10 @@
 
 > The vehicle must be equipped with one brake light that is illuminated if and only if one of
 > the following criteria are met:
+> 
 > - The hydraulic brake system is actuated,
-> - [EV ONLY] The regenerative braking system is actuated in accordance with [T6.1.10](#t6110),
-> - [EV ONLY] The regenerative braking system is actuated upon release of the accelerator
+> - **[EV ONLY]** The regenerative braking system is actuated in accordance with [T6.1.10](#t6110),
+> - **[EV ONLY]** The regenerative braking system is actuated upon release of the accelerator
 > pedal and the deceleration exceeds 1m/s² ± 0.3m/s². The team must prove the function
 > of the brake light during technical inspection by elevating the rear of the car to an angle
 > of 6 degrees to simulate a deceleration of 1m/s² with the regenerative braking system

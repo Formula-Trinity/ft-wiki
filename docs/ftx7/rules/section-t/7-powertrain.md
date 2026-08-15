@@ -15,7 +15,7 @@
 
 ##### T7.2.1
 
-> [CV ONLY] Water-cooled engines must only use plain water.
+> **[CV ONLY]** Water-cooled engines must only use plain water.
 
 ##### T7.2.2
 
@@ -93,7 +93,7 @@
 
 ##### T7.3.4
 
-> [EV ONLY] When an electrical motor casing is rotating around the stator or is perforated, a
+> **[EV ONLY]** When an electrical motor casing is rotating around the stator or is perforated, a
 > scatter shield must be included around the motor. This scatter shield must be at least 1 mm
 > thick and made from aluminium alloy 6061-T6 or steel.
 

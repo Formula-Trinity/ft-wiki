@@ -16,13 +16,13 @@
 
 > Upright driving position – Position with a seat back angled at 30° or less from the vertical as
 > measured along the line joining the two 200mm circles of the 95th percentile male template
-> as defined in T4.3 and positioned per [T4.3.4](./4-cockpit.md/#t434).
+> as defined in [T4.3](./4-cockpit.md/#t43-percy-95th-percentile-male) and positioned per [T4.3.4](./4-cockpit.md/#t434).
 
 ##### T5.1.4
 
 > Reclined driving position – Position with a seat back angled at more than 30° from the
 > vertical as measured along the line joining the two 200mm circles of the 95th percentile
-> male template as defined in T4.3 and positioned per [T4.3.4](./4-cockpit.md/#t434).
+> male template as defined in [T4.3](./4-cockpit.md/#t43-percy-95th-percentile-male) and positioned per [T4.3.4](./4-cockpit.md/#t434).
 
 ### T5.2 Belts - General
 
@@ -70,7 +70,8 @@
 ##### T5.3.2
 
 > The tab or bracket to which any harness is attached must have:
-> - A minimum cross-sectional area of 60mm2 of steel, or equivalent alternative, to be
+> 
+> - A minimum cross-sectional area of 60mm<sup>2</sup> of steel, or equivalent alternative, to be
 > sheared or failed in tension at any point of the tab, and,
 >
 > - A minimum thickness of 1.6mm (steel) or 4mm (aluminium).
@@ -148,9 +149,9 @@
 > prevent torsional rotation of the harness mounting tube. Supporting calculations are
 > required.
 >
-> Analysis method: Use 7kN load per attachment and the range of angles in T5.5.5, calculate
+> Analysis method: Use 7kN load per attachment and the range of angles in [T5.5.5](#t555), calculate
 > that the bent shoulder harness bar triangulation stresses are less than as welded yield
-> strength T3.2.4 for combined bending and shear and does not fail in column buckling. If the
+> strength [T3.2.4](./3-general-chassis-design.md/#t324) for combined bending and shear and does not fail in column buckling. If the
 > team chooses not to perform the strength analysis [T3.2.6](./3-general-chassis-design.md/#t326) will apply.
 
 ##### T5.5.3
@@ -169,8 +170,7 @@
 > shoulder harness must be between 10° above the horizontal and 20° below the horizontal
 > as in Figure 15.
 
-<div style="height: 172px;" aria-hidden="true"></div>
-
+![Lap belt and shoulder harness mounting](Images/Lap-belt.png)
 <small><em>Figure 15: Lap belt and shoulder harness mounting</em></small>
 
 ##### T5.5.6
@@ -198,7 +198,7 @@
 > rearwards, the anchorage points should be approximately 100mm (4 inches) apart, see
 > Figure 16.
 
-<div style="height: 152px;" aria-hidden="true"></div>
+![Anti-submarine belt angled mounting arrangement](Images/anti-submarine-angled.png)
 
 <small><em>Figure 16: Anti-submarine belt angled mounting arrangement</em></small>
 
@@ -206,7 +206,7 @@
 > the driver sitting on the anti-submarine belts, and the belts coming up around the groin
 > to the release buckle, see Figure 17.
 
-<div style="height: 127px;" aria-hidden="true"></div>
+![Anti-submarine belt mounting arrangement - Primary Structure](Images/anti-submarine-mounting.png)
 
 <small><em>Figure 17: Anti-submarine belt mounting arrangement - Primary Structure</em></small>
 

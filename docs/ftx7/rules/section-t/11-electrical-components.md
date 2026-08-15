@@ -5,8 +5,8 @@
 ##### T11.1.1
 
 > The Low Voltage System (LVS) is defined as
-> - [CV ONLY] all electrical circuits of the vehicle,
-> - [EV ONLY] every electrical part that is not part of the TS, see [EV1.1.1](../section-ev/1-definitions.md/#ev111).
+> - **[CV ONLY]** all electrical circuits of the vehicle,
+> - **[EV ONLY]** every electrical part that is not part of the TS, see [EV1.1.1](../section-ev/1-definitions.md/#ev111).
 
 ##### T11.1.2
 
@@ -19,7 +19,7 @@
 
 ##### T11.1.4
 
-> [CV ONLY] The following systems are excluded from the LVS voltage limit, see [T11.1.2](#t1112):
+> **[CV ONLY]** The following systems are excluded from the LVS voltage limit, see [T11.1.2](#t1112):
 > 
 > - High voltage systems for ignition,
 > - High voltage systems for injectors,
@@ -27,16 +27,16 @@
 
 ##### T11.1.5
 
-> [CV ONLY] The maximum permitted voltage for motor controller/inverter low power control
+> **[CV ONLY]** The maximum permitted voltage for motor controller/inverter low power control
 > signals is 75 V DC
 
 ##### T11.1.6
 
-> [EV ONLY] The LVS must not use orange wiring or conduit.
+> **[EV ONLY]** The LVS must not use orange wiring or conduit.
 
 ##### T11.1.7
 
-> [EV ONLY] The LVS must be grounded to the chassis.
+> **[EV ONLY]** The LVS must be grounded to the chassis.
 
 ### T11.2 Master Switches
 
@@ -75,8 +75,8 @@
 
 > An LVMS according to [T11.2](#t112-master-switches) must completely disable
 > 
-> - [EV ONLY] power to the LVS,
-> - [CV ONLY] power from the Low Voltage (LV) battery and the alternator to the LVS.
+> - **[EV ONLY]** power to the LVS,
+> - **[CV ONLY]** power from the Low Voltage (LV) battery and the alternator to the LVS.
 
 ##### T11.3.2
 
@@ -109,6 +109,7 @@
 ##### T11.4.4
 
 > One shutdown button serves as a cockpit-mounted shutdown button and must
+
 > - Have a minimum diameter of 24mm,
 > - Be located in easy reach of a belted-in driver,
 > - Be alongside of the steering wheel and unobstructed by the steering wheel or any other
@@ -159,8 +160,8 @@
 > A standalone non-programmable circuit, the BSPD, must open the shutdown circuit, see
 > [EV6.1](../section-ev/6-ev-shutdown-circuit-and-systems.md/#ev61-shutdown-circuit) and [CV4.1](../section-cv/4-shutdown-system.md/#cv41-shutdown-circuit), when hard braking occurs, whilst
 > 
-> - [EV ONLY] ≥5 kW power is delivered to the motors,
-> - [CV ONLY] The throttle position is more than 25% over idle position.
+> - **[EV ONLY]** ≥5 kW power is delivered to the motors,
+> - **[CV ONLY]** The throttle position is more than 25% over idle position.
 >
 > The shutdown circuit must remain open until power cycling the LVMS or the BSPD may
 > reset itself if the opening condition is no longer present for more than 10s.
@@ -188,7 +189,7 @@
 
 ##### T11.6.6
 
-> [EV ONLY] To measure power delivery, a DC circuit current sensor only must be used. The
+> **[EV ONLY]** To measure power delivery, a DC circuit current sensor only must be used. The
 > threshold must be chosen to an equivalent of 5kW for maximum TS voltage.
 
 ##### T11.6.7
@@ -202,14 +203,14 @@
 
 ##### T11.6.9
 
-> [EV ONLY] The team must prove the function of the BSPD during technical inspection by
+> **[EV ONLY]** The team must prove the function of the BSPD during technical inspection by
 > sending an appropriate signal that represents the current, in order to achieve 5 kW whilst
 > pressing the brake pedal. This test must prove the functionality of the complete BSPD
 > except for any commercially available current sensors.
 
 ##### T11.6.10
 
-> [EV ONLY] The BSPD including all required sensors must not be installed inside the TSAC.
+> **[EV ONLY]** The BSPD including all required sensors must not be installed inside the TSAC.
 
 ### T11.7 Low Voltage Batteries
 
@@ -260,8 +261,7 @@
 > Any such cover or access location must be identified using the appropriate symbol
 > below and be clearly visible to marshals approaching the car.
 
-<div style="height: 196px;" aria-hidden="true"></div>
-
+![Fire Port location markings](Images/Fire%20Port.png)
 <small><em>Figure 19: Fire Port location markings</em></small>
 
 > If the LV battery is positioned greater than 50mm inboard of the access location, then a
@@ -276,8 +276,7 @@
 > battery chemistry) on each side of the car AND adjacent to any labels required by
 > [T11.7.7](#t1177).
 
-<div style="height: 251px;" aria-hidden="true"></div>
-
+![alt text](Images/Battery%20Chemistry%20Marking.png)
 <small><em>Figure 20: Battery Chemistry marking</em></small>
 
 ##### T11.7.8
@@ -354,10 +353,10 @@
 > If an implausibility occurs between the values of the APPSs and persists for more than
 > 100ms
 > 
-> - [EV ONLY] The power to the motor(s) must be immediately shut down completely. It is
+> - **[EV ONLY]** The power to the motor(s) must be immediately shut down completely. It is
 > not necessary to completely deactivate the tractive system, the motor controller(s)
 > shutting down the power to the motor(s) is sufficient,
-> - [CV ONLY] The power to the electronic throttle must be immediately shut down.
+> - **[CV ONLY]** The power to the electronic throttle must be immediately shut down.
 
 ##### T11.8.9
 
@@ -378,8 +377,8 @@
 
 > A fully released accelerator pedal in manual mode must result in:
 > 
-> - [EV ONLY] A wheel torque of ≤0 Nm,
-> - [CV ONLY] An idle position or lower throttle set-point. This may only be exceeded during
+> - **[EV ONLY]** A wheel torque of ≤0 Nm,
+> - **[CV ONLY]** An idle position or lower throttle set-point. This may only be exceeded during
 > a gearshift for a maximum of 500ms.
 
 ##### T11.8.13
@@ -406,8 +405,8 @@
 > 
 > - Influence actions on the shutdown circuit, see [EV6.1](../section-ev/6-ev-shutdown-circuit-and-systems.md/#ev61-shutdown-circuit) and CV4.1,
 > - Influence the wheel torque,
-> - [EV ONLY] Influence indicators according to [EV5.8.9](../section-ev/5-tractive-system-energy-storage.md/#ev589), [EV4.10](../section-ev/4-tractive-system.md/#ev410-tractive-system-active-light) or [EV6.3.8](../section-ev/6-ev-shutdown-circuit-and-systems.md/#ev638),
-> - [DV ONLY] Influence indicator according to T15.3.3.
+> - **[EV ONLY]** Influence indicators according to [EV5.8.9](../section-ev/5-tractive-system-energy-storage.md/#ev589), [EV4.10](../section-ev/4-tractive-system.md/#ev410-tractive-system-active-light) or [EV6.3.8](../section-ev/6-ev-shutdown-circuit-and-systems.md/#ev638),
+> - **[DV ONLY]** Influence indicator according to [T15.3.3](./15-autonomous-system-brake.md/#t1533).
 
 ##### T11.9.2
 
@@ -415,16 +414,25 @@
 > systems:
 > 
 > - Failures of signals transmitted by cable:
-> i. Open circuit,
-> ii. Short circuit to ground.
+> 
+>       **i.** Open circuit,
+> 
+>       **ii.** Short circuit to ground.
+> 
 > - Failures of analogue sensor signals transmitted by cable:
-> i. Short circuit to supply voltage.
+> 
+>       **i.** Short circuit to supply voltage.
+> 
 > - Failures of sensor signals used in programmable devices:
-> i. Implausibility due to out of range signals, e.g. mechanically impossible angle of an
+> 
+>       **i.** Implausibility due to out of range signals, e.g. mechanically impossible angle of an
 >   angle sensor.
+> 
 > - Failures of digitally transmitted signals by cable or wireless:
-> i. Data corruption (e.g. checked by a checksum),
-> ii. Loss and delay of messages (e.g. checked by transmission time outs).
+> 
+>       **i.** Data corruption (e.g. checked by a checksum),
+> 
+>       **ii.** Loss and delay of messages (e.g. checked by transmission time outs).
 >
 > Signals might be a member of multiple signal classes, e.g. analogue signals transmitted by
 > cable might be a member of the first three classes.
@@ -451,14 +459,15 @@
 > Note:  In this case it is not possible to identify from the indicator(s) whether a safe
 > state has been entered and further action by the team is required to confirm this
 > or what additional action is required to enter a safe state.
+> 
 > - Safe State
 > - Signals only influencing indicators – Indicating a failure of its own function or of the
 > connected system,
 > - Low voltage battery signals – At least one pole is electrically disconnected from the rest
 > of the vehicle,
-> - [AUTONOMOUS ONLY] – the ASSI must be showing AS OFF,
-> - [EV ONLY] For all others signals – opened shutdown circuit and opened AIRs,
-> - [CV ONLY] For all others signals – opened shutdown circuit and stopped engine.
+> - **[AUTONOMOUS ONLY]** – the ASSI must be showing AS OFF,
+> - **[EV ONLY]** For all others signals – opened shutdown circuit and opened AIRs,
+> - **[CV ONLY]** For all others signals – opened shutdown circuit and stopped engine.
 
 ##### T11.9.6
 
@@ -482,7 +491,7 @@
 > 
 > - Black background,
 > - Rectangular, triangular, or near-round shape,
-> - Minimum illuminated surface of 15cm2 with even luminous intensity,
+> - Minimum illuminated surface of 15cm<sup>2</sup> with even luminous intensity,
 > - Clearly visible in very bright sunlight,
 > - If LED lights are used without a diffuser, they must not be more than 20mm apart,
 > - If a single line of LED lights is used, the minimum length is 150mm.
@@ -519,8 +528,7 @@
 > ground and less than 700mm forward of the front of the front tyres (see Figure 21). They
 > must not exceed the width of the front axle (measured at the height of the hubs).
 
-<div style="height: 97px;" aria-hidden="true"></div>
-
+![Sensor Envelope](Images/sensor-envelope.png)
 <small><em>Figure 21: Envelope to mount sensor systems.</em></small>
 
 ##### T11.11.7

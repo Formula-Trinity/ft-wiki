@@ -2,8 +2,6 @@
 
 ### T1.1 Chassis Definitions
 
-{~~asd~~}
-
 ##### T1.1.1
 
 > **Chassis** – The fabricated structural assembly that supports all functional vehicle systems.
@@ -58,8 +56,7 @@
 > where a co-planar load applied in any direction, at any node, results in only tensile or
 > compressive forces in the chassis members as shown in Figure 1.
 
-<div style="height: 132px;" aria-hidden="true"></div>
-
+![Node-to-node triangulation of chassis members](Images/N2N.png)
 <small><em>Figure 1: Node-to-node triangulation of chassis members (left correct and right incorrect)</em></small>
 
 ##### T1.1.12
@@ -97,8 +94,7 @@
 > [T1.1.12](#t1112) and any additional structure(s) attached to the Primary Structure which meet the
 > minimum specification defined in [T3.2](./3-general-chassis-design.md/#t32-minimum-material-requirements) or equivalent. Example shown in Figure 2.
 
-<div style="height: 123px;" aria-hidden="true"></div>
-
+![Rollover Protection Envelope](Images/rollover.png)
 <small><em>Figure 2: Rollover Protection Envelope, see [T1.1.16](#t1116).</em></small>
 
 ##### T1.1.17
@@ -113,8 +109,7 @@
 > the outermost surface of the Primary Structure and the outside edges of the four tyres, see
 > Figure 3.
 
-<div style="height: 114px;" aria-hidden="true"></div>
-
+![Surface Envelope](Images/surface.png)
 <small><em>Figure 3: Surface Envelope, see [T1.1.18](#t1118).</em></small>
 
 ### T1.2 Material Definitions

@@ -112,11 +112,11 @@
 
 ##### A6.7.4
 
-> **[DV ONLY]** DV vehicles must also have their autonomous system deactivated when being moved around the paddock (see [T14.6](../section-t/)). The detachable handle or key of the Autonomous System Master Switch (ASMS) must be completely removed and kept by an ASR. The lockout/tagout function of the ASMS, see T14.6.8, must be used.
+> **[DV ONLY]** DV vehicles must also have their autonomous system deactivated when being moved around the paddock (see [T14.6](../section-t/6-brake-system.md). The detachable handle or key of the Autonomous System Master Switch (ASMS) must be completely removed and kept by an ASR. The lockout/tagout function of the ASMS, see [T14.6.8](../section-t/14-autonomous-system.md/#t1468), must be used.
 
 ##### A6.7.5
 
-> Vehicles must be pushed at a normal walking pace by means of a “push bar”, see T13.1, and with a team member in the cockpit wearing the required driver equipment as defined in T13.3 except for helmet, arm restraints and balaclava.
+> Vehicles must be pushed at a normal walking pace by means of a “push bar”, see [T13.1](../section-t/13-vehicle-and-driver-equipment.md/#t131-push-bar), and with a team member in the cockpit wearing the required driver equipment as defined in [T13.3](../section-t/13-vehicle-and-driver-equipment.md/#t133-driver-equipment) except for helmet, arm restraints and balaclava.
 
 ##### A6.7.6
 
@@ -145,8 +145,8 @@
 > Engine running and LV hybrid system activation is allowed in the engine test area and in the dynamic area, when the following conditions are met:
 >
 > - The vehicle must have passed mechanical inspection,
-> - The vehicle must be jacked up using a quick jack, see T13.2,
-> - A driver, wearing required driver equipment, see T13.3, must be seated in the cockpit,
+> - The vehicle must be jacked up using a quick jack, see [T13.2](../section-t/13-vehicle-and-driver-equipment.md/#t132-quick-jack),
+> - A driver, wearing required driver equipment, see [T13.3](../section-t/13-vehicle-and-driver-equipment.md/#t133-driver-equipment), must be seated in the cockpit,
 > - A fire extinguisher must be immediately available,
 > - Driven wheels can only remain fitted to the vehicle if they will not rotate,
 > - No one is allowed under the vehicle while the engine is running.
@@ -180,7 +180,7 @@
 
 ##### A6.10.1
 
-> Activities on the Tractive System (TS), except for the accumulator (see A6.11) must take place in the pit.
+> Activities on the Tractive System (TS), except for the accumulator (see [A6.11](#a611-ev-only-working-on-tractive-system-accumulators)) must take place in the pit.
 
 ##### A6.10.2
 
@@ -221,7 +221,7 @@
 
 ##### A6.11.1
 
-> Opening or working on Tractive System Accumulator Containers (TSACs) is only allowed in the provided workplaces in the charging area, see A6.12.
+> Opening or working on Tractive System Accumulator Containers (TSACs) is only allowed in the provided workplaces in the charging area, see [A6.12](#a612-ev-only-charging).
 
 ##### A6.11.2
 
@@ -229,7 +229,7 @@
 
 ##### A6.11.3
 
-> Whenever the TSACs are opened, the cell segments must be separated with the maintenance plugs, see EV5.4.3.
+> Whenever the TSACs are opened, the cell segments must be separated with the maintenance plugs, see [EV5.4.3](../section-ev/5-tractive-system-energy-storage.md/#ev543).
 
 ##### A6.11.4
 
@@ -263,7 +263,7 @@
 
 ##### A6.12.3
 
-> The labels required in EV5.3.8 and EV5.3.9 must be visible during charging.
+> The labels required in [EV5.3.8](../section-ev/5-tractive-system-energy-storage.md/#ev538) and [EV5.3.9](../section-ev/5-tractive-system-energy-storage.md/#ev539) must be visible during charging.
 
 ##### A6.12.4
 

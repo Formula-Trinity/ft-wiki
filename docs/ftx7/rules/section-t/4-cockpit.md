@@ -39,7 +39,7 @@
 > views, any part of the driver’s feet or legs must not extend above or outside of this
 > structure.
 
-<div style="height: 190px;" aria-hidden="true"></div>
+![Cockpit opening template (left) and cockpit internal cross section template (right)](Images/Cockpit-template.png)
 
 <small><em>Figure 12: Cockpit opening template (left) and cockpit internal cross section template (right)</em></small>
 
@@ -49,6 +49,7 @@
 
 > When seated normally and restrained by the driver’s restraint system, the helmet of a 95th
 > percentile male and all the team’s drivers must, see Figure 13:
+> 
 > - Be a minimum of 50mm away from the straight line drawn from the top of the main
 > hoop to the top of the front hoop,
 > - Be a minimum of 50mm away from the straight line drawn from the top of the main
@@ -56,8 +57,7 @@
 > - Be no further rearwards than the rear surface of the main hoop if the main hoop bracing
 > extends forwards.
 
-<div style="height: 132px;" aria-hidden="true"></div>
-
+![Helmet Clearance](Images/helmet-clearance.png)
 <small><em>Figure 13: Minimum helmet clearance</em></small>
 
 ##### T4.3.2
@@ -82,8 +82,7 @@
 > - The middle circle positioned on the seat back,
 > - The upper 300mm circle positioned no more than 25 mm away from the head restraint.
 
-<div style="height: 249px;" aria-hidden="true"></div>
-
+![Percy placement](Images/Percy.png)
 <small><em>Figure 14: Percy placement</em></small>
 
 ### T4.4 Side Tubes
@@ -153,8 +152,10 @@
 > 
 > - Convection insulation by a minimum air gap of 25mm
 > - Radiation insulation by:
-> i. A solid metal heat shield with a minimum thickness of 0.4mm, or,
-> ii. Reflective foil or tape, combined with conduction isolation material with a
+> 
+>       i. A solid metal heat shield with a minimum thickness of 0.4mm, or,
+> 
+>       ii. Reflective foil or tape, combined with conduction isolation material with a
 >   minimum thickness of 8 mm between the heat source and the panel the driver
 >   could contact.
 
@@ -228,28 +229,28 @@
 
 ##### T4.8.7
 
-> [EV ONLY] The tractive system firewall between driver and tractive system components
+> **[EV ONLY]** The tractive system firewall between driver and tractive system components
 > must be composed of two layers:
 > 
 > - One solid layer, facing the tractive system side, must be made of aluminium with a
 > thickness of at least 0.5mm. This part of the tractive system firewall must be grounded
 > according to [EV3.1](../section-ev/3-general-requirements.md/#ev31-grounding),
 > - The second layer, facing the driver, must be made of an electrically insulating and fire-
-> retardant material, see T1.2.1. The second layer must not be made of CFRP,
+> retardant material, see [T1.2.1](./1-definitions.md/#t121). The second layer must not be made of CFRP,
 > - The thickness of the second layer must be sufficient to prevent penetrating this layer
 > with a 4mm wide screwdriver and 250N of force,
 > - A sample of the tractive system firewall must be presented at technical inspection.
 
 ##### T4.8.8
 
-> [EV ONLY] Conductive parts, except for the chassis and firewall mounting points, may not
+> **[EV ONLY]** Conductive parts, except for the chassis and firewall mounting points, may not
 > protrude through the TS firewall or must be properly insulated on the driver’s side. The
 > driver must not be able to touch uninsulated firewall mounting points while operating the
 > vehicle.
 
 ##### T4.8.9
 
-> [EV ONLY] TS parts outside of the Rollover Protection Envelope that meet the requirements
+> **[EV ONLY]** TS parts outside of the Rollover Protection Envelope that meet the requirements
 > of [EV4.4.4](../section-ev/4-tractive-system.md/#ev444) do not need a firewall.
 
 ### T4.9 Accessibility of Controls

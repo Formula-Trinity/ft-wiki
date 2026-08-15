@@ -28,7 +28,7 @@
 
 ##### T13.1.6
 
-> [EV ONLY] Two pairs of high voltage insulating gloves and a multimeter with two 4mm
+> **[EV ONLY]** Two pairs of high voltage insulating gloves and a multimeter with two 4mm
 > banana plug test leads rated for 1000V CAT III or better must be attached to the push bar.
 > The High Voltage (HV) gloves must be protected by a case or similar means from
 > mechanical damage, humidity and sunlight. It must be possible to open the case without
@@ -86,8 +86,10 @@
 
 > A well-fitting, closed face helmet that meets one of the following certifications and is
 > labelled as such:
+> 
 > - Snell, , SA2015, SA2020, ,
 > - FIA 8859-2015, , FIA 8860-2010, , FIA 8860-2018, FIA 8860-2018-ABP
+> 
 > Any kart standard helmets, including but not limited to Snell K, CMR or CMS standards are
 > not permitted for use at Formula Student.
 >
@@ -104,23 +106,24 @@
 >
 > The use of a Frontal Head Restraint (FHR) is not mandatory at Formula Student but is
 > strongly recommended. If an FHR is used:
+> 
 > - The combination of helmet and FHR standards must comply with the table published on
 > the Motorsport UK website here:
-> https://www.motorsportuk.org/wp-content/uploads/2022/04/2022-04-12-recognised-
-> helmet-standards-fhr.pdfThe FHR and shoulder harnesses must be properly adjusted as
+> [Helmet Standards](https://www.motorsportuk.org/wp-content/uploads/2022/04/2022-04-12-recognised-helmet-standards-fhr.pdf)
+> - The FHR and shoulder harnesses must be properly adjusted as
 > per the manufacturer’s recommendations. Guidance notes published by the FIA can be
 > found here:
-> https://www.fia.com/sites/default/files/hans_guide_and_installation_spec_19.03.2022.
-> pdf
+> [Harness Guide](https://www.fia.com/sites/default/files/hans_guide_and_installation_spec_19.03.2022.
+> pdf)
 >
-> https://www.fia.com/sites/default/files/hybrid_fhr_guide_and_installation_spec_19.03.
-> 2022.pdf
+> [FHR Guide](https://www.fia.com/sites/default/files/hybrid_fhr_guide_and_installation_spec_19.03.
+> 2022.pdf)
 > - Any driver using an FHR must wear the FHR during their driver egress test.
 
 ##### T13.3.4
 
 > A balaclava which covers the driver’s head, hair and neck, made from acceptable fire-
-> resistant material as defined in T13.3.12, or a full helmet skirt of acceptable fire-resistant
+> resistant material as defined in [T13.3.12](#t13312), or a full helmet skirt of acceptable fire-resistant
 > material.
 
 ##### T13.3.5
@@ -128,7 +131,7 @@
 > The driver’s suit must comply with FIA 8856-2000 or FIA 8856-2018. Non-UK teams may
 > also use driver’s suits that comply with their own sanctioning body, but these driver suits
 > must also be permitted by the 2020 Formula Student Rules. Approval to use alternative
-> driver’s suits to those listed above must be sought from formulastudent@imeche.org
+> driver’s suits to those listed above must be sought from [formulastudent@imeche.org](mailto:formulastudent@imeche.org)
 > Note: a scan of the suit label must be supplied with the submission. If driver suits (or other
 > equipment) is modified in any way, teams must demonstrate that compliance to relevant
 > standards, rules and good practices have been maintained and proven.
@@ -136,25 +139,26 @@
 ##### T13.3.6
 
 > Fire resistant underwear (long pants and long sleeve t-shirt). This fire-resistant underwear
-> must be made from acceptable fire-resistant material as listed in T13.3.12 and must cover
+> must be made from acceptable fire-resistant material as listed in [T13.3.12](#t13312) and must cover
 > the driver’s body completely from neck down to ankles and wrists.
 
 ##### T13.3.7
 
-> Fire resistant socks made from acceptable fire-resistant material as defined in T13.3.12,
+> Fire resistant socks made from acceptable fire-resistant material as defined in [T13.3.12](#t13312),
 > that cover the bare skin between the driver’s suit and the boots or shoes.
 
 ##### T13.3.8
 
-> Fire resistant shoes made from acceptable fire-resistant material as defined in T13.3.12.
+> Fire resistant shoes made from acceptable fire-resistant material as defined in [T13.3.12](#t13312).
 > The shoes must be certified to the standard and labelled as such:
+> 
 > - SFI Spec 3.3,
 > - FIA Standard 8856-2000,
 > - FIA Standard 8856-2018.
 
 ##### T13.3.9
 
-> Fire resistant gloves made from acceptable fire-resistant material as defined in T13.3.12.
+> Fire resistant gloves made from acceptable fire-resistant material as defined in [T13.3.12](#t13312).
 > Gloves of all leather construction or fire-resistant gloves constructed using leather palms
 > with no insulating fire resisting material underneath are not acceptable.
 
@@ -166,7 +170,7 @@
 
 ##### T13.3.11
 
-> All driver equipment covered in T13.3: must be in good condition. Specifically, it must not
+> All driver equipment covered in [T13.3](#t133-driver-equipment): must be in good condition. Specifically, it must not
 > have any tears, rips, open seams, areas of significant wear or abrasion or stains which might
 > compromise fire resistant performance. The officials reserve the right to impound all non-
 > approved driver equipment until the end of the competition.
@@ -199,6 +203,7 @@
 ##### T13.4.2
 
 > The following are the minimum accepted ratings:
+> 
 > - USA, Canada and Brazil: 10BC or 1A 10BC,
 > - Europe: 34B or 5A 34B,
 > - Australia: 20BE or 1A 10BE.
@@ -234,6 +239,7 @@
 ##### T13.5.1
 
 > The mounts for video/photographic cameras must be of a safe and secure design:
+> 
 > - All camera installations must be approved and sealed at technical inspection,
 > - Helmet mounted cameras are prohibited,
 > - The body of any camera or recording unit that weighs more than 0.25kg must be secured
@@ -241,5 +247,5 @@
 > restrain the camera, the tether length must be limited so that the camera cannot
 > contact the driver.
 >
-> [DV ONLY] Cameras used as input sensors for driverless vehicles are exempted and must
-> follow T11.11 instead.
+> **[DV ONLY]** Cameras used as input sensors for driverless vehicles are exempted and must
+> follow [T11.11](./11-electrical-components.md/#t1111) instead.

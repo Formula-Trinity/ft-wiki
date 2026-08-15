@@ -1,18 +1,19 @@
-# [DV Only] Autonomous System Brake
+# **[DV Only]** Autonomous System Brake
 
 ### T15.1 Technical Requirements
 
 ##### T15.1.1
 
 > To run in autonomous mode, the vehicle must be equipped with an ASB that features an
-> EBS as part of it (see T15.2).
+> EBS as part of it (see [T15.2](#t152-emergency-brake-system)).
 
 ##### T15.1.2
 
 > All parts of the ASB and their mountings must be located within the rollover protection
-> envelope, see T1.1.16. With the following exceptions:
-> - brake system according to T6,
-> - deactivation points according to T15.1.7.
+> envelope, see [T1.1.16](./1-definitions.md/#t1116). With the following exceptions:
+> 
+> - brake system according to [T6](./6-brake-system.md),
+> - deactivation points according to [T15.1.7](#t1517).
 
 ##### T15.1.3
 
@@ -29,7 +30,7 @@
 ##### T15.1.6
 
 > The ASB may be part of the hydraulic brake system. For all components of pneumatic and
-> hydraulic brake actuation not covered by T6, T9 is applied.
+> hydraulic brake actuation not covered by [T6](./6-brake-system.md), [T9](./9-critical-fasteners.md) is applied.
 
 ##### T15.1.7
 
@@ -39,6 +40,7 @@
 ##### T15.1.8
 
 > All deactivation points of the ASB must:
+> 
 > - Work without the aid of electrical power,
 > - Be in proximity to each other,
 > - Be mounted in the surface envelope,
@@ -61,7 +63,7 @@
 
 > The EBS must only use passive systems with mechanical energy storage. Electrical power
 > -loss at EBS must lead to a direct emergency brake manoeuvre with the performance
-> specified in T15.4.
+> specified in [T15.4](#t154-emergency-brake-system-performance).
 
 ##### T15.2.2
 
@@ -88,7 +90,8 @@
 ##### T15.3.4
 
 > The vehicle must automatically transition to the safe state, if:
-> - The functionality according to T15.2.1 cannot be ensured,
+> 
+> - The functionality according to [T15.2.1](#t1521) cannot be ensured,
 > - An (additional) single point of failure would lead to total loss of brake capability.
 
 ##### T15.3.5
@@ -99,7 +102,7 @@
 ##### T15.3.6
 
 > To get to the safe state, the vehicle must perform an autonomous brake manoeuvre
-> described in section T15.4 and IN6.2.
+> described in section [T15.4](#t154-emergency-brake-system-performance) and [IN6.2](../section-in/6-autonomous-system-inspection.md/#in62-autonomous-system-inspection-ebs-test).
 
 ### T15.4 Emergency Brake System Performance
 
@@ -110,12 +113,12 @@
 
 ##### T15.4.2
 
-> The average deceleration must be greater than 10m/s2 under dry track conditions.
+> The average deceleration must be greater than 10m/s<sup>2</sup> under dry track conditions.
 
 ##### T15.4.3
 
 > In case of a single failure the ASB should be designed to achieve at least half of the
-> performance specified in T15.4.2.
+> performance specified in [T15.4.2](#t1542).
 
 ##### T15.4.4
 
@@ -123,4 +126,4 @@
 
 ##### T15.4.5
 
-> The performance of the system will be tested at technical inspection, see IN6.2.
+> The performance of the system will be tested at technical inspection, see [IN6.2](../section-in/6-autonomous-system-inspection.md/#in62-autonomous-system-inspection-ebs-test).
