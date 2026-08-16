@@ -6,9 +6,9 @@
 
 > The basic fuels available at Formula Student are unleaded gasoline (Sustainable 95RON E10
 > and 99RON E5) and E85.
+> 
 > - Information on these fuels can be viewed at:
-> https://www.imeche.org/events/formula-student/team-information/general-
-> information
+> [General Information](https://www.imeche.org/events/formula-student/team-information/general-information)
 > - The basic fuel types may be changed at the discretion of the event organisers. Other
 > fuels may be available at the discretion of the organising body.
 
@@ -30,13 +30,13 @@
 ##### CV2.2.1
 
 > All parts of the fuel storage and supply system must lie within the surface envelope, see
-> T1.1.18. In side view no portion of the fuel system can project below the lower surface of
+> [T1.1.18](../section-t/1-definitions.md/#t1118). In side view no portion of the fuel system can project below the lower surface of
 > the chassis.
 
 ##### CV2.2.2
 
 > Any portion of the Fuel System, except for the fuel tank filler neck and sight tube (as
-> defined in CV2.6), must be located within the Rollover Protection Envelope.
+> defined in [CV2.6](#cv26-fuel-tank-filler-neck-and-sight-tube)), must be located within the Rollover Protection Envelope.
 
 ##### CV2.2.3
 
@@ -51,7 +51,7 @@
 ##### CV2.2.5
 
 > Any portion of the Fuel System that is less than 350mm above the ground must be shielded
-> from front, side and rear impact collisions, by a fully triangulated structure meeting T3.2 or
+> from front, side and rear impact collisions, by a fully triangulated structure meeting [T3.2](../section-t/3-general-chassis-design.md/#t32-minimum-material-requirements) or
 > equivalent.
 
 ### CV2.3 Fuel Tank
@@ -91,6 +91,7 @@
 ##### CV2.4.1
 
 > Fuel lines between fuel tank and fuel rail and return lines must:
+> 
 > - Have reinforced rubber fuel lines with an abrasion protection with a fuel hose clamp
 > which has a full 360° wrap, a nut and bolt system for tightening and rolled edges to
 > prevent the clamp cutting into the hose, or,
@@ -129,10 +130,11 @@
 ##### CV2.5.2
 
 > The following requirements apply to LPI fuel systems:
-> - The fuel lines must comply with CV2.4,
+> 
+> - The fuel lines must comply with [CV2.4](#cv24-fuel-lines-for-low-pressure-systems),
 > - The fuel rail must be securely attached to the engine cylinder block, cylinder head, or
 > intake manifold with mechanical fasteners. The threaded fasteners used to secure the
-> fuel rail are considered critical fasteners and must comply with T10,
+> fuel rail are considered critical fasteners and must comply with [T10](../section-t/10-fasteners.md),
 > - The use of fuel rails made from plastic, carbon fibre or rapid prototyping flammable
 > materials is prohibited. However, the use of unmodified OEM Fuel Rails manufactured
 > from these materials is acceptable.
@@ -140,6 +142,7 @@
 ##### CV2.5.3
 
 > The following requirements apply to HPI and DI fuel systems:
+> 
 > - All high-pressure fuel lines must be stainless steel rigid line or Aeroquip FC807 smooth
 > bore PTFE hose with stainless steel reinforcement and visible Nomex tracer yarn. Use of
 > elastomeric seals is prohibited. Lines must be rigidly connected every 100mm by
@@ -162,14 +165,14 @@
 ##### CV2.6.1
 
 > The fuel tank must have a filler neck which:
+> 
 > - Has at least an inner diameter of 35mm at any point between the fuel tank and the top
 > of the fuel filler cap.
 > - Is accompanied by a clear fuel resistant sight tube above the top of the fuel tank with a
 > length of at least 125mm vertical height for reading the fuel level, see Figure 25.
 > - Is made of material that is permanently rated for temperatures of at least 120 °C.
 
-<div style="height: 214px;" aria-hidden="true"></div>
-
+![Minimum requirements fuel tank filler neck](Images/fuel-tank-filler.png)
 <small><em>Figure 25: Minimum requirements fuel tank filler neck</em></small>
 
 ##### CV2.6.2
@@ -185,7 +188,7 @@
 
 > A permanent, non-moveable, clear and easily visible fuel level line must be located
 > between 12mm and 25mm below the top of the visible portion of the sight tube. This line
-> will be used as the fill line for the tilt test (IN7.1), and before and after the endurance test
+> will be used as the fill line for the tilt test ([IN7.1](../section-in/7-tilt-test.md/#in71-tilt-test-procedure)), and before and after the endurance test
 > to measure the amount of fuel used during the endurance event.
 
 ##### CV2.6.5

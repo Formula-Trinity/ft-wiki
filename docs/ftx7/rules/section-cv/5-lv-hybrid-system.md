@@ -9,7 +9,7 @@
 
 ##### CV5.1.2
 
-> The LV hybrid system must be a LVS, T11.1 and T11.7 are applicable for all LV hybrid
+> The LV hybrid system must be a LVS, [T11.1](../section-t/11-electrical-components.md/#t111-low-voltage-system) and [T11.7](../section-t/11-electrical-components.md/#t117-low-voltage-batteries) are applicable for all LV hybrid
 > system components.
 
 ##### CV5.1.3
@@ -33,16 +33,16 @@
 
 ##### CV5.1.7
 
-> The HSC must be positioned according to T11.7.2, all other LV hybrid system components
-> must be positioned within the surface envelope, see T1.1.18.
+> The HSC must be positioned according to [T11.7.2](../section-t/11-electrical-components.md/#t1172), all other LV hybrid system components
+> must be positioned within the surface envelope, see [T1.1.18](../section-t/1-definitions.md/#t1118).
 
 ##### CV5.1.8
 
-> The high current path of the LV hybrid system must meet EV4.5.16.
+> The high current path of the LV hybrid system must meet [EV4.5.16](../section-ev/4-tractive-system.md/#ev4516).
 
 ##### CV5.1.9
 
-> LV hybrid motors must meet EV2.1 and EV2.2.3.
+> LV hybrid motors must meet [EV2.1](../section-ev/2-electric-powertrain.md/#ev21-motors) and [EV2.2.3](../section-ev/2-electric-powertrain.md/#ev223).
 
 ##### CV5.1.10
 
@@ -51,19 +51,19 @@
 
 ##### CV5.1.11
 
-> The organisers may require the fitment of an Energy Meter, see EV4.6. The fuel efficiency
+> The organisers may require the fitment of an Energy Meter, see [EV4.6](../section-ev/4-tractive-system.md/#ev46-energy-meter). The fuel efficiency
 > of any LV hybrid systems will be calculated on a State of Charge (SOC) neutrality basis.
 
 ### CV5.2 Hybrid Storage Container
 
 ##### CV5.2.1
 
-> The HSC must be attached to the Primary Structure, see T1.1.12 and meet T9.2.1.
+> The HSC must be attached to the Primary Structure, see [T1.1.12](../section-t/1-definitions.md/#t1112) and meet [T9.2.1](../section-t/9-critical-fasteners.md/#t921).
 
 ##### CV5.2.2
 
 > A disconnection mechanism, designed as an AIR, must be integrated inside the HSC,
-> disconnecting the positive pole of the HSC. The AIR must be compliant with EV5.6.3.
+> disconnecting the positive pole of the HSC. The AIR must be compliant with [EV5.6.3](../section-ev/5-tractive-system-energy-storage.md/#ev563).
 
 ##### CV5.2.3
 

@@ -37,7 +37,7 @@
 * [CV4 Shutdown System](./section-cv/4-shutdown-system.md)
 * [CV5 LV Hybrid System](./section-cv/5-lv-hybrid-system.md)
 
-### Section EV - Electric Vehicles
+### Section EV - Electric Vehicles (WIP)
 
 * [EV1 Definitions](./section-ev/1-definitions.md)
 * [EV2 Electric Powertrain](./section-ev/2-electric-powertrain.md)
@@ -49,11 +49,11 @@
 * [EV8 Tractive System Accumulator Container Hand Cart](./section-ev/8-tractive-system-accumulator-container-hand-cart.md)
 * [EV9 Electrical System Form](./section-ev/9-electrical-system-form.md)
 
-### Section AFV - Alternative Fuel Vehicles
+### Section AFV - Alternative Fuel Vehicles (WIP)
 
 * [AFV1 Alternative Fuel Vehicles](./section-afv/1-alternative-fuel-vehicles.md)
 
-### Section IN - Technical Inspections
+### Section IN - Technical Inspections (WIP)
 
 * [IN1 General](./section-in/1-general.md)
 * [IN2 Motorsport UK Safety Inspection](./section-in/2-motorsport-uk-safety-inspection.md)
@@ -69,7 +69,7 @@
 * [IN12 Post Event Inspection](./section-in/12-post-event-inspection.md)
 * [IN13 Driver Egress Test](./section-in/13-driver-egress-test.md)
 
-### Section S - Static Events
+### Section S - Static Events (WIP)
 
 * [S1 Static Event No-Show Penalty](./section-s/1-static-event-no-show-penalty.md)
 * [S2 Business Plan Presentation(BPP) - FS Class and Concept Class](./section-s/2-business-plan-presentation(bpp)-fs-and-concept-class.md)
@@ -79,7 +79,7 @@
 * [S6 Engineering Design Event - Concept Class](./section-s/6-engineering-design-event-concept.md)
 * [S7 Lap Time Simulation(LTS)](./section-s/7-lap-time-simulation(lts).md)
 
-### Section D - Dynamic Events
+### Section D - Dynamic Events (WIP)
 
 * [D1 Dynamic Events General](./section-d/1-dynamic-events-general.md)
 * [D2 Driving Rules](./section-d/2-driving-rules.md)

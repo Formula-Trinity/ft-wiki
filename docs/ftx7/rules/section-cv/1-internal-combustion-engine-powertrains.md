@@ -5,7 +5,7 @@
 ##### CV1.1.1
 
 > The engine(s) used to power the vehicle must be piston engine(s) using a four-stroke
-> primary heat cycle with a displacement not exceeding 710 cm3 per cycle. LV hybrid
+> primary heat cycle with a displacement not exceeding 710 cm<sup>3</sup> per cycle. LV hybrid
 > powertrains must use electrical energy storage. HV hybrid powertrains are permitted as an
 > AFV.
 
@@ -18,21 +18,22 @@
 
 ##### CV1.2.2
 
-> [DV ONLY] For autonomous operation the vehicle must be equipped with an additional
-> engine start button next to the LVMS, see T11.3, which can be easily actuated from outside
+> **[DV ONLY]** For autonomous operation the vehicle must be equipped with an additional
+> engine start button next to the LVMS, see [T11.3](../section-t/11-electrical-components.md/#t113-low-voltage-master-switch), which can be easily actuated from outside
 > the vehicle. Using the external engine start button, the engine may only start if
-> - The ASMS (see T14.6) is switched on and,
+> 
+> - The ASMS (see [T14.6](../section-t/14-autonomous-system.md/#t146-autonomous-system-master-switch)) is switched on and,
 > - The gearbox is in neutral.
 
 ##### CV1.2.3
 
-> [DV ONLY] There must be a green light next to the engine start button, which indicates that
+> **[DV ONLY]** There must be a green light next to the engine start button, which indicates that
 > the gearbox is in neutral. It must be marked with the letter “N”. This letter must have a
 > minimum height of 25mm.
 
 ##### CV1.2.4
 
-> [DV ONLY] The AS must not be able to (re-)start the engine.
+> **[DV ONLY]** The AS must not be able to (re-)start the engine.
 
 ### CV1.3 Air Intake System
 
@@ -40,18 +41,18 @@
 
 > All parts of the engine air and fuel control systems (including the throttle and the complete
 > air intake system, including the air filter and any air boxes), must lie within the surface
-> envelope, see T1.1.18.
+> envelope, see [T1.1.18](../section-t/1-definitions.md/#t1118).
 
 ##### CV1.3.2
 
 > Any portion of the air intake system that is less than 350mm above the ground must be
-> protected from impacts, see T3.15.2.
+> protected from impacts, see [T3.15.2](../section-t/3-general-chassis-design.md/#t3152).
 
 ##### CV1.3.3
 
 > The intake manifold must be securely attached to the engine block or cylinder head with
 > brackets and mechanical fasteners. The threaded fasteners used to secure the intake
-> manifold are considered critical fasteners and must comply with T10. Rubber bushings or
+> manifold are considered critical fasteners and must comply with [T10](../section-t/10-fasteners.md). Rubber bushings or
 > hoses are not considered as securely attached.
 
 ##### CV1.3.4
@@ -76,7 +77,7 @@
 ##### CV1.4.2
 
 > The throttle must be actuated mechanically by a foot pedal, i.e. via a cable or a rod system,
-> see CV1.5, or by an ETC system, see CV1.6.
+> see [CV1.5](#cv15-mechanical-throttle-actuation), or by an ETC system, see [CV1.6](#cv16-electronic-throttle-control).
 
 ##### CV1.4.3
 
@@ -92,7 +93,7 @@
 
 ##### CV1.5.1
 
-> CV1.5 can only be used if no ETC system is used.
+> [CV1.5](#cv15-mechanical-throttle-actuation) can only be used if no ETC system is used.
 
 ##### CV1.5.2
 
@@ -129,7 +130,7 @@
 
 ##### CV1.6.1
 
-> CV1.6 only applies if ETC is used.
+> [CV1.6](#cv16-electronic-throttle-control) only applies if ETC is used.
 
 ##### CV1.6.2
 
@@ -139,14 +140,15 @@
 ##### CV1.6.3
 
 > The ETC system must be equipped with at least the following sensors:
-> - Accelerator Pedal Position Sensors (APPSs) as defined in T11.8.
+> 
+> - Accelerator Pedal Position Sensors (APPSs) as defined in [T11.8](../section-t/11-electrical-components.md/#t118-accelerator-pedal-position-sensor-apps).
 > - Two Throttle Position Sensors (TPSs) to measure the throttle position.
 > - One Brake System Encoder (BSE) to measure brake system pressure to check for
 > plausibility.
 
 ##### CV1.6.4
 
-> All ETC signals are System Critical Signals (SCSs), see T11.9.
+> All ETC signals are System Critical Signals (SCSs), see [T11.9](../section-t/11-electrical-components.md/#t119-system-critical-signal).
 
 ##### CV1.6.5
 
@@ -161,9 +163,9 @@
 > If plausibility does not occur between the values of at least two TPSs and this persists for
 > more than 100ms, the power to the electronic throttle must be immediately shut down.
 > Plausibility is defined as a deviation of less than ten percentage points between the sensor
-> values as defined in CV1.4.3 and no detected failures as defined in T11.9.
+> values as defined in [CV1.4.3](#cv143) and no detected failures as defined in [T11.9](../section-t/11-electrical-components.md/#t119-system-critical-signal).
 >
-> [DV Only] AS must check this signal consistency on a low level itself.
+> **[DV Only]** AS must check this signal consistency on a low level itself.
 
 ##### CV1.6.7
 
@@ -178,15 +180,16 @@
 
 ##### CV1.6.9
 
-> The power to the electronic throttle must be immediately shut down, as defined in CV1.6.5,
+> The power to the electronic throttle must be immediately shut down, as defined in [CV1.6.5](#cv165),
 > if the throttle position differs by more than 10 % from the expected target TPS position for
 > more than 500ms.
 
 ##### CV1.6.10
 
-> An ETC system that is commercially available, but does not comply with CV1.6, may be
+> An ETC system that is commercially available, but does not comply with [CV1.6](#cv16-electronic-throttle-control), may be
 > used, only if it does comply with the intent of the rules and is approved by the officials. To
 > obtain approval, the team must:
+> 
 > - Submit a rules question to ask the event organizers if that ETC system may be used.
 > - Include the specific ETC rule(s) that the commercial system deviates from.
 > - Include sufficient technical details of these deviations to allow the acceptability of the
@@ -199,6 +202,7 @@
 > In order to limit the power capability from the engine(s), a single circular restrictor must be
 > placed in the intake system and all engine(s) airflow must pass through this restrictor. The
 > only allowed sequence of components are the following:
+> 
 > - For naturally aspirated engines, the sequence must be: throttle body, restrictor, and
 > engine, see Figure 23,
 > - For turbocharged or supercharged engines, the sequence must be: restrictor,
@@ -208,6 +212,7 @@
 
 > The maximum restrictor diameters which must be respected at all times during the
 > competition are:
+> 
 > - Gasoline fuelled vehicles - 20mm,
 > - E 85 fuelled vehicles - 19mm.
 
@@ -220,12 +225,10 @@
 > The circular restricting cross section may not be movable or flexible in any way, e.g. the
 > restrictor must not be part of the movable portion of a barrel throttle body.
 
-<div style="height: 80px;" aria-hidden="true"></div>
-
+![Intake configuration for naturally aspirated engines](Images/intake-natural.png)
 <small><em>Figure 23: Intake configuration for naturally aspirated engines.</em></small>
 
-<div style="height: 161px;" aria-hidden="true"></div>
-
+![Intake configuration for turbocharged or supercharged engines](Images/intake-turbo-super.png)
 <small><em>Figure 24: Intake configuration for turbocharged or supercharged engines.</em></small>
 
 ### CV1.8 Turbochargers and Superchargers
@@ -249,7 +252,7 @@
 ##### CV1.8.4
 
 > The maximum allowable internal diameter of the intake runner system between the
-> restrictor and throttle body is 60mm diameter, or the equivalent area of 2827mm2 if non-
+> restrictor and throttle body is 60mm diameter, or the equivalent area of 2827mm<sup>2</sup> if non-
 > circular.
 
 ### CV1.9 Crankcase / Engine Lubrication Venting
