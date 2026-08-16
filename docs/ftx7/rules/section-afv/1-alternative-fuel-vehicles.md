@@ -9,25 +9,25 @@
 
 ##### AFV1.1.2
 
-> If a team wishes to use an alternative fuel, then the process in AFV1.2 must be followed.
+> If a team wishes to use an alternative fuel, then the process in [AFV1.2](#afv12-alternative-fuel-report) must be followed.
 
 ##### AFV1.1.3
 
 > There are additional rules for alternative fuels.  It will be necessary to work with the
 > Formula Student Technical Committee to develop a satisfactory design; some of the
-> additional rules are presented in AFV1.3 to AFV1.5.
+> additional rules are presented in [AFV1.3](#afv13-fuel) to [AFV1.5](#afv15-powertrain-limitations).
 
 ##### AFV1.1.4
 
 > During the endurance event the fuel efficiency of all vehicles will be measured in terms of
 > the production of CO2 measured in kg. The quantity of CO2 released to the atmosphere by
-> the consumption of each allowable fuel is specified in rule D7.9.2 and is intended to
+> the consumption of each allowable fuel is specified in rule [D7.9.2](../section-d/7-endurance-and-efficiency-event.md/#d792) and is intended to
 > represent the UK average number for the type of fuel under consideration.
 
 ##### AFV1.1.5
 
 > The fuel efficiency of any AFV using on-board electrical energy storage will be calculated
-> on a State of Charge (SOC) neutrality basis using the Energy Meter described in EV4.6.
+> on a State of Charge (SOC) neutrality basis using the Energy Meter described in [EV4.6](../section-ev/4-tractive-system.md/#ev46-energy-meter).
 
 ### AFV1.2 Alternative Fuel Report
 
@@ -73,7 +73,7 @@
 
 > Any fuel, compressed gasses, other energy storage media must be contained within the
 > Primary Structure Envelope and when located less than 350mm from the ground must be
-> shielded from front, side or rear impacts with a structure built to T3.2.
+> shielded from front, side or rear impacts with a structure built to [T3.2](../section-t/3-general-chassis-design.md/#t32-minimum-material-requirements).
 
 ### AFV1.5 Powertrain Limitations
 
@@ -90,8 +90,8 @@
 ##### AFV1.5.3
 
 > If more than one engine is used, the total displacement cannot exceed the maximum
-> displacement described in AFV1.3.1 and the air for all engines must pass through a single
-> air intake restrictor (see CV1.7, “Intake System Restrictor.”)
+> displacement described in [AFV1.3.1](#afv131) and the air for all engines must pass through a single
+> air intake restrictor (see [CV1.7](../section-cv/1-internal-combustion-engine-powertrains.md/#cv17-intake-system-restrictor), “Intake System Restrictor.”)
 
 ##### AFV1.5.4
 

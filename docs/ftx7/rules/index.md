@@ -49,7 +49,7 @@
 * [EV8 Tractive System Accumulator Container Hand Cart](./section-ev/8-tractive-system-accumulator-container-hand-cart.md)
 * [EV9 Electrical System Form](./section-ev/9-electrical-system-form.md)
 
-### Section AFV - Alternative Fuel Vehicles (WIP)
+### Section AFV - Alternative Fuel Vehicles
 
 * [AFV1 Alternative Fuel Vehicles](./section-afv/1-alternative-fuel-vehicles.md)
 
