@@ -14,7 +14,7 @@
 
 ##### S3.2.1
 
-> Prior to the competition, three Cost Report Documents (CRD) (see S3.3) must be
+> Prior to the competition, three Cost Report Documents (CRD) (see [S3.3](#s33-cost-report-documents)) must be
 > submitted to the competition website by the deadline specified on the website.
 
 ##### S3.2.2
@@ -28,6 +28,7 @@
 >
 > A discussion to evaluate the team’s ability to prepare an accurate engineering and
 > manufacturing BOM for the complete vehicle. The team must prove the following:
+> 
 > - The specification of the vehicle in the CRD accurately reflects the vehicle brought to
 > the competition,
 > - The costs and emissions within the Costed Carbonised Bill of Material (CCBOM) (part
@@ -55,6 +56,7 @@
 ##### S3.3.1
 
 > The CRD consists of the following documents:
+> 
 > - The Bill of Material file (BOM), including Costed Carbonised BOM, uploaded as a PDF in
 > A4 landscape format
 > - The Supporting Material file uploaded as a PDF in A4 portrait format
@@ -110,7 +112,8 @@
 ##### S3.4.3
 
 > The BOM is structured as follows:
-> - The BOM is broken down into “systems” (see S3.4.6), which are defined by the website
+> 
+> - The BOM is broken down into “systems” (see [S3.4.6](#s346)), which are defined by the website
 > tool,
 > - Each “system” is broken down into “assemblies”, which are defined by the website
 > tool,
@@ -122,7 +125,7 @@
 ##### S3.4.4
 
 > “Fasteners” are additional items necessary to assemble to “part”, “sub-assembly” or
-> “assembly” and should not be listed, other than where required by S3.5.3.
+> “assembly” and should not be listed, other than where required by [S3.5.3](#s353).
 
 ##### S3.4.5
 
@@ -131,6 +134,7 @@
 ##### S3.4.6
 
 > The “systems” are:
+> 
 > - Brake System,
 > - Chassis and Body,
 > - Drivetrain,
@@ -140,7 +144,7 @@
 > - Steering System,
 > - Suspension System,
 > - Wheels, Wheel Bearings and Tyres,
-> - [DV ONLY] Autonomous system.
+> - **[DV ONLY]** Autonomous system.
 
 ##### S3.4.7
 
@@ -154,7 +158,7 @@
 
 ##### S3.4.9
 
-> Only dry tyres and wheels per T2.5.1 need to be included and must be mounted on the
+> Only dry tyres and wheels per [T2.5.1](../section-t/2-general-design-requirements.md/#t251) need to be included and must be mounted on the
 > vehicle during judging.
 
 ### S3.5 Costed Carbonised Bill of Material
@@ -172,6 +176,7 @@
 ##### S3.5.3
 
 > Additional to the BOM, the CCBOM must:
+> 
 > - Include the actual associated manufacturing processes for each part as used for the
 > prototype vehicle,
 > - Include tooling (e.g. welding jigs, moulds, patterns and dies),
@@ -183,6 +188,7 @@
 ##### S3.5.4
 
 > Additional to the structure of the BOM, in the CCBOM, each “part” is broken down into:
+> 
 > - “materials” used
 > - “processes” that describe the necessary steps for manufacturing
 > - “fasteners" used to assemble the part
@@ -290,7 +296,7 @@
 ##### S3.8.1
 
 > Vehicles must be presented for cost and manufacturing judging in finished condition, fully
-> assembled, complete, ready-to-race and with its dry tyres (see T2.5.1) mounted.
+> assembled, complete, ready-to-race and with its dry tyres (see [T2.5.1](../section-t/2-general-design-requirements.md/#t251)) mounted.
 
 ##### S3.8.2
 
@@ -310,12 +316,12 @@
 
 ##### S3.8.5
 
-> [EV ONLY] Only sealed TSACs which passed the accumulator inspection may be presented
+> **[EV ONLY]** Only sealed TSACs which passed the accumulator inspection may be presented
 > or mounted in the vehicle. They must not be opened.
 
 ##### S3.8.6
 
-> [IC ONLY] Only cars that have successfully pass the Tilt Test may be fuelled during the
+> **[IC ONLY]** Only cars that have successfully pass the Tilt Test may be fuelled during the
 > event.
 
 ### S3.9 Cost and Manufacturing Scoring
@@ -364,9 +370,26 @@
 
 > The scoring for the non-finalist is calculated as followed:
 >
-> \[
-> \textit{COST SCORE} = 105\left(\frac{P_{team}}{P_{max}}\right)
-> \]
+> <p style="font-family: 'Times New Roman', serif; font-size: 1.6em;">
+>   <span style="font-style: italic;">COST SCORE</span>
+>   =
+>   105
+>   <span style="font-size: 1.25em;">(</span>
+>   <span style="
+>     display: inline-flex;
+>     flex-direction: column;
+>     vertical-align: middle;
+>     text-align: center;
+>     line-height: 1.05;
+>     font-style: italic;
+>   ">
+>     <span>P<sub>team</sub></span>
+>     <span style="border-top: 1px solid; padding-top: 2px;">
+>       P<sub>max</sub>
+>     </span>
+>   </span>
+>   <span style="font-size: 1.25em;">)</span>
+> </p>
 >
 >
 > - Pteam is the score awarded to the team,

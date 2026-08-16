@@ -95,12 +95,12 @@
 
 ##### S5.4.4
 
-> [EV ONLY] Only sealed TSACs which passed the accumulator inspection may be presented
+> **[EV ONLY]** Only sealed TSACs which passed the accumulator inspection may be presented
 > or mounted in the vehicle. They must not be opened.
 
 ##### S5.4.5
 
-> [IC ONLY] Only cars that have successfully passed the Tilt Test may be fuelled during the
+> **[IC ONLY]** Only cars that have successfully passed the Tilt Test may be fuelled during the
 > event.
 
 ### S5.5 Engineering Design Vehicle Condition
@@ -155,5 +155,4 @@
 > The Universal Design Judging Score Sheet for both FS and Concept Class will be available
 > at:
 >
-> https://www.imeche.org/events/formula-student/team-information/forms-and-
-> documents
+> [Forms and Documents](https://www.imeche.org/events/formula-student/team-information/forms-and-documents)

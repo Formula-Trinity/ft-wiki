@@ -53,8 +53,7 @@
 ##### S6.1.7
 
 > Points will be awarded according to the Universal Engineering Design Scoring Sheet.
-> https://www.imeche.org/events/formula-student/team-information/forms-and-
-> documents.
+> [Forms and Documents](https://www.imeche.org/events/formula-student/team-information/forms-and-documents).
 
 ##### S6.1.8
 

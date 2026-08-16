@@ -69,7 +69,7 @@
 * [IN12 Post Event Inspection](./section-in/12-post-event-inspection.md)
 * [IN13 Driver Egress Test](./section-in/13-driver-egress-test.md)
 
-### Section S - Static Events (WIP)
+### Section S - Static Events
 
 * [S1 Static Event No-Show Penalty](./section-s/1-static-event-no-show-penalty.md)
 * [S2 Business Plan Presentation(BPP) - FS Class and Concept Class](./section-s/2-business-plan-presentation(bpp)-fs-and-concept-class.md)

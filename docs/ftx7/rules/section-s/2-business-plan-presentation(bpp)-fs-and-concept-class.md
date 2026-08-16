@@ -25,6 +25,7 @@
 ##### S2.2.1
 
 > The Business Plan Presentation Judging will take place in two parts:
+> 
 > - Initial judging of all teams,
 > - Final judging of up to the 5 top teams. Qualifying teams will be notified in advance of
 > the final.
@@ -52,6 +53,7 @@
 ##### S2.3.1
 
 > The BPP judging format is as follows:
+> 
 > - 10 minute BPP presentation
 > - 5 minute Q&A
 > - 5-10 minute Judges’ feedback
@@ -98,6 +100,7 @@
 ##### S2.3.9
 
 > The following equipment will be supplied by FSUK in the judging rooms for teams to use:
+> 
 > - Digital Screen / Video Projector
 > - HDMI (type A) connection
 > - UK Power Socket
@@ -111,6 +114,7 @@
 ##### S2.4.1
 
 > Teams must present a BPP which covers the following topics as a minimum:
+> 
 > - The potential customers,
 > - How the business will be marketed,
 > - The development and production proposal of the vehicle or component,
@@ -121,6 +125,7 @@
 
 > Content marks will only be awarded for the information presented to the judges. Printed
 > material to support this is allowable but must:
+> 
 > - Be referred to within the presentation,
 > - Be limited to a maximum of eight (8) sides of A4 paper. Decorative covers are excluded
 > from this page count.
@@ -160,9 +165,15 @@
 > The BPP scores for non-finalists will be normalised and awarded on a pro-rata basis using
 > the following formula:
 >
-> \[
-> \textit{BUSINESS PLAN PRESENTATION SCORE} = HFNS\left(\frac{P_{your}}{P_{max}}\right)
-> \]
+> <p style="font-family: serif; font-style: italic; font-size: 1.4em;">
+>   BUSINESS PLAN PRESENTATION SCORE =
+>   HFWS
+>   <span style="display: inline-flex; flex-direction: column;
+>                vertical-align: middle; text-align: center;">
+>     <span>P<sub>your</sub></span>
+>     <span style="border-top: 1px solid;">P<sub>max</sub></span>
+>   </span>
+> </p>
 >
 >
 > Where:

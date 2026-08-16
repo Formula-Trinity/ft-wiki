@@ -29,20 +29,21 @@
 ##### S7.1.2
 
 > Registration for LTS requires the three steps to be completed at the links below:
+> 
 > - Register your team for the Formula CarMaker program:
 >
-> https://ipg-automotive.com/en/company/research-teaching/registration-
-> formula-carmaker/
+>       [Registration Formula Carmaker](https://ipg-automotive.com/en/company/research-teaching/registration-formula-carmaker/)
+> 
 > - Register for a Formula CarMaker license:
 >
-> https://ipg-automotive.com/en/support/licenses/formula-carmaker/
+>       [Formula Carmaker](https://ipg-automotive.com/en/support/licenses/formula-carmaker/)
 
 ##### S7.1.3
 
 > The CarMaker software and the Formula CarMaker package can be downloaded from the
 > Formula CarMaker customer area on the IPG Automotive website:
 >
-> https://ipg-automotive.com/en/support/customer-area/
+> [Customer Area](https://ipg-automotive.com/en/support/customer-area/)
 >
 > Log in credentials will be provided with your Formula CarMaker license file.
 
@@ -55,7 +56,7 @@
 >
 > Support is also available on the IPG Automotive forum:
 >
-> https://forums.ipg-automotive.com/ and by email as per S7.1.8.
+> [IPG Forum](https://forums.ipg-automotive.com/) and by email as per [S7.1.8](#s714).
 
 ##### S7.1.5
 
@@ -91,15 +92,17 @@
 > types and two aerodynamic configurations.
 >
 > It consists of two major elements:
+> 
 > - LTS Vehicle Evaluation – completed using the CarMaker software and LTS specific
 >   download files, this element is administered by IPG Automotive.
 >
 > Any questions on this element should be raised by sending an email with “FS LTS”
-> in the Subject Line to: FormulaCarMaker@ipg-automotive.com
+> in the Subject Line to: [FormulaCarMaker@ipg-automotive.com](mailto:FormulaCarMaker@ipg-automotive.com)
+> 
 > - Model Validation Test Plan – a short report submission, this element is
 >   administered by the IMechE.
 >
-> Any questions on this element should be raised on the FSQD (See Rule A3.6)
+> Any questions on this element should be raised on the FSQD (See Rule [A3.6](../section-a/3-rules-of-conduct.md/#a36-questions-about-the-rules))
 
 ##### S7.2.2
 
@@ -118,7 +121,7 @@
 
 ##### S7.2.5
 
-> Teams are reminded that Rule A4.2.1 applies to the LTS Event. FS Class and Concept Class
+> Teams are reminded that Rule [A4.2.1](../section-a/4-general-req.md/#a421) applies to the LTS Event. FS Class and Concept Class
 > teams from the same university are classed as separate teams. Any suspicion of
 > collaboration will be investigated and may result in both teams being disqualified.
 
@@ -146,9 +149,11 @@
 ##### S7.2.8
 
 > The maximum points available for each simulated event will be as per the normal FS rules:
+> 
 > - Acceleration – 75 points
 > - Skid-Pad – 75 points
 > - Sprint – 100 points
+> 
 > The scoring for each of these events will be identical to those used in the real-world
 > dynamic events, please see Part D1 of this Rulebook for details
 
@@ -216,6 +221,7 @@
 ##### S7.3.3
 
 > The four powertrain types are:
+> 
 > - NA Gasoline,
 > - Turbo-Charged Gasoline,
 > - Single Motor Electric Vehicle,
@@ -224,6 +230,7 @@
 ##### S7.3.4
 
 > The two aerodynamic configurations are:
+> 
 > - Minimal Aerodynamic Package,
 > - High Downforce Aerodynamic Package.
 
@@ -240,37 +247,26 @@
 
 > The following parameters are available to tune:
 >
-> DRIVER
+> **DRIVER**
 >
-> Driver Aggression: Five tuneable parameters, see User Documentation for
-> details
+> - Driver Aggression: Five tuneable parameters, see User Documentation for details
 >
-> SUSPENSION
+> **SUSPENSION**
 >
-> Spring Rates: Any linear rate
+> - Spring Rates: Any linear rate
+> - ARB Rates: Any linear rate
+> - Bump Stop Gap: Any value within limited range
+> - Rebound Spring Gap: Any value within limited range
+> - Damping Rates: Any value within limited range
+> - Kinematics: 5 configurations per axle with camber and toe options
 >
-> ARB Rates: Any linear rate
+> **BRAKE SYSTEM**
 >
-> Bump Stop Gap: Any value within limited range
+> - Front Braking Torque Fixed
+> - Rear Braking Torque Any value within limited range
 >
-> Rebound Spring Gap: Any value within limited range
+> **VEHICLE DRIVELINE**
 >
-> Damping Rates: Any value within limited range
->
-> Kinematics: 5 configurations per axle with camber and toe options
->
-> BRAKE SYSTEM
->
-> Front Braking Torque Fixed
->
-> Rear Braking Torque Any value within limited range
->
-> VEHICLE DRIVELINE
->
-> Differential Type Open, spool (locked) or torque sensing (three options, N/A
-> for Four Motor EV)
->
-> Gear Ratios Max 6 ratios, discrete ratio values not limited (Gasoline
-> vehicles only)
->
-> Final Drive Ratio Any value within limited range
+> - Differential Type Open, spool (locked) or torque sensing (three options, N/A for Four Motor EV)
+> - Gear Ratios Max 6 ratios, discrete ratio values not limited (Gasoline vehicles only)
+> - Final Drive Ratio Any value within limited range

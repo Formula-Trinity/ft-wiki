@@ -25,6 +25,7 @@
 ##### S4.2.3
 
 > The discussion is split into two parts:
+> 
 > - Part 1 “CRD Discussion”:
 > - A discussion to evaluate the team’s ability to prepare an accurate engineering and
 > manufacturing Costed Carbonised Bill of Material (CCBOM), evaluating both for
@@ -46,7 +47,7 @@
 
 ##### S4.3.1
 
-> The CRD shall be as per S3.3 to S3.7, with the exception being S3.5.1. For Concept Class,
+> The CRD shall be as per [S3.3](./3-cost-and-manufacturing-event-fs.md/#s33-cost-report-documents) to [S3.7](./3-cost-and-manufacturing-event-fs.md/#s37-cost--emissions-explanation-file), with the exception being [S3.5.1](./3-cost-and-manufacturing-event-fs.md/#s351). For Concept Class,
 > the section shall be Chassis and Body.
 
 ##### S4.3.2
@@ -90,9 +91,26 @@
 
 > The scoring for the non-finalist is calculated as followed:
 >
-> \[
-> \textit{COST SCORE} = 140\left(\frac{P_{team}}{P_{max}}\right)
-> \]
+> <p style="font-family: 'Times New Roman', serif; font-size: 1.6em;">
+>   <span style="font-style: italic;">COST SCORE</span>
+>   =
+>   140
+>   <span style="font-size: 1.25em;">(</span>
+>   <span style="
+>     display: inline-flex;
+>     flex-direction: column;
+>     vertical-align: middle;
+>     text-align: center;
+>     line-height: 1.05;
+>     font-style: italic;
+>   ">
+>     <span>P<sub>team</sub></span>
+>     <span style="border-top: 1px solid; padding-top: 2px;">
+>       P<sub>max</sub>
+>     </span>
+>   </span>
+>   <span style="font-size: 1.25em;">)</span>
+> </p>
 >
 >
 > - Pteam is the score awarded to the team,
