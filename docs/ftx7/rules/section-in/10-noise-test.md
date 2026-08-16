@@ -51,7 +51,7 @@
 ##### IN10.1.9
 
 > The test will be run with the gearbox in neutral. During this test the vehicle must be jacked
-> up using the quick jack (see T13.2).
+> up using the quick jack (see [T13.2](../section-t/13-vehicle-and-driver-equipment.md/#t132-quick-jack)).
 
 ##### IN10.1.10
 
@@ -60,7 +60,7 @@
 
 ##### IN10.1.11
 
-> After passing IN10.1.10 the air tightness of the intake system will be tested by closing off
+> After passing [IN10.1.10](#in10110) the air tightness of the intake system will be tested by closing off
 > the inlet after which the engine must stall.
 
 ### IN10.2 Noise Test Procedure [EV ONLY]

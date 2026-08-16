@@ -12,6 +12,7 @@
 ##### IN2.2.1
 
 > The following items must be presented:
+> 
 > - All helmets,
 > - All driver’s equipment and other safety gear,
 > - Two unused and in date fire extinguishers,

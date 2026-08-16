@@ -5,18 +5,19 @@
 ##### IN1.1.1
 
 > The technical inspection is divided into the following parts:
+> 
 > - Motorsport UK Safety Inspection (SAFETY)
 > - Mechanical Inspection (CHASSIS and TECH)
-> - [EV Only] Accumulator Inspection (EV BATTERY)
-> - [EV Only] Electrical Inspection (EV VEHICLE)
-> - [EV Only] Rain Test
+> - **[EV Only]** Accumulator Inspection (EV BATTERY)
+> - **[EV Only]** Electrical Inspection (EV VEHICLE)
+> - **[EV Only]** Rain Test
 > - Noise Test (NOISE)
 > - Tilt Test (TILT)
 > - Brake Test (BRAKE)
 > - Vehicle Weighing
 > - Driver Egress Tests
-> - [DV Only] Driverless Inspection
-> - [DV Only] EBS Test
+> - **[DV Only]** Driverless Inspection
+> - **[DV Only]** EBS Test
 
 ### IN1.2 General Rules
 
@@ -116,13 +117,14 @@
 ##### IN1.4.1
 
 > To accelerate the technical inspection process, the team must appoint one team member
-> as inspection responsible person. [EV ONLY] For electrical inspection and accumulator
-> inspection this has to be an ESO. [DV ONLY] For vehicles that have an autonomous system,
+> as inspection responsible person. **[EV ONLY]** For electrical inspection and accumulator
+> inspection this has to be an ESO. **[DV ONLY]** For vehicles that have an autonomous system,
 > this has to be an ASR.
 
 ##### IN1.4.2
 
 > This inspection responsible person must be:
+> 
 > - Familiar with the vehicle,
 > - Able to show compliance of the vehicle with all points mentioned on the technical
 > inspection sheet,
@@ -140,6 +142,7 @@
 ##### IN1.5.1
 
 > After technical inspection, the only modifications permitted to the vehicle are:
+> 
 > - Adjustment of belts, chains and clutches,
 > - Adjustment of the brake bias,
 > - Adjustment of the driver restraint system, head restraint, seat and pedal assembly,
@@ -155,7 +158,7 @@
 > - Replacement of defective tyres or brake pads. Replacement tyres and brake pads must
 > be identical in material/composition/size to those presented and approved at technical
 > inspection,
-> - Changing wheels and tyres for “wet” or “damp” conditions as allowed in D3.2 and D7.6,
+> - Changing wheels and tyres for “wet” or “damp” conditions as allowed in [D3.2](../section-d/3-weather-conditions.md/#d32-tyres-allowed) and [D7.6](../section-d/7-endurance-and-efficiency-event.md/#d76-endurance-event-tyre-changes),
 > - Software calibration changes,
 > - Recharging low voltage batteries,
 > - Recharging TS accumulators,

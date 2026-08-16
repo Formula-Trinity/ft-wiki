@@ -20,6 +20,7 @@
 ##### IN12.1.4
 
 > For each violation of the rules, the team receives a separate penalty as follows:
+> 
 > - Group A: Violation of the rules without advantage for the team
 > - Group B: Violation of the rules with advantage for the team (e.g. aerodynamic device)
 
@@ -46,21 +47,21 @@
 ##### IN12.1.7
 
 > Changes in vehicle weight of more than ±5kg compared to the official technical inspection
-> weight (see IN8) results in a 20-point penalty for each kg the tolerance is exceeded by.
+> weight (see [IN8](./8-vehicle-weighing.md)) results in a 20-point penalty for each kg the tolerance is exceeded by.
 > E.g. a weight difference of ±6.2 kg results in a 40-point penalty.
 
 ##### IN12.1.8
 
-> [EV ONLY] The vehicle must be able to enter ready-to-drive mode, see EV4.11, during post
+> **[EV ONLY]** The vehicle must be able to enter ready-to-drive mode, see [EV4.11](../section-ev/4-tractive-system.md/#ev411-activating-the-tractive-system), during post
 > inspection process for all tests requiring this mode. Violation will result in DQ.
 
 ##### IN12.1.9
 
-> [EV ONLY] Directly after endurance and leaving parc fermé, every team must come back
+> **[EV ONLY]** Directly after endurance and leaving parc fermé, every team must come back
 > to the charging area to disassemble the temperature logging device (if used by the
-> competition) from the TS accumulator, see EV5.8.6.
+> competition) from the TS accumulator, see [EV5.8.6](../section-ev/5-tractive-system-energy-storage.md/#ev586).
 
 ##### IN12.1.10
 
 > Directly after the last dynamic discipline and leaving parc fermé, the Energy Meter (if
-> installed), see EV4.6 or T14.3, will be disassembled from the vehicle.
+> installed), see [EV4.6](../section-ev/4-tractive-system.md/#ev46-energy-meter) or [T14.3](../section-t/14-autonomous-system.md/#t143-data-logger), will be disassembled from the vehicle.

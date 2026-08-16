@@ -1,4 +1,4 @@
-# [EV Only] Accumulator Inspection
+# **[EV Only]** Accumulator Inspection
 
 ### IN3.1 Accumulator Inspection General Definitions
 
@@ -23,13 +23,14 @@
 ##### IN3.2.1
 
 > The following items must be presented at accumulator inspection:
+> 
 > - All TS accumulators,
 > - Accumulator hand cart,
 > - Accumulator charger,
 > - Basic Tools, see IN3.2.2,
 > - Tools needed for the (dis)assembly of parts,
 > - Samples of self-designed PCBs that are part of the tractive system and inside the TSAC,
-> see EV4.3.7,
+> see [EV4.3.7](../section-ev/4-tractive-system.md/#ev437),
 > - Data sheets for all parts used in the accumulator,
 > - Original delivery notes for material without serial number printed on according to
 > T1.2.1,
@@ -38,6 +39,7 @@
 ##### IN3.2.2
 
 > The following basic tools in good condition must be presented:
+> 
 > - Insulated cable shears,
 > - Insulated screw drivers,
 > - Multimeter with protected probe tips and two 4mm banana plug test leads rated for
@@ -45,7 +47,7 @@
 > - Insulated tools, if screwed connections are used in the tractive system,
 > - Face shield,
 > - At least two pairs of HV insulating gloves (not expired),
-> - Two HV insulating blankets of at least 1.0m2 each,
+> - Two HV insulating blankets of at least 1.0m<sup>2</sup> each,
 > - Safety glasses with side shields for all team members that might work on the tractive
 > system or accumulator.
 >

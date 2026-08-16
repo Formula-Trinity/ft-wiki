@@ -1,10 +1,10 @@
-# [EV Only] Rain Test
+# [**EV Only]** Rain Test
 
 ### IN9.1 Rain Test General Definitions
 
 ##### IN9.1.1
 
-> Vehicles must have passed electrical inspection, see IN4, to attempt the rain test.
+> Vehicles must have passed electrical inspection, see [IN4](./4-electrical-inspection.md), to attempt the rain test.
 
 ##### IN9.1.2
 
@@ -26,11 +26,11 @@
 
 ##### IN9.2.3
 
-> The vehicle must be jacked up using the quick jack, see T13.2.
+> The vehicle must be jacked up using the quick jack, see [T13.2](../section-t/13-vehicle-and-driver-equipment.md/#t132-quick-jack).
 
 ##### IN9.2.4
 
-> The vehicle must not be in ready-to-drive mode, see EV4.11.
+> The vehicle must not be in ready-to-drive mode, see [EV4.11](../section-ev/4-tractive-system.md/#ev411-activating-the-tractive-system).
 
 ##### IN9.2.5
 

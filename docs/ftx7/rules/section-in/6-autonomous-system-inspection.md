@@ -1,11 +1,12 @@
-# [DV Only] Autonomous System Inspection
+# **[DV Only]** Autonomous System Inspection
 
 ### IN6.1 Autonomous System Inspection Required Items
 
 ##### IN6.1.1
 
 > The following items are required:
-> - T14.3Data sheets for all perception sensors,
+> 
+> - [T14.3](../section-t/14-autonomous-system.md/#t143-data-logger) Data sheets for all perception sensors,
 > - Documents which proof that all perception sensors meet local legislation,
 > - RES remote control
 > - ASF,
@@ -17,7 +18,7 @@
 ##### IN6.2.1
 
 > The EBS performance will be tested dynamically and must demonstrate the performance
-> described in T15.4.
+> described in [T15.4](../section-t/15-autonomous-system-brake.md/#t154-emergency-brake-system-performance).
 
 ##### IN6.2.2
 

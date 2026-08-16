@@ -53,7 +53,7 @@
 
 * [AFV1 Alternative Fuel Vehicles](./section-afv/1-alternative-fuel-vehicles.md)
 
-### Section IN - Technical Inspections (WIP)
+### Section IN - Technical Inspections
 
 * [IN1 General](./section-in/1-general.md)
 * [IN2 Motorsport UK Safety Inspection](./section-in/2-motorsport-uk-safety-inspection.md)

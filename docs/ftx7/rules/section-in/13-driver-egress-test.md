@@ -5,15 +5,24 @@
 ##### IN13.1.1
 
 > All of the drivers will be tested to prove they meet the requirements of:
-> - T4.3.1 – Minimum Helmet Clearance,
-> - T5 – Driver Restraint System.
+> 
+> - [T4.3.1](../section-t/4-cockpit.md/#t431) – Minimum Helmet Clearance,
+> - [T5](../section-t/5-driver-restraint-system.md) – Driver Restraint System.
 
 ### IN13.2 Driver Egress Test Procedure
 
 ##### IN13.2.1
 
-> The vehicle must have passed SAFETY, CHASSIS, TECH, [EV ONLY] EV BATTERY, [EV ONLY] EV
-> VEHICLE and [EV ONLY] RAIN TEST before attempting the Driver Egress Test.
+> The vehicle must have passed 
+> 
+> - SAFETY
+> - CHASSIS
+> - TECH
+> - **[EV ONLY]** EV BATTERY
+> - **[EV ONLY]** EV VEHICLE
+> - **[EV ONLY]** RAIN 
+> 
+> TEST before attempting the Driver Egress Test.
 
 ##### IN13.2.2
 

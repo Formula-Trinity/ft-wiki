@@ -9,4 +9,4 @@
 ##### IN8.1.2
 
 > All oil and coolant circuits must be at their maximum fill level. The fuel tank(s) must be
-> empty [CV & AFR Only].
+> empty **[CV & AFR Only]**.

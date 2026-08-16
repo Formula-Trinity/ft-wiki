@@ -12,7 +12,7 @@
 
 ##### IN11.1.2
 
-> [EV ONLY] After accelerating, the tractive system must be switched off by the driver, using
+> **[EV ONLY]** After accelerating, the tractive system must be switched off by the driver, using
 > the cockpit-mounted shutdown button and the driver must brake using only the
 > mechanical brakes. It is acceptable for the TSAL to switch to green shortly after the vehicle
 > has come to a complete stop as the reduction of the system voltage may take up to 5s.

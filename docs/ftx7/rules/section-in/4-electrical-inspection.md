@@ -1,4 +1,4 @@
-# [EV Only] Electrical Inspection
+# **[EV Only]** Electrical Inspection
 
 ### IN4.1 Electrical Inspection General Definitions
 
@@ -13,8 +13,8 @@
 
 ##### IN4.1.2
 
-> The IMD will be tested by connecting a resistor between the TSMP, see EV4.7 and LVS
-> ground connector, see EV4.7.8.
+> The IMD will be tested by connecting a resistor between the TSMP, see [EV4.7](../section-ev/4-tractive-system.md/#ev47-tractive-system-measuring-point) and LVS
+> ground connector, see [EV4.7.8](../section-ev/4-tractive-system.md/#ev478).
 >
 > The test is passed if the IMD shuts down the TS within 30s at a fault resistance of 50 %
 > below the response value which corresponds to 250 Ω/V.
@@ -31,11 +31,12 @@
 ##### IN4.2.1
 
 > The following items must be presented at electrical inspection:
+> 
 > - Vehicle with the TS Accumulator removed,
 > - Quick jack, stands and push bar,
 > - Samples of self-designed PCBs that are part of the tractive system,
-> - Tools needed for the BSPD check, see T11.6.9,
-> - Equipment needed for the brake light check for regenerative braking, see T6.3.1,
+> - Tools needed for the BSPD check, see [T11.6.9](../section-t/11-electrical-components.md/#t1169),
+> - Equipment needed for the brake light check for regenerative braking, see [T6.3.1](../section-t/6-brake-system.md/#t631),
 > - Data sheets for all parts used in the tractive system,
 > - Tools needed for the (dis)assembly of parts for electrical inspection,
 > - Printouts of any relevant Rules questions.
