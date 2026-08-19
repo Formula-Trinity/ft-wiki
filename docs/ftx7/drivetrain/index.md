@@ -10,33 +10,47 @@ The drivetrain of the car is the system that takes the power outputted by the en
 In the case of FTX-7, the main design choice was choosing to use a **spool** rather than a differential. 
 
 ## Bill of Materials for FTX-7 drivetrain:
+
+### Drivetrain System
+
 <ul>
   <li>16 tooth driven sprocket</li>
   <li>42 tooth drive sprocket</li>
-  <li><a href="../Spool/">Spool Assembly</a>
+  <li>
+    <a href="../Spool/">Spool Assembly</a>
     <ul>
       <li>Left Spool Flange</li>
       <li>Spool Centre</li>
       <li>Right Spool Flange</li>
     </ul>
   </li>
-  <li>Brake Disk</li>
-  <li>Mazda MX5 half shaft assembly x2 </li>
+</ul>
+
+### Brake System
+
+<ul>
+  <li>Brake Disc</li>
+
+  <li>
+    Mazda MX-5 half shaft assembly ×2
     <ul>
       <li>Inner CV joint</li>
       <li>Half shaft</li>
       <li>Outer CV joint</li>
     </ul>
   </li>
-  <li>Mazda MX5 wheel hub x 2</li>
-  <li>Custom CNC mounts x2 </li>
-  <li>Wilwood GP200 Brake Callipers x3 </li>
+
+  <li>Mazda MX-5 wheel hub ×2</li>
+  <li>Custom CNC mounts ×2</li>
+  <li>Wilwood GP200 brake calipers ×3</li>
   <li>Copper brake hard lines</li>
   <li>Custom PTFE flex lines</li>
-  <li>Pedal box assembly</li>
+
+  <li>
+    Pedal box assembly
     <ul>
-      <li>Pedal Box</li>
-      <li>Wilwood Master Cylinder x2</li>
+      <li>Pedal box</li>
+      <li>Wilwood master cylinder ×2</li>
     </ul>
   </li>
 </ul>
