@@ -4,10 +4,11 @@
 A spool is essentially the opposite of a differential. A differential allows the car's rear wheels to rotate at different speeds (which they have to on corners), while a spool forces both rear wheels to spin at the same rate.
 
 The main reasons for opting to use a spool were:
-Cost (cheaper than a differential)
-Weight (Lighter than a differential)
-Not an off the shelf part (More to talk about to judges at competition)
-
+<ul>
+  <li>Cost (cheaper than a differential)</li>
+  <li>Weight (lighter than a differential)</li>
+  <li>Not an off-the-shelf part (more to discuss with judges at competition)</li>
+</ul>
 The decision to opt for a spool did lead to significant knock-on effects in other departments, which is expanded on in their respective wiki pages. The main department impacted was suspension, who implemented a high roll centre, decreased rear track width and jacking in order to combat the lack of differential action.
 
 ## Spool design considerations
@@ -34,7 +35,7 @@ Was designed out of 7075-T6 aluminium, which is a strong aluminium alloy but not
 In future, steel should be used. Not mild steel, it is probably also too weak. Some form of heat treated steel ideal.
 In FTX-7 spool, the minimum torque carrying cross section had keyholes in it. This isn't good practice, so diameter should be increased.
 
-Three part assembly held together with keys in a slotted shaft. Flanges either side for CV, sprocket and brake disk mounting.
+The spool consisted of a three part assembly held together with keys in a slotted shaft. Flanges either side for CV, sprocket and brake disk mounting.
 Two keys were used to secure each flange.
 
 In future, maybe one (much stronger of course) key should be used. Loose tolerances can lead to one key only being engaged at a time sometimes, which leads to a lot of stress on one and very little on the other. Using one key would eliminate uncertainty.
