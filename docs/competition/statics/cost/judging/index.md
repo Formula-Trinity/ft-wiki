@@ -6,6 +6,17 @@ Up to **10 team members** can attend the session. The exact format and number of
 
 ---
 
+## What to Bring
+
+- A printed copy of the CCBOM for reference during discussion.
+- A searchable copy (*using* `ctrl+F`) of the CCBOM on a laptop so selected components can be found quickly.
+- Two full printed sets of drawings so multiple judges can inspect them at the same time.
+- Assembly drawings and fully dimensioned manufacturing drawings for the selected area.
+
+The drawings and CCBOM should work as a complete manufacturing package: together, they should contain enough info for someone outside the team to make and assemble the relevant components.
+
+---
+
 ## Judging Format
 
 ### Introductory Questions
@@ -18,6 +29,8 @@ Judging began with some general questions about how cost is managed within the t
 - Does the team have a dedicated Cost Lead?
 
 FTX7 did not have individual department budgets or a designated Cost Lead.
+
+Before judging, prepare the overall budget, actual expenditure and a clear explanation of how spending is approved and monitored. If the team does not allocate departmental budgets (*we didn't for FTX7*), be ready to explain the alternative process and identify who has responsibility for final spending decisions.
 
 ### Selected Components
 

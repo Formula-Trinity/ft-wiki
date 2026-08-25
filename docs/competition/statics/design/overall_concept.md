@@ -37,8 +37,4 @@ ons
 - Clearly link each major design decision back to the overall vehicle goals.
 - Document how goals changed throughout the year. This is acceptable, provided the reasons and response are explained honestly.
 - It is reasonable not to redesign everything. Explain why certain systems were retained and why others received more focus.
-- Testing plans should be considered early, especially for new systems. Record expected behaviour, real-world results and any differences.
-- More physical validation would help, such as displacement or force measurements on suspension and structural members.
-- Chassis jigging could be improved using thicker plywood, supports set back from nodes and clearly defined manufacturing tolerances.
-- An aluminium extrusion jig may be difficult to justify based on cost.
 - Any redesigned system should clearly support the overall goal of the car.
