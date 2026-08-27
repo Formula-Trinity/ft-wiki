@@ -15,6 +15,6 @@ This documents Formula Trinity’s design, manufacturing, testing, and developme
       - [Suspension](ftx7/suspension/index.md)
       - [Aerodynamics](ftx7/aero/index.md)
       - [Electronics](ftx7/electronics/index.md)
-- [Manufacturing](manufacturing/index.md) — team manufacturing methods & practices.
+- [Design & Manufacturing](./design_manufacturing/index.md) — team's design & manufacturing methods & practices.
 - [Competition Overview](./competition/index.md) — information for the FSUK competition.
 - [How to Contribute](contributing.md) — how to edit and add pages to the wiki.
