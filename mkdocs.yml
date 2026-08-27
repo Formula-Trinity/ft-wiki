@@ -92,8 +92,10 @@ nav:
           - ftx7/electronics/index.md
           - Subsystem 1: ftx7/electronics/subsystem-01/index.md
           - Subsystem 2: ftx7/electronics/subsystem-02/index.md
-  - Manufacturing:
-      - manufacturing/index.md
+  - Design & Manufacturing:
+      - design_manufacturing/index.md
+      - Design Guides: design_manufacturing/design/index.md
+      - Manufacturing Guides: design_manufacturing/manufacturing/index.md
   - Competition Overview:
       - competition/index.md
       - Static Events:
