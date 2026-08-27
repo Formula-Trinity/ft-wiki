@@ -1,0 +1,3612 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Engineering documentation for Formula Trinity">
+      
+      
+      
+        <link rel="canonical" href="https://formula-trinity.github.io/ft-wiki/ftx7/aero/aero-wiki/">
+      
+      
+        <link rel="prev" href="../subsystem-01/">
+      
+      
+        <link rel="next" href="../nosecone-body/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Aero Wiki - Formula Trinity Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Formula Trinity Wiki" class="md-header__button md-logo" aria-label="Formula Trinity Wiki" data-md-component="logo">
+      
+  <img src="../../../assets/images/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Formula Trinity Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Aero Wiki
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  FTX7
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../design_manufacturing/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Design & Manufacturing
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../competition/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Competition Overview
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../contributing/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  How to Contribute
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Formula Trinity Wiki" class="md-nav__button md-logo" aria-label="Formula Trinity Wiki" data-md-component="logo">
+      
+  <img src="../../../assets/images/logo.png" alt="logo">
+
+    </a>
+    Formula Trinity Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FTX7
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    FTX7
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../powertrain/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Powertrain
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Powertrain
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../powertrain/subsystem-01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subsystem 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../drivetrain/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drivetrain
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Drivetrain
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drivetrain/subsystem-01/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subsystem 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../chassis/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chassis
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_4" id="__nav_2_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chassis
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../chassis/subsystem-01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subsystem 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../suspension/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Suspension
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_5" id="__nav_2_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Suspension
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../suspension/subsystem-01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subsystem 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aero
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_6" id="__nav_2_6_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Aero
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../subsystem-01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subsystem 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aero Wiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nosecone-body/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nosecone & Body
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sidepods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sidepods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../extras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Extras
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../vehicle-dynamics-tyre-data/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vehicle Dynamics & Tyre Data
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_7" id="__nav_2_7_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Vehicle Dynamics & Tyre Data
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vehicle-dynamics-tyre-data/tyre-wiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tyre Wiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vehicle-dynamics-tyre-data/tyre-data-wiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tyre Data Wiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vehicle-dynamics-tyre-data/tyre-data-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tyre Data Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vehicle-dynamics-tyre-data/lts-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LTS Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vehicle-dynamics-tyre-data/lts-data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LTS Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../electronics/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Electronics
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_8" id="__nav_2_8_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Electronics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../electronics/subsystem-01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subsystem 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../electronics/subsystem-02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subsystem 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../design_manufacturing/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design & Manufacturing
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Design & Manufacturing
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design_manufacturing/design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design Guides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design_manufacturing/manufacturing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manufacturing Guides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../competition/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Competition Overview
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Competition Overview
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../competition/statics/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Static Events
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Static Events
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../competition/statics/design/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design Judging Event
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2_2" id="__nav_4_2_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Design Judging Event
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../competition/statics/design/edr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineering Design Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../competition/statics/design/overall_concept/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overall Vehicle Concept
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../competition/statics/design/struct_design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structural Design inc. Suspension & Brakes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../competition/statics/design/pt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Powertrain Concept & Choice, Simulation, Design & Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../competition/statics/design/timing_planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overall Timing, Manufacturing, Procurement Plan plus Team Organisation Plan
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../competition/statics/design/design_for_manufacture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design for Manufacture & Profit, Customer Respect and Innovation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../competition/statics/cost/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost & Manufacturing Event
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2_3" id="__nav_4_2_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Cost & Manufacturing Event
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_3_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../competition/statics/cost/pre_comp_submissions/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost Report Documents
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2_3_2" id="__nav_4_2_3_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_4_2_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Cost Report Documents
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../competition/statics/cost/pre_comp_submissions/CCBOM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CCBOM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../competition/statics/cost/pre_comp_submissions/explanations_report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost & Emissions Explanation Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../competition/statics/cost/pre_comp_submissions/supporting_docs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Supporting Materials
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../competition/statics/cost/judging/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost & Manufacturing Judging
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../competition/scrut/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scrutineering
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Scrutineering
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../competition/scrut/tech/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tech
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../competition/scrut/safety/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Safety
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../competition/scrut/chassis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chassis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../competition/scrut/tilt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tilt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../competition/scrut/noise/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Noise
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../competition/scrut/brakes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brakes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../competition/dynamics/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dynamic Events
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Dynamic Events
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Contribute
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Aero Wiki</h1>
+
+<p>Aerodynamics Wiki</p>
+<p>Aerodynamics Wiki 
+1</p>
+<!-- page break -->
+
+<p>Pressure</p>
+<p>What is Pressure 
+Pressure is simply the force per unit area, normal to the area. 
+The fluid is made up of lots of particles, bouncing and moving around. 
+These particles interact with the surface, bouncing off it. Through this they 
+apply a force to the surface.</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-02-image-01.png" /></p>
+<p>As a result of the fluid being isotropic (same in every direction), the 
+pressure force on a surface is always normal/perpendicular to the surface. </p>
+<p>Pressure therefore has the units of Newtons per unit area (N/A) or Pascals 
+(Pa). It is a scalar quantity. </p>
+<p>However if we take the N/A definition, and multiply above and below by 
+metres (N/m^2 * m/m), we get newton metres per metre cubed. Newton 
+metres is another word for work/energy. So here we are looking at joules 
+per cubic metre - energy per unit volume. </p>
+<p>In this sense, pressure is the energy contained in the volume of fluid </p>
+<p>Relationship with Velocity </p>
+<p>The standard relationship between pressure and velocity is captured 
+within the Bernoulli equation. This equation is simply a one dimensional 
+representation of the Euler equation along a streamline, so neglects 
+compressibility, viscosity, time dependence.  </p>
+<p>The Bernoulli equation is below</p>
+<p>𝑃1 + (0.5 ∗𝜌∗𝑣1</p>
+<p>2) + (𝜌𝑔ℎ1) = 𝐶𝑜𝑛𝑠𝑡𝑎𝑛𝑡</p>
+<p>● P1, called the static pressure, is the force per unit area type of</p>
+<p>pressure</p>
+<!-- page break -->
+
+<p>● 0.5 rho v2 is the dynamic pressure, the pressure that arises from</p>
+<p>velocity. If you were to bring the fluid to a complete stop (0 velocity), 
+the pressure in the fluid would rise by an amount equal to the 
+dynamic pressure. (also looks quite similar to the kinetic energy 
+formula doesn’t it? That’s essentially what it is) 
+● Rho g h is the pressure head - the pressure that comes from</p>
+<p>gravitation, think of the potential energy when a ball is on top of a 
+hill 
+● All of this is constant, so we call the sum of these three terms the</p>
+<p>total pressure. This is the indication of the total energy in the flow. 
+This is also called the stagnation pressure, as it’s the static pressure 
+that would hypothetically be gotten if you brought the fluid to a 
+standstill (0 dynamic) and no potential.  </p>
+<p>Air is faster - lower static pressure, higher dynamic pressure 
+Air slows down - higher static pressure, lower dynamic pressure </p>
+<p>It is useful to think of the trade off between dynamic and static pressure, 
+particularly over a wing. 
+With a wing in downforce, on top the air slows, its dynamic pressure 
+transferring to static pressure, and a high static pressure region is created 
+on the top surface. 
+On the bottom, the air speeds up, and causes a low pressure zone.  </p>
+<p>Example: 
+Within a vortex, the core spins really fast, and the fluid slows down as you 
+slowly travel away from the core. Naturally then, the core of a vortex, going 
+faster, is a lower pressure. This is the basis of vortex lift - using a vortex low 
+pressure core on a surface </p>
+<p>Bernoullis equation presents total pressure as constant, always. But this is 
+an idealisation along an inviscid streamline. In reality, due to viscous effects 
+(boundary layers, separation etc.), total pressure is not always conserved.<br />
+It is easy to see that in areas where total pressure is lower (lower energy), 
+there is less space to create this tradeoff between static and dynamic 
+pressure. Hence, we always try to place aerofoils and other aerodynamic 
+elements in areas of high total pressure/energy. </p>
+<p>Surface pressure differential 
+A static pressure differential across a surface is what creates aerodynamic 
+forces.</p>
+<!-- page break -->
+
+<p>Imagine a plate, with high static pressure on top, and low static pressure 
+beneath. The force per unit area (acting downwards) on top is larger due to 
+the higher pressure. Conversely, it is lower underneath the plate. 
+This creates a net downwards force 
+Aerofoils are designed such that this pressure differential can be created </p>
+<p>Pressure Coefficient 
+Ultimately, we can measure pressure as Newtons per square meter, 
+pounds per square inch, elephant weights per brick area - nature doesn’t 
+care what units we use to define.<br />
+This is where dimensional analysis comes in.  </p>
+<p>We can compare two flows with different conditions if a specific set of 
+conditions are maintained - the non dimensional pi terms. This is a result 
+of the buckingham pi theorem and dimensional analysis. </p>
+<p>The non-dimensionalised version of pressure is the Coefficient of Pressure.</p>
+<p>𝐶𝑝=  𝑝/(0.5𝜌𝑣2) 
+Where p - pfreestream, is the local static pressure (or for total pressure 
+coefficient, the local total pressure), then this is divided by the dynamic 
+pressure. It is a ratio between the static (or total) pressure and dynamic 
+pressure.</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-04-image-01.jpeg" /></p>
+<p>Static pressure coefficient. Look at the blue under the rear wing, and the 
+red on top. This difference is what creates downforce</p>
+<!-- page break -->
+
+<p><img alt="" src="images/aerodynamics-wiki/page-05-image-01.jpeg" /></p>
+<p>Total pressure coefficient shows the reduction in energy caused by the 
+front wing and tires, along with a bit from the rear wing vortex </p>
+<p>Momentum Diffusion 
+If you’re studying the Navier Stokes equations, you can identify diffusive 
+and convective terms. The diffusion of momentum is often attributed to 
+viscosity, as that is the fact that sets the Navier Stokes apart from the Euler 
+equations.  </p>
+<p>However, pressure also leads to momentum diffusion. Or more precisely, 
+the pressure gradient. </p>
+<p>If you have a fluid in a pipe, stationary, and immediately apply a pressure 
+gradient across it, it will begin to move from high pressure to low pressure. 
+The pressure gradient creates (diffuses) momentum. </p>
+<p>Placement in the stress tensor 
+Pressure is the isotropic, inwardly acting force from all directions on any 
+material element. It is therefore the normal components of the cauchy 
+stress tensor - ⅓ * tr(sigma).</p>
+<!-- page break -->
+
+<p>Multi Element Aerofoils</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-06-image-01.jpeg" /></p>
+<p><img alt="" src="images/aerodynamics-wiki/page-06-image-02.jpeg" /></p>
+<p>Fig. 1. The foundations of multi-element wing design slot effect (left) and</p>
+<p>vortex management (right)</p>
+<ol>
+<li>Multi Element Aerofoil Theory and Geometry 
+Essentially multi-element aerofoils allow wings to operate at much 
+higher angles of attack and therefore improve the baseline lift of the 
+aerofoil. We will look at the theory behind them.</li>
+</ol>
+<p><img alt="" src="images/aerodynamics-wiki/page-06-image-03.png" /></p>
+<p>Fig. 2. Adverse pressure gradient reducing flow velocity</p>
+<p>The angle of attack strongly affects the pressure distribution 
+(coefficient of pressure (Cp) increases linearly with increasing angle of 
+attack) . A higher angle of attack increases the lifting capability of the 
+aerofoil due to a higher pressure difference but there is a limiting 
+angle at which stall occurs and the flow over the wing separates 
+(separation also depends on the Reynolds number and the location 
+of laminar-to-turbulent transition). Lifting capabilities can be 
+enhanced by pushing this “stall angle” further out thereby increasing 
+the coefficient of lift (CL) of the wing.</p>
+<!-- page break -->
+
+<p>The “slot” effect of multi-element aerofoils is what aeronautical 
+engineers in both aviation and motorsport have utilised to achieve 
+high lift in compact wings. Most explanations of this effect rely on 
+this “energy injection” theory, that the slots allow high velocity (high 
+kinetic energy) air form the low pressure side of the wing to bleed 
+through and re energise the boundary layer of the high pressure 
+side, this is a concept known as a “wall-jet” which is a viscous flow 
+phenomenon. While this is quite a reasonable theory it doesn’t fully 
+explain how the slot effect prevents separation at high angles of 
+attack.</p>
+<p>The main limitation on maximum lift is imposed by how much 
+pressure rise (or velocity drop) the boundary layer on the suction 
+side can withstand. The boundary layer’s ability to withstand the 
+pressure rise is increased if the boundary layer is thin when it starts 
+into the pressure rise. </p>
+<p>The slot effect works on both of these things: the amount of 
+pressure rise imposed on each element, and the thickness of the 
+boundary layer starting into the pressure rise. So the slot has two 
+functions:</p>
+<ol>
+<li>Starting a fresh upper-surface boundary layer at the</li>
+</ol>
+<p>leading edge of each element. For elements after the 
+first, this means a thinner boundary layer at the start of 
+the pressure rise than would be there if there were no 
+slots.</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-07-image-01.jpeg" /></p>
+<p>Fig. 3. Boundary layer thickness affects separation 
+2. Reducing the pressure rise imposed on the suction-</p>
+<p>side boundary layer of each element. Slots do this in</p>
+<!-- page break -->
+
+<p>either of two ways, or both simultaneously, depending 
+on the situation of the given airfoil element.</p>
+<p>● When there is an element ahead, it can provide</p>
+<p>leading-edge suction-peak suppression, 
+essentially by providing some flow turning ahead 
+of the leading edge of the current element, so that 
+the flow doesn’t rush around the leading edge as 
+fast as it otherwise would.  </p>
+<p>● When there is an element behind, it can provide</p>
+<p>trailing-edge dumping-velocity elevation, 
+effectively by placing the trailing edge of the 
+current element in a high velocity region near the 
+leading edge of the trailing element. </p>
+<p>Reducing the velocity at the leading edge of an element 
+and elevating the velocity at the trailing edge both 
+reduce the total velocity drop the boundary layer is 
+subjected to.</p>
+<p>For a slot to be effective in increasing the maximum lifting 
+capability, the flow must smoothly pass from the lower surface 
+to the upper surface of the wing.</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-08-image-01.jpeg" /></p>
+<p>Fig. 4. Smoothly contoured slot (slot) and “cove” slot (right)</p>
+<p>Unless the slot gap upstream is large, the wake will merge to 
+some extent with the boundary layer of the element 
+underneath. If too much of this boundary-layer mixing takes 
+place, the separation resistance of the entire viscous layer will 
+be reduced. Thus the choice of slot gap is a trade: Greater 
+suction-peak suppression favors a smaller gap, but boundary-
+layer confluence penalizes a smaller gap.</p>
+<!-- page break -->
+
+<p><img alt="" src="images/aerodynamics-wiki/page-09-image-01.jpeg" /></p>
+<p>Fig. 5. Potential flow core between wake of forward element</p>
+<p>and boundary layer of flap </p>
+<p>*Read Understanding Aerodynamics by Doug McLean for more 
+information </p>
+<ol>
+<li>Multi Element Aerofoil Performance Enhancement </li>
+</ol>
+<p>2.1. 
+High Lift Devices 
+Devices which take advantage of flow properties to increase 
+the CL of a wing are classed as high lift devices.</p>
+<p>2.1.1. Flaps and Slats</p>
+<p>Lift control is an import aspect for both motorsport and 
+aircraft and is primarily controlled via flaps and slats. 
+Flaps sit at the trailing edge of a wing and are 
+themselves small aerofoil profiles. Changing the angle of 
+a flap changes the overall angle of attack of the aerofoil 
+and the camber of the aerofoil and can turn the flow 
+more (increased lift) or less (decreased) lift.</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-09-image-02.png" /></p>
+<p>Fig. 6. Flaps set angles to decrease (top) and increase (middle)</p>
+<p>lift, multi element flap system (bottom)</p>
+<!-- page break -->
+
+<p>Slats which aren’t as common for motorsport 
+applications sit at the leading edge of a wing and 
+function in exactly the same way as flaps.</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-10-image-01.png" /></p>
+<p>Fig. 7. Slat “drooped” to increase maximum lift </p>
+<p>2.1.2. Gurney Flaps</p>
+<p>Invented by Dan Gurney in the 1970’s this flap sits on the 
+trailing edge of a wing and is perpendicular to the main 
+plane and sits on the high pressure side of the aerofoil. 
+The Gurney can increase the lift of a wing greatly and it 
+does it through two mechanisms:</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-10-image-02.jpeg" /></p>
+<ol>
+<li>Modifies what is known as the Kutta condition of</li>
+</ol>
+<p>the aerofoil which is the point where the 
+streamlines on the upper and lower surfaces of the 
+wing merge back together. The flap moves this 
+point further back effectively making the wing 
+longer. </p>
+<ol>
+<li>Gives a sharper exit angle to the airflow (increasing</li>
+</ol>
+<p>flow turning).</p>
+<!-- page break -->
+
+<p><img alt="" src="images/aerodynamics-wiki/page-11-image-01.jpeg" /></p>
+<p>Fig. 8. Gurney flap on trailing edge of rallycross car</p>
+<p>2.1.3. Blown Wings</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-11-image-02.png" /></p>
+<p>Fig. 9. Exhaust blown rear wing </p>
+<p>A brute force approach that’s worked quite well for 
+diffusers in motorsport is to channel high speed airflow 
+from another source (engine exhaust, fan etc.) and 
+funnel it onto the surface of the wing to manually 
+reattach the flow.  </p>
+<p>2.2. 
+End Plates 
+Once you have a multi element wing it is rather difficult to get 
+the low pressure side and high pressure side to stay separated 
+at the wind ends as the high pressure air on top wants to 
+“leak” down to the low pressure which not only reduces lift but 
+also creates tip vortices which introduce nasty things like 
+induced drag.</p>
+<!-- page break -->
+
+<p>Solution, putting a massive obstacle between the two aerofoil 
+surfaces such as an endplate reduces the pressure loss and 
+reduces the size of the tip vortices.</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-12-image-01.jpeg" /></p>
+<p>Fig. 10. Winglets, a more elegant endplate</p>
+<p>2.2.1. Louvres</p>
+<p>Louvres which are vents in the endplate, bleed high 
+pressure off the top surface of the wing to further reduce 
+tip vortices by bringing the air near the top of the plate 
+closer to ambient pressure. </p>
+<p>Boundary Layers</p>
+<p>A boundary layer is the layer of fluid in the immediately above a bounding surface where the effects 
+of viscosity are significant. The fluid in the boundary layer tends to cling to the surface. The 
+boundary layer is, for incompressible flow, usually the only place where viscous effects have any sort 
+of significant effect so even though it is a very small region it is probably the most important region 
+of the airflow. The boundary layer starts at the surface of the body, where the flow velocity is zero 
+and extends up until the flow velocity is equal to the surrounding airflow. The boundary layer also 
+gets larger the further along the body it travels. A boundary layer can be seen in figure 1.</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-12-image-02.png" /></p>
+<p>Figure 1: Simple Boundary Layer(Boundary Layer Ends at Dashed Line)</p>
+<!-- page break -->
+
+<p>Laminar Boundary Layers 
+There are two types of boundary layers, laminar and turbulent. Laminar boundary layers have very 
+smooth flow with little friction. Laminar boundary layers however, are not stable and will generally 
+transition to turbulent at some point along a body. The boundary layer at the front of a body begins 
+as laminar and as the flow travels along the body this boundary layer gets larger and larger until it 
+transitions to turbulent. If complete laminar flow is assumed, there are exact analytical solutions. For 
+incompressible laminar flow over a flat plate at zero angle of attack, the equation:</p>
+<p>𝛿=
+5𝑥</p>
+<p>√𝑅𝑒𝑥</p>
+<p>gives the size of the boundary layer where x is the distance along the plate and the Reynolds number 
+is given by:</p>
+<p>𝑅𝑒𝑥= 𝜌𝑒𝑉∞𝑥</p>
+<p>𝜇∞</p>
+<p>Where ρe is the density μ∞ is the dynamic viscosity of the fluid and V∞ is the freestream velocity. 
+It can be seen from these two equations that the thickness of the boundary layer is directly 
+proportional to the square root of the distance and therefore, the boundary layer thickness grows 
+parabolically. </p>
+<p>Turbulent Boundary Layers 
+At some distance back from the leading edge, the smooth laminar flow breaks down and transitions 
+to a turbulent flow. From a drag point of view, it is best to have as small a turbulent boundary region 
+as possible but laminar layers tend to break down more suddenly then turbulent boundary layers 
+which is why they can be useful to help keep flows attached. There are no exact analytical solutions 
+to a turbulent boundary layer but over a flat plane the thickness can be approximated by:</p>
+<p>𝛿= 0.37𝑥</p>
+<p>√𝑅𝑒𝑥
+5</p>
+<p>The turbulent boundary layer thickness is proportional to the fifth root of the distance. Comparing 
+this to the laminar boundary layer, there is a more sudden increase in thickness followed by a much 
+more gradual increase.</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-13-image-01.png" /></p>
+<p>Figure 2: Turbulent and Laminar Boundary Layer 
+Transition from Laminar to Turbulent</p>
+<!-- page break -->
+
+<p>A boundary layer will rarely be just turbulent or laminar. Boundary layers start as laminar at the 
+leading edge, as the boundary moves along the body it will become less and less stable with small 
+bursts of turbulence beginning to grow within the layer, until finally at a certain region known as the 
+transition region the boundary layer becomes completely turbulent. In the transition region the 
+boundary layer will grow much quicker and then will level out again. The start of the turbulent 
+region is known as the transition point and the x value(distance along the body) where this transition 
+point is located is called the critical value xcr. This also allows us to calculate the critical Reynolds 
+number for transition by placing xcr into the Reynolds number formula.</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-14-image-01.png" /></p>
+<p>Figure 3: Transition from Laminar to Turbulent </p>
+<p>Wall Shear Stress 
+Wall shear stress is the amount of friction force applied to a body by the fluid per unit area. Wall 
+shear stress(τ) at a point is defined as:</p>
+<p>𝜏= 𝜇(𝑑𝑉</p>
+<p>𝑑𝑦)</p>
+<p>For y = 0. Where μ is the viscosity V is the velocity and y is the height from above the body. As 
+temperature rises the viscosity of the air goes up and therefore, produces more shear stress. 
+Since wall shear stress is caused by friction and friction generates heat, this means that the wall 
+shear stress increases the value of the viscosity and therefore, increases the wall shear stress as it 
+travels along the body. Seeing this formula makes it clear why turbulent boundary layers produce 
+more friction drag since the velocity above the surface increases much more rapidly than in the 
+laminar layer. In order to calculate the drag produced by the wall shear stress, the wall shear stress 
+in the x direction can be integrated over the entire top and bottom surface of the airfoil. 
+Wall shear stress is also a useful tool for noticing separation. If there is wall shear stress at a point 
+that is in the opposite x direction it means there is reversed flow in the region and therefore flow 
+separation.</p>
+<!-- page break -->
+
+<p><img alt="" src="images/aerodynamics-wiki/page-15-image-01.png" /></p>
+<p>Figure 4: Laminar and Turbulent Boundary Layer Velocities above a Body </p>
+<p>Momentum Diffusion 
+Boundary layers are a direct result of momentum diffusion. Momentum diffusion is the spread of 
+momentum through a fluid. Initially, before any obstructions have hit the flow, the momentum will 
+be uniformly spread throughout the flow and everywhere will have effectively the same momentum. 
+However, when an airfoil or body is introduced to the flow, a boundary layer and a spread of 
+momentum in the flow form. Momentum diffusion is this spread of momentum and points in the 
+direction of decreasing velocity, since diffusion moves from an area of high concentration to low.  </p>
+<p>Momentum thickness is an idea associated with momentum diffusion. Momentum thickness (δ**) is 
+defined as the thickness of a layer of fluid velocity U for which the momentum flux is equal to the 
+deficit of momentum flux through the boundary layer. It's essentially if you took all the momentum 
+lost in the boundary layer and put it all into one thick piece of momentum loss, how thick would the 
+piece be. See figure 5.</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-15-image-02.jpeg" /></p>
+<p>Figure 5: Momentum Thickness </p>
+<p>Displacement Thickness:</p>
+<!-- page break -->
+
+<p>Displacement thickness (δ*) follows the same lines as momentum thickness and is defined as the 
+distance by which the solid boundary layer would have to be displaced in a frictionless flow to give 
+the same mass deficit as the boundary layer. See figure 6.</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-16-image-01.jpeg" /></p>
+<p>Figure 6: Displacement thickness</p>
+<p>Flow Separation</p>
+<p>Flow separation or boundary layer separation is the detachment of a boundary layer from a surface. 
+This occurs in flow that is slowing down with an adverse pressure gradient after passing the thickest 
+part of a streamline body or passing through a widening passage(e.g. diffuser).</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-16-image-02.jpeg" /></p>
+<p>Figure 1: Flow Separation Example 
+Adverse Pressure Gradients 
+An adverse pressure gradient is when a flow is travelling from an area of low pressure to high 
+pressure. An adverse pressure gradient will form anywhere that dp/ds &gt; 0 and will form on every 
+airfoil because the lowest pressure will always be near the front of the airfoil. Therefore, adverse 
+pressure gradients aren’t that big a deal unless the gradient is a steep one. Steep pressure gradients 
+quickly slow the flow going through the gradient. This loss of velocity then causes the boundary layer 
+to reverse causing the flow to separate, see figure 2. Adverse pressure gradients generally cause 
+trailing edge separation, this is where the flow at the back of the airfoil separates. Pressure gradients 
+are usually analysed using pressure coefficient plots which is shown in figure 3. The best way to deal</p>
+<!-- page break -->
+
+<p>with adverse pressure gradients is to move the lowest pressure region further forward to have a 
+more gradual transition.</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-17-image-01.png" /></p>
+<p>Figure 2: Boundary layer and flow separation</p>
+<p>Adverse Pressure Gradient</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-17-image-02.png" /></p>
+<p><img alt="" src="images/aerodynamics-wiki/page-17-image-03.png" /></p>
+<p>Low Pressure Region</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-17-image-04.png" /></p>
+<p>Figure 3: Pressure Coefficient vs chord Plot </p>
+<p>Laminar Separation Bubbles 
+Laminar separation bubbles are caused by a strong adverse pressure gradient and large curvature of 
+a body, which causes the laminar boundary layer to separate from the airfoil surface. 
+The separated, but still laminar flow is highly sensitive to disturbances, which causes it to transition 
+to the turbulent state. The transition takes place away from the airfoil at the outer boundary of the 
+separated flow area. The thickness of the now turbulent boundary layer grows rapidly which may 
+lead to it reaching the airfoil surface again. The region where the turbulent flow touches the surface 
+again is called reattachment point. The volume enclosed by the regions of separated laminar flow 
+and turbulent flow is called a laminar separation bubble. Inside these bubbles the flow generally 
+circulates but has very little energy exchange with the outer air which leads to these bubbles being 
+quite stable.</p>
+<!-- page break -->
+
+<p><img alt="" src="images/aerodynamics-wiki/page-18-image-01.jpeg" /></p>
+<p>Figure 4: Laminar Bubble</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-18-image-02.jpeg" /></p>
+<p>Figure 5: Laminar Bubble </p>
+<p>Leading Edge Separation 
+Leading separation is a follow on from laminar separation bubbles. Leading edge separation is the 
+appearance of a separation bubble on either side, often the suction side, of an airfoil in the nose 
+region if the angle of attack exceeds a critical value. Due to the large curvature, at the front of 
+certain airfoils or airfoils at a certain angle of attack, a separation bubble will form. This is called 
+leading edge separation. The flow will often reattach with leading edge separation but depending on 
+the circumstances, there could be a small bubble or a large bubble formed and if its bad enough 
+there could even be a leading edge stall where there is no reattachment. Leading edge separations 
+can be seen in figure 6 and 7.</p>
+<!-- page break -->
+
+<p><img alt="" src="images/aerodynamics-wiki/page-19-image-01.png" /></p>
+<p>Figure 6: Leading Edge Separation</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-19-image-02.jpeg" /></p>
+<p>Figure 7: Different types of separation </p>
+<p>Effects of Separation 
+The biggest effect of separation is generally the increase in drag. When the flow separates from the 
+back of the airfoil, there is usually a large increase in pressure drag. Lift can be effected in a couple of 
+ways, if the separation is large the lift will dramatically decrease and could even stall. However, 
+sometimes if the angle of attack of an airfoil is increased, lift will go up but separation may also form. 
+This leads to an increase in drag but also an increase in lift. It is best to have as little or no separation 
+but sometimes it may be beneficial to have mild separation with an increase in lift. Separation can 
+also lead to vortex shedding which can lead to vibrations within a structure.  </p>
+<p>Vortices</p>
+<!-- page break -->
+
+<p><img alt="" src="images/aerodynamics-wiki/page-20-image-01.png" /></p>
+<p>Fig. 1. Y250 Vortex</p>
+<ol>
+<li>What are Vortices? 
+Vorticity generally implies some form of fluid particle rotation. The 
+typical intuitive vortex is a tornado. Vortices fall under the category 
+of coherent structures (i.e. noticeable patterns in the flow). A moving 
+vortex carries some angular momentum, linear momentum, energy, 
+and mass, with it.</li>
+</ol>
+<p>Vorticity is essentially a measure of the amount of rotation in a flow 
+field as such we can have rotational flows and irrotational flows.  </p>
+<ol>
+<li>Theory of Vortices </li>
+</ol>
+<p>2.1. 
+Vorticity 
+To formally state vorticity we must use the following vector 
+calculus relation:</p>
+<p>𝜔= 𝛻× 𝑼</p>
+<p>𝜔= [ 𝜕</p>
+<p>𝜕𝑥 𝜕</p>
+<p>𝜕𝑦 𝜕</p>
+<p>𝜕𝑧] × [𝒖 𝒗 𝒘] = (𝜕𝑤</p>
+<p>𝜕𝑦−𝜕𝑣</p>
+<p>𝜕𝑧  𝜕𝑢</p>
+<p>𝜕𝑧−𝜕𝑤</p>
+<p>𝜕𝑥 𝜕𝑣</p>
+<p>𝜕𝑥−𝜕𝑢</p>
+<p>𝜕𝑦)</p>
+<p>A problem associated with this method is that vorticity cannot 
+distinguish between swirling motions and shearing motions. </p>
+<p>2.2. 
+Vortex Lines and Vortex Tubes 
+In the same way that we can construct a geometric line that is 
+everywhere tangent to the velocity vector in a velocity field and</p>
+<!-- page break -->
+
+<p>create a streamline, we can also create a line that is everywhere 
+tangent to the vorticity vector calculated above and create a vortex 
+line. </p>
+<p>In the same way that when we bundle streamlines together to 
+create a streamtube we can bundle vortex lines together to create a 
+vortex tube. </p>
+<p>If the cross-sectional area of a vortex tube decreases, either in time 
+or along the length of the tube, the strength of the vorticity (the 
+magnitude of the vorticity vector) must increase. </p>
+<p>A vortex filament is a vortex tube whose cross section has a 
+maximum dimension that is infinitesimally small. The cross-sectional 
+area of a vortex filament is thus also infinitesimally small, but it is still 
+assumed to vary along the length of the filament, so that the 
+filament can still satisfy the definition of a vortex tube. For a vortex 
+filament, the flux of vorticity across a cross-section reduces to the 
+product of the vorticity magnitude and the cross-sectional area, 
+which is called the intensity of the filament.</p>
+<p>2.3. 
+Helmholtz’s Theorems 
+Vortices are governed by four simple laws. </p>
+<p>2.3.1. First Theorem</p>
+<p>In a constant-density flow, the deviations in velocity in 
+the neighborhood of a point can be expressed as the 
+sum of two parts: a deformation velocity field and a solid-
+body rotation with angular velocity ω/2. </p>
+<p>2.3.2. Second Theorem (Vortex Intensity Conservation)</p>
+<p>Intensity of a vortex filament is constant along its length. 
+Vortex filament intensity is conserved and so a vortex 
+filament can’t end within the fluid domain and so must 
+either form a closed loop or end at fluid boundary (can’t 
+be a no-slip boundary).</p>
+<!-- page break -->
+
+<p><img alt="" src="images/aerodynamics-wiki/page-22-image-01.jpeg" /></p>
+<p>Fig. 2. Vortex doesn’t “end” at runway surface</p>
+<p>2.3.3. Third Theorem</p>
+<p>As a vortex tube evolves in time, fluid particles cannot 
+cross the bounding surfaces of the tube, as such the 
+vortex tube is always made up of the same fluid particles. 
+This tells us that for small viscosity, the natural tendency 
+of a vortex tube is to remain anchored to the same 
+material tube, and that vorticity migrates into or out of 
+that material tube only through viscous diffusion.</p>
+<p>2.3.4. Fourth Theorem</p>
+<p>The intensity of a vortex tube is constant regardless of 
+how the tube moves around. </p>
+<p>2.4. 
+Biot-Savart Law 
+If we wanted to invert the velocity to vorticity relationship we 
+would use the Biot-Savart Law.</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-22-image-02.png" /></p>
+<p>Fig. 3. Biot-Savart Law</p>
+<!-- page break -->
+
+<p>𝑈(𝑥, 𝑦, 𝑧) = 𝛤</p>
+<p>𝑟3
+𝑑𝑙</p>
+<p>4𝜋∫ 𝑡 ×  𝑟</p>
+<p>However we have to be careful and realise this does not imply 
+a cause-effect relationship as this would mean some sort of 
+action at a distance induced by the vortex. (Where Γ is the 
+circulation of the vortex)</p>
+<p>Only holds if the following assumptions are made:</p>
+<ol>
+<li>
+<p>The fluid fills all of space.</p>
+</li>
+<li>
+<p>The fluid is at rest at infinity, with the velocity magnitude</p>
+</li>
+</ol>
+<p>1</p>
+<p>at large distances dying off at least as</p>
+<p>𝑟2.</p>
+<ol>
+<li>Vortex Effects</li>
+</ol>
+<p>3.1. 
+Tip Vortices</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-23-image-01.jpeg" /></p>
+<p>Fig. 4. Vortex roll-up at wing tip</p>
+<p>Wing tip vortices form due to a pressure difference between 
+the top and bottom surfaces of a wing inducing a flow from 
+the high pressure side to the lower pressure side. These 
+vortices which can form on wing elements without endplates 
+create upwash and lead to induced drag.</p>
+<!-- page break -->
+
+<p>3.2. 
+Vortex Lift</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-24-image-01.jpeg" /></p>
+<p><img alt="" src="images/aerodynamics-wiki/page-24-image-02.jpeg" /></p>
+<p>Fig. 5. Concorde primarily generated lift through vortices</p>
+<p>Conventional unswept wings generate lift based on the 
+concept of a “bound” vortex. Highly swept wings can continue 
+to generate lift at high angles of attack via vortices generated 
+by leading edge separation. The airspeed within the vortices 
+on the upper surface of the wing is fast and so creates a low 
+pressure region which generates lift.</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-24-image-03.jpeg" /></p>
+<p>Fig. 6. A Concept of the Vortex Lift of Sharp-Edge Delta Wings 
+based on a Leading-Edge suction Analogy, Edward C. Polhamus</p>
+<p>Despite the loss of lift due to separated flow vortex lift 
+enhances a wing's potential flow (baseline) lift value. Strakes 
+operate via this exact same mechanism.</p>
+<!-- page break -->
+
+<ul>
+<li>See Polhamus Theory for more information 
+3.3. 
+Vortex Sealing</li>
+</ul>
+<p><img alt="" src="images/aerodynamics-wiki/page-25-image-01.jpeg" /></p>
+<p><img alt="" src="images/aerodynamics-wiki/page-25-image-02.jpeg" /></p>
+<p>Fig. 7. Bluff body demonstrating vortex sealing on diffuser from</p>
+<p>Willem Toet’s blog</p>
+<p>When seeking downforce from underfloor devices it is 
+beneficial to keep high pressure air from ingressing 
+underneath the car. Vortices are generated anyway from the 
+interaction of the low pressure air of the diffuser and the high 
+pressure atmospheric air outside. Vortex generators on the 
+barge board can be used to direct vortices to the edge of the 
+diffuser sealing the low pressure expanded air from the 
+outside air further.</p>
+<p>3.4. 
+Vortex Breakdown</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-25-image-03.jpeg" /></p>
+<p><img alt="" src="images/aerodynamics-wiki/page-25-image-04.jpeg" /></p>
+<p>Fig. 8. Vortex breakdown on jet (left) and bubble vs. spiral</p>
+<p>breakdown (right)</p>
+<p>Vortex breakdown and loss of a coherent structure occur due 
+to the formation of an internal stagnation point along the 
+vortex axis which is triggered when the flow goes beyond a</p>
+<!-- page break -->
+
+<p>certain value of swirl (much like a critical Reynolds number 
+signalling the onset of turbulence).</p>
+<p>Direct cause of vortex breakdown is still a grey area with 
+theories posited about flow instability upstream of the 
+breakdown point causing an asymmetry in the vortex that 
+leads it to spiral further and further from its axis, however this 
+theory was refuted due to no noticeable instabilities in 
+experimental tests. </p>
+<ol>
+<li>Vortex Identification Methods 
+We know the definition of vorticity is not ideal for practical 
+identification of vortical structures. Methods have been developed to 
+improve upon this definition for practical vortex identification 
+suitable for computation. Both Q-Criterion and Lambda 2 evaluate 
+areas for low pressure cores, which leads to an improvement over 
+the conventional vorticity definition. </li>
+</ol>
+<p>4.1. 
+Velocity Gradient Tensor (Strain-Rate Tensor)</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-26-image-01.png" /></p>
+<p>Fig. 9. Velocity Gradient at Point Near Solid Surface</p>
+<p>Start with a velocity gradient which represents the velocity of a 
+fluid layer at a certain distance from a surface.</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-26-image-02.jpeg" /></p>
+<p>Fig. 10. Fluid Particle Movement is a Superposition of Motions</p>
+<!-- page break -->
+
+<p>Fluid particles experience strain rates (part of deformation) 
+and rotational motions, these are the kinematic (not looking at 
+forces which cause movement) motions of a fluid particle.</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-27-image-01.png" /></p>
+<p>For 3D fluid motion we can create a velocity gradient tensor 
+shown in the matrix above. This matrix can be split into 
+symmetric and antisymmetric components which represent 
+the deformation rate and rotation rate experienced by the 
+fluid particle.</p>
+<p>Symmetric Component (6 Independent Terms):</p>
+<p>𝑆= 1</p>
+<p>2 (𝛻𝑈+ (𝛻𝑈)𝑇) = 𝐷𝑒𝑓𝑜𝑟𝑚𝑎𝑡𝑖𝑜𝑛 𝑅𝑎𝑡𝑒</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-27-image-02.png" /></p>
+<p>where:</p>
+<p>𝜖= 𝑳𝒊𝒏𝒆𝒂𝒓 𝑺𝒕𝒓𝒂𝒊𝒏 𝑹𝒂𝒕𝒆 
+𝛾= 𝑺𝒉𝒆𝒂𝒓 𝑺𝒕𝒓𝒂𝒊𝒏 𝑹𝒂𝒕𝒆 </p>
+<p>Antisymmetric Component (3 Independent Terms):</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-27-image-03.png" /></p>
+<p>1</p>
+<p>Ω=</p>
+<p>2 (𝛻𝑈−(𝛻𝑈)𝑇) = 𝑅𝑜𝑡𝑎𝑡𝑖𝑜𝑛 𝑅𝑎𝑡𝑒</p>
+<!-- page break -->
+
+<p>4.2. 
+Tensor Invariants 
+As an aside, tensor invariants essentially  “eigenvalues” for 
+tensors which means they are independent of a coordinate 
+system.</p>
+<p>𝑃= 𝑡𝑟(𝐴)</p>
+<p>𝑄= 1</p>
+<p>2 ((𝑡𝑟(𝐴))2 −𝑡𝑟(𝐴2))</p>
+<p>𝑅= 𝑑𝑒𝑡(𝐴) </p>
+<p>4.3. 
+Q-Criterion</p>
+<p>Defined to be the positive (𝑄&gt; 0) second principal invariant of</p>
+<p>the velocity gradient tensor (i.e. where 𝑄 is positive, there are 
+vortices).</p>
+<p>𝑄= 1</p>
+<p>2 (||Ω||2 −||𝑆||2)</p>
+<p>Writing the equation out in it’s full form helps us to see the 
+kinematic relations.</p>
+<p>2) + 1</p>
+<p>2)]</p>
+<p>𝑄= (𝜔1</p>
+<p>2 + 𝜔2</p>
+<p>2 + 𝜔3</p>
+<p>2) −[(𝛾1</p>
+<p>2 + 𝛾2</p>
+<p>2 + 𝛾3</p>
+<p>2 + 𝜖2</p>
+<p>2 + 𝜖3</p>
+<p>2 (𝜖1</p>
+<p>𝑄 represents a local balance between the rotation and 
+deformation rates of a fluid element so a vortex is defined to 
+be a region where the antisymmetric component 
+predominates the symmetric one.</p>
+<p>4.4. 
+Lambda 2 
+This method is based on searching for pressure minima across 
+the vortex (but removes the effects from unsteady straining 
+and viscosity by discarding these terms), by taking the 
+gradient of the Navier-Stokes equations and decomposing it 
+into symmetric and antisymmetric parts. Gradient of Navier-
+Stokes equations yields:</p>
+<!-- page break -->
+
+<p>𝑎𝑖𝑗= −1</p>
+<p>𝜌𝑝/𝑖𝑗+ 𝜐𝑢𝑖/𝑗𝑘𝑘</p>
+<p>𝑎𝑖𝑗= [𝐷𝑆𝑖𝑗</p>
+<p>𝐷𝑡+ 𝛺𝑖𝑘𝛺𝑘𝑗+ 𝑆𝑖𝑘𝑆𝑘𝑗] + [𝐷𝛺𝑖𝑗</p>
+<p>𝐷𝑡+ 𝛺𝑖𝑘𝑆𝑘𝑗+ 𝑆𝑖𝑘𝛺𝑘𝑗]</p>
+<p>where 𝑎𝑖𝑗is the acceleration gradient and 𝑝𝑖𝑗(the Hessian of</p>
+<p>the pressure) is symmetric. Decomposing the acceleration 
+gradient into symmetric and antisymmetric parts we get what 
+is known as the vorticity transport equation as the 
+antisymmetric part and the symmetric part:</p>
+<p>𝐷𝑆𝑖𝑗</p>
+<p>𝐷𝑡−𝜐𝑆𝑖𝑗/𝑘𝑘+ 𝛺𝑖𝑘𝛺𝑘𝑗+ 𝑆𝑖𝑘𝑆𝑘𝑗
+= −1</p>
+<p>𝜌𝑝𝑖𝑗</p>
+<p>If 𝑝𝑖𝑗 has two negative eigenvalues, there is a local pressure</p>
+<p>minimum on the plane of the two eigenvectors associated 
+with those eigenvalues.</p>
+<p>The first term on the left-hand side of the equation above 
+represents unsteady irrotational straining and the second</p>
+<p>term represents viscous effects so by considering only 𝑆2 +
+𝛺2 allows one to determine the existence of a local pressure 
+minimum due to vortical motion.</p>
+<p>Since the tensor 𝑆2 + 𝛺2 is symmetric, it has only real 
+eigenvalues. We assume the the eigenvalues are ordered as 
+such:</p>
+<p>𝜆1 ≥𝜆2 ≥𝜆3</p>
+<p>As such we can say that if 𝜆2 &lt; 0 we can conclude that a 
+vortex is present. Essentially this method locally compares</p>
+<p>strain and rotation, requiring 𝜆2 &lt; 0 is equivalent to requiring 
+that some measure of rotation rate prevails over some 
+measure of deformation rate.</p>
+<!-- page break -->
+
+<ol>
+<li>Vortex Devices 
+Vortices are very useful for flow control and are realised in a variety of 
+devices.</li>
+</ol>
+<p><img alt="" src="images/aerodynamics-wiki/page-30-image-01.jpeg" /></p>
+<p><img alt="" src="images/aerodynamics-wiki/page-30-image-02.jpeg" /></p>
+<p>Fig. 12. Vortex generators for flow attachment on sidepod (left) and</p>
+<p>flow attachment on wing device (right)</p>
+<p>Vortex generators are most commonly used for flow 
+reattachment either on steeply curving surfaces (such as 
+sidepods) or wings at high angles of attack. They do this by 
+drawing in high energy air from the freestream. Vortex 
+generators come in many types such as vanes, doublets, 
+wheelers, ramps etc.</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-30-image-03.jpeg" /></p>
+<p>Fig. 13. Bargeboards serve to direct “condition” flow and generate</p>
+<p>vortices</p>
+<p>Vortices also serve to direct air such as with bargeboards 
+which generate a curtain of air for sealing of a diffuser.</p>
+<!-- page break -->
+
+<p>Tire Squirt</p>
+<p>What is tire squirt?</p>
+<p>Tire squirt is the unwanted runoff of air from the contact area at the front of a 
+wheel into aerodynamic devices, and it is most prevalent at the rear of the car, 
+with unwanted air entering and disrupting the diffuser. The result of this air 
+entering the diffuser is that it reduces the efficacy of the device, disturbing the 
+air flowing through the diffuser and reducing the overall downforce produced.</p>
+<p>How is tire squirt created?</p>
+<p>Tire squirt is created by air hitting the front of a moving wheel. This stagnation 
+region (force hitting against an immovable wall effectively) forces the air to 
+shoot off either side of the tire and form vortices. It is defined in traditional 
+aerodynamics as a jetting phenomenon, which is ‘the process of air being 
+squeezed out of the frontal contact patch and is responsible for an area of low 
+pressure’ [1] (figure 1)</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-31-image-01.jpeg" /></p>
+<p>Figure 1: This image shows a particle trace hitting the rear wheel of a FSAE car and being pushed into the 
+diffuser area as a vortex, in a phenomenon known as tire squirt.</p>
+<p>As can be seen in figure 1, when the air hits the rear wheel it is forced to go 
+around the wheel, being pushed into the diffuser area as a vortex. The 
+streamlines in the image show the path of this vortex and the effect it can have</p>
+<!-- page break -->
+
+<p>on a diffuser, something that is made clearer in figure 2.</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-32-image-01.jpeg" /></p>
+<p>Figure 2: This image shows the affect of inwards bound tire squirt. This air moving under the car and into the 
+diffuser region is something that we want to minimise so that the diffuser can work more effectively.</p>
+<p>This image clearly shows the magnitude of the problem that tire squirt can 
+cause. This air entering the diffuser will disrupt the flow under the car and cause 
+a reduction in downforce.</p>
+<p>So you have tire squirt? Can it be avoided?</p>
+<p>In an open wheel car like a FSAE car, the short answer is no. Air will always be 
+hitting the rear wheel so tire squirt will always be an issue in some form, but it 
+can be minimized.</p>
+<p>How do I minimise the effects of tire squirt?</p>
+<p>The effects of tire squirt can be minimised very successfully by adding various 
+small aerodynamic devices called vortex generators. The purpose of these 
+devices, as the name suggests, is to create a vortex. F1 teams use slots built in 
+to the floor of the car (figure 3) to purposefully create a vortex that runs 
+counter to the vortex created by tire squirt. This counter vortex works to 
+effectively ‘cancel out’ the vortex caused by the air hitting the tire. It also works</p>
+<!-- page break -->
+
+<p>to seal the diffuser so that the tire squirt vortex cannot be dragged under the car 
+and into the diffuser area. These slots, as can be seen in figure 3, are also used 
+to direct air around the back of the rear wheel in an attempt to minimise the 
+amount of air hitting the wheel directly. This two-phase solution works to 
+maximise the diffuser potential by keeping it as interference free as possible.</p>
+<p><img alt="" src="images/aerodynamics-wiki/page-33-image-01.jpeg" /></p>
+<p>Figure 3: This image shows the Toro Rosso solution to tire squirt, with slots on the floor of the car trying to 
+both deflect air around the back of the rear wheel to minimise the contact area, and also the straighter slot 
+which serves to create a vortex to seal the diffuser and prevent the vortex created by the tire from entering 
+the diffuser.</p>
+<p>The effect of using slots in the floor to counteract tire squirt can also be applied 
+in the diffuser region or on the sides of the diffuser. This is the strategy most 
+commonly used by FSAE teams as it is the easiest way to separate the high 
+pressure air from the sides of the car from the low pressure air under it. [2]</p>
+<p>Teams in FSAE use vertical diffuser sides to create vortices in the region 
+between the tire and diffuser. This helps to create a seal on the air passing 
+through the diffuser and reduce the chance of separation. [3]</p>
+<p>Our solution:</p>
+<p>For our car, our current solution can be seen in figure 4. The idea of having an 
+extended strake with an ‘inverted T-bar’ inside the diffuser is to create a sealing 
+vortex as close to the ground as possible. The theoretical benefit of this is that 
+the inner region of the diffuser is sealed completely from the vortices caused by 
+tire squirt, which allows it to be undisturbed by the tire squirt, and remain 
+effective.</p>
+<!-- page break -->
+
+<p><img alt="" src="images/aerodynamics-wiki/page-34-image-01.jpeg" /></p>
+<p>Figure 4: This image shows our current diffuser strategy. Note the ‘inverted T-bar’ added to the strake, which 
+is intended to create the sealing vortex to protect the integrity of the flow of the inside of the diffuser.</p>
+<p>References:</p>
+<p>[1]-Sprot, A.J. and Sims-Williams, D.B. and Dominy, R.G. (2012) 'The 
+aerodynamic characteristics of a fully deformable Formula One wind tunnel 
+tyre.', SAE International journal of passenger cars. Mechanical systems., 5 (2). 
+pp. 1026-1041.</p>
+<p>[2]-Gupta, S. and Kishal Saxena. “Aerodynamics analysis of a formula sae car.” 
+(2017).</p>
+<p>[3]-Ehirim, O., "Optimal Diffuser Design for Formula SAE Race Car Using an 
+Innovative Geometry Buildup and CFD Simulation Setup with On-Track Testing 
+Correlation," SAE Technical Paper 2012-01-1169, 2012, 
+https://doi.org/10.4271/2012-01-1169.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

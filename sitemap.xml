@@ -2,142 +2,214 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/contributing/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/competition/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/competition/dynamics/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/competition/scrut/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/competition/scrut/brakes/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/competition/scrut/chassis/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/competition/scrut/noise/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/competition/scrut/safety/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/competition/scrut/tech/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/competition/scrut/tilt/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/competition/statics/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/competition/statics/cost/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://formula-trinity.github.io/ft-wiki/competition/statics/cost/judging/</loc>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://formula-trinity.github.io/ft-wiki/competition/statics/cost/pre_comp_submissions/</loc>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://formula-trinity.github.io/ft-wiki/competition/statics/cost/pre_comp_submissions/CCBOM/</loc>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://formula-trinity.github.io/ft-wiki/competition/statics/cost/pre_comp_submissions/explanations_report/</loc>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://formula-trinity.github.io/ft-wiki/competition/statics/cost/pre_comp_submissions/supporting_docs/</loc>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/competition/statics/design/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/competition/statics/design/design_for_manufacture/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/competition/statics/design/edr/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/competition/statics/design/overall_concept/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/competition/statics/design/pt/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/competition/statics/design/struct_design/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/competition/statics/design/timing_planning/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://formula-trinity.github.io/ft-wiki/design_manufacturing/</loc>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://formula-trinity.github.io/ft-wiki/design_manufacturing/design/</loc>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://formula-trinity.github.io/ft-wiki/design_manufacturing/manufacturing/</loc>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/ftx7/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/ftx7/aero/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://formula-trinity.github.io/ft-wiki/ftx7/aero/aero-wiki/</loc>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://formula-trinity.github.io/ft-wiki/ftx7/aero/extras/</loc>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://formula-trinity.github.io/ft-wiki/ftx7/aero/nosecone-body/</loc>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://formula-trinity.github.io/ft-wiki/ftx7/aero/sidepods/</loc>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/ftx7/aero/subsystem-01/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/ftx7/chassis/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/ftx7/chassis/subsystem-01/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/ftx7/drivetrain/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
-         <loc>https://formula-trinity.github.io/ft-wiki/ftx7/drivetrain/subsystem-01/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <loc>https://formula-trinity.github.io/ft-wiki/ftx7/drivetrain/Glossary%20of%20terms/</loc>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://formula-trinity.github.io/ft-wiki/ftx7/drivetrain/Spool/</loc>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/ftx7/electronics/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/ftx7/electronics/subsystem-01/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/ftx7/electronics/subsystem-02/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/ftx7/powertrain/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/ftx7/powertrain/subsystem-01/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/ftx7/suspension/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
          <loc>https://formula-trinity.github.io/ft-wiki/ftx7/suspension/subsystem-01/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <lastmod>2026-08-27</lastmod>
     </url>
     <url>
-         <loc>https://formula-trinity.github.io/ft-wiki/manufacturing/</loc>
-         <lastmod>2026-08-05</lastmod>
+         <loc>https://formula-trinity.github.io/ft-wiki/ftx7/vehicle-dynamics-tyre-data/</loc>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://formula-trinity.github.io/ft-wiki/ftx7/vehicle-dynamics-tyre-data/lts-data/</loc>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://formula-trinity.github.io/ft-wiki/ftx7/vehicle-dynamics-tyre-data/lts-guide/</loc>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://formula-trinity.github.io/ft-wiki/ftx7/vehicle-dynamics-tyre-data/tyre-data-guide/</loc>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://formula-trinity.github.io/ft-wiki/ftx7/vehicle-dynamics-tyre-data/tyre-data-wiki/</loc>
+         <lastmod>2026-08-27</lastmod>
+    </url>
+    <url>
+         <loc>https://formula-trinity.github.io/ft-wiki/ftx7/vehicle-dynamics-tyre-data/tyre-wiki/</loc>
+         <lastmod>2026-08-27</lastmod>
     </url>
 </urlset>
