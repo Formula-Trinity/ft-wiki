@@ -70,7 +70,13 @@ nav:
           - Subsystem 1: ftx7/drivetrain/subsystem-01/index.md
       - Chassis:
           - ftx7/chassis/index.md
-          - Subsystem 1: ftx7/chassis/subsystem-01/index.md
+          - Firewall: ftx7/chassis/Firewall/index.md
+          - Frame: ftx7/chassis/Frame/index.md
+          - Frame Jig: ftx7/chassis/Frame Jig/index.md
+          - Gear Shifter: ftx7/chassis/Gear Shifter/index.md
+          - Head Rest: ftx7/chassis/Head Rest/index.md
+          - Impact Attenuator: ftx7/chassis/Impact Attenuator/index.md
+          - Seat: ftx7/chassis/Seat/index.md
       - Suspension:
           - ftx7/suspension/index.md
           - Subsystem 1: ftx7/suspension/subsystem-01/index.md
