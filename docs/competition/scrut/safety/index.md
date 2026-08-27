@@ -16,6 +16,8 @@ Bring the complete set of driver equipment for inspection. At FSUK 2026, drivers
 
 - Check that loose items, wiring, hoses and other components are securely retained.
 - Check that the floor, bodywork, intake and fuel rail are securely supported.
+- Check that engine and powertrain mounts are aligned, correctly supported and use appropriate inserts, bearings and fastener retention.
+- Finish and secure the cooling, exhaust, control-cable and gear-shift routing, keeping them clear of hot or moving components.
 - Check bodywork for gaps, movement, rattling and sharp edges.
 - Trim cable ties flush and cover exposed fasteners in the cockpit, especially around the driver's legs.
 - Fit rule-compliant head-restraint padding anywhere the driver's helmet could contact the roll structure, insulation foam is **not** suitable.
