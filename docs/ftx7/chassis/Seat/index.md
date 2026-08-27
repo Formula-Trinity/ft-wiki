@@ -1,1 +1,3 @@
 # Seat
+
+### Points to Note
