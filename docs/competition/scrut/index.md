@@ -25,8 +25,11 @@ The completeness of the pre-scrutineering form determines the team's position in
 - Check [FS Stats](https://www.fsstats.co.uk/) for live information on non-conformities during scrutineering.
 - Bring the most relevant four people for the stage being attempted.
 - Keep the printed rules available with any rules likely to be questioned highlighted.
-- Bring the required supporting documents and physical test samples for the stage.
+- Bring the required supporting documents and physical test samples for the stage. Tab important pages so they can be found quickly.
+- Organise specification sheets and certificates for safety-critical materials and bought parts before the event.
 - Inspect the car in the pits before each attempt, especially after any repair or adjustment.
 - Record issues raised by scrutineers (even warnings).
+
+---
 
 ![scrut sticker](../../assets/images/competition/scrut/scrut_sticker.jpg)

@@ -98,7 +98,7 @@ nav:
       - competition/index.md
       - Static Events:
         - competition/statics/index.md
-        - Design Judging:
+        - Design Judging Event:
           - competition/statics/design/index.md
           - Engineering Design Report: competition/statics/design/edr.md
           - Overall Vehicle Concept: competition/statics/design/overall_concept.md
@@ -106,7 +106,15 @@ nav:
           - Powertrain Concept & Choice, Simulation, Design & Analysis: competition/statics/design/pt.md
           - Overall Timing, Manufacturing, Procurement Plan plus Team Organisation Plan: competition/statics/design/timing_planning.md
           - Design for Manufacture & Profit, Customer Respect and Innovation: competition/statics/design/design_for_manufacture.md
-        - Cost & Manufacturing Judging: competition/statics/cost/index.md
+        - Cost & Manufacturing Event:
+          - competition/statics/cost/index.md
+          - Cost Report Documents:
+            - competition/statics/cost/pre_comp_submissions/index.md
+            - CCBOM: competition/statics/cost/pre_comp_submissions/CCBOM.md
+            - Cost & Emissions Explanation Report: competition/statics/cost/pre_comp_submissions/explanations_report.md
+            - Supporting Materials: competition/statics/cost/pre_comp_submissions/supporting_docs.md
+          - Cost & Manufacturing Judging: competition/statics/cost/judging/index.md
+
       - Scrutineering:
         - competition/scrut/index.md
         - Tech: competition/scrut/tech/index.md
