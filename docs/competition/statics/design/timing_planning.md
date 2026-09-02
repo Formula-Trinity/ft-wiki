@@ -32,4 +32,8 @@ workshop due to size.
 
 ## Team Debrief Notes
 
-**Add notes here:** Record verbal judging comments, questions asked, what evidence worked well, and what should be prepared earlier next year.
+**NOTE:** *These notes were recorded by team members immediately after judging. They summarise verbal comments and questions from the judges and should not be treated as official feedback.*
+
+- Include validation activities in the project plan, particularly when introducing a new design or process.
+- Allocate enough time to act on test results rather than scheduling validation immediately before competition.
+- When the plan changes, record what changed, why it changed and what the team did in response.

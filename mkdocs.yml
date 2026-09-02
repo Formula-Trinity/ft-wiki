@@ -7,9 +7,6 @@ site_description: Engineering documentation for Formula Trinity
 site_url: https://formula-trinity.github.io/ft-wiki/
 # repo_url: https://github.com/Formula-Trinity/ft-wiki
 
-extra:
-  generator: false
-
 extra_css:
   - stylesheets/extra.css
 
@@ -64,16 +61,19 @@ nav:
       - ftx7/index.md
       - Powertrain:
           - ftx7/powertrain/index.md
-          - Subsystem 1: ftx7/powertrain/subsystem-01/index.md
       - Drivetrain:
           - ftx7/drivetrain/index.md
-          - Subsystem 1: ftx7/drivetrain/subsystem-01/index.md
       - Chassis:
           - ftx7/chassis/index.md
-          - Subsystem 1: ftx7/chassis/subsystem-01/index.md
+          - Firewall: ftx7/chassis/Firewall/index.md
+          - Frame: ftx7/chassis/Frame/index.md
+          - Frame Jig: ftx7/chassis/Frame Jig/index.md
+          - Gear Shifter: ftx7/chassis/Gear Shifter/index.md
+          - Head Rest: ftx7/chassis/Head Rest/index.md
+          - Impact Attenuator: ftx7/chassis/Impact Attenuator/index.md
+          - Seat: ftx7/chassis/Seat/index.md
       - Suspension:
           - ftx7/suspension/index.md
-          - Subsystem 1: ftx7/suspension/subsystem-01/index.md
       - Aero:
           - ftx7/aero/index.md
           - Subsystem 1: ftx7/aero/subsystem-01/index.md
@@ -92,13 +92,15 @@ nav:
           - ftx7/electronics/index.md
           - Subsystem 1: ftx7/electronics/subsystem-01/index.md
           - Subsystem 2: ftx7/electronics/subsystem-02/index.md
-  - Manufacturing:
-      - manufacturing/index.md
+  - Design & Manufacturing:
+      - design_manufacturing/index.md
+      - Design Guides: design_manufacturing/design/index.md
+      - Manufacturing Guides: design_manufacturing/manufacturing/index.md
   - Competition Overview:
       - competition/index.md
       - Static Events:
         - competition/statics/index.md
-        - Design Judging:
+        - Design Judging Event:
           - competition/statics/design/index.md
           - Engineering Design Report: competition/statics/design/edr.md
           - Overall Vehicle Concept: competition/statics/design/overall_concept.md
@@ -106,7 +108,15 @@ nav:
           - Powertrain Concept & Choice, Simulation, Design & Analysis: competition/statics/design/pt.md
           - Overall Timing, Manufacturing, Procurement Plan plus Team Organisation Plan: competition/statics/design/timing_planning.md
           - Design for Manufacture & Profit, Customer Respect and Innovation: competition/statics/design/design_for_manufacture.md
-        - Cost & Manufacturing Judging: competition/statics/cost/index.md
+        - Cost & Manufacturing Event:
+          - competition/statics/cost/index.md
+          - Cost Report Documents:
+            - competition/statics/cost/pre_comp_submissions/index.md
+            - CCBOM: competition/statics/cost/pre_comp_submissions/CCBOM.md
+            - Cost & Emissions Explanation Report: competition/statics/cost/pre_comp_submissions/explanations_report.md
+            - Supporting Materials: competition/statics/cost/pre_comp_submissions/supporting_docs.md
+          - Cost & Manufacturing Judging: competition/statics/cost/judging/index.md
+
       - Scrutineering:
         - competition/scrut/index.md
         - Tech: competition/scrut/tech/index.md

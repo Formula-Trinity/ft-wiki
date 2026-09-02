@@ -32,4 +32,8 @@ compliance both questionable.
 
 ## Team Debrief Notes
 
-**Add notes here:** Record verbal judging comments, questions asked, what evidence worked well, and what should be prepared earlier next year.
+**NOTE:** *These notes were recorded by team members immediately after judging. They summarise verbal comments and questions from the judges and should not be treated as official feedback.*
+
+- Support simulation and design calculations with physical testing wherever possible.
+- Force and displacement measurements on suspension and structural members can be used to validate predicted behaviour.
+- Define the expected result before testing and record discrepancies honestly. For example, if measured suspension travel is substantially different from the prediction, explain the difference and how the design or model will be updated.
