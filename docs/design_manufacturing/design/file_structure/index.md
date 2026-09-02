@@ -60,20 +60,16 @@ The file name for a front upright would be **SUS-UPR-0201-FRONT UPRIGHT**
 
 ### BAD FILES
 
-PHOTO HERE
+![Bad file structure example](../assets/BAD_FILES.png)
 
 - Not following naming convention
 - Not separated by sub-assembly
-- Unclear name convention (What is snr_mucnfl205-0 ?????)
+- Unclear name convention (What is snr_mucnf1205_0 ??????)
 
 ### GOOD FILES
 
-PHOTO HERE
+![Good file structure example](../assets/GOOD_FILES.png)
 
 - Following naming convention
 - In a separate sub-assembly folder
 - Clear plain english naming
-
-
-
-
