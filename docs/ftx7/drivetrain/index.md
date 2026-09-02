@@ -13,19 +13,12 @@ In the case of FTX-7, the main design choice was choosing to use a **spool** rat
 
 ### Drivetrain System
 
-<ul>
-  <li>16 tooth driven sprocket</li>
-  <li>42 tooth drive sprocket</li>
-  <li>
-    <a href="../Spool/">Spool Assembly</a>
-    <ul>
-      <li>Left Spool Flange</li>
-      <li>Spool Centre</li>
-      <li>Right Spool Flange</li>
-    </ul>
-  </li>
-</ul>
-
+- 16 tooth driven sprocket
+- 42 tooth drive sprocket
+- [Spool Assembly](../Spool/)
+  - Left Spool Flange
+  - Spool Centre
+  - Right Spool Flange
 ### Brake System
 
 <ul>
