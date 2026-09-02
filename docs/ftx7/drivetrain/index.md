@@ -19,19 +19,14 @@ In the case of FTX-7, the main design choice was choosing to use a **spool** rat
   - Left Spool Flange
   - Spool Centre
   - Right Spool Flange
+
 ### Brake System
 
-<ul>
-  <li>Brake Disc</li>
-
-  <li>
-    Mazda MX-5 half shaft assembly ×2
-    <ul>
-      <li>Inner CV joint</li>
-      <li>Half shaft</li>
-      <li>Outer CV joint</li>
-    </ul>
-  </li>
+- Brake Disc
+- Mazda MX-5 half shaft assembly ×2
+  - Inner CV joint
+  - Half shaft
+  - Outer CV joint
 
   <li>Mazda MX-5 wheel hub ×2</li>
   <li>Custom CNC mounts ×2</li>
