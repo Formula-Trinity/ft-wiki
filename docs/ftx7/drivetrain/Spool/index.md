@@ -6,11 +6,9 @@ A spool is essentially the opposite of a differential. A differential allows the
 
 The main reasons for opting to use a spool were:
 
-<ul>
-  <li>Cost (cheaper than a differential)</li>
-  <li>Weight (lighter than a differential)</li>
-  <li>Not an off-the-shelf part (more to discuss with judges at competition)</li>
-</ul>
+- Cost (cheaper than a differential)
+- Weight (lighter than a differential)
+- Not an off-the-shelf part (more to discuss with judges at competition)
 
 The decision to opt for a spool did lead to significant knock-on effects in other departments, which is expanded on in their respective wiki pages. The main department impacted was suspension, who implemented a high roll centre, decreased rear track width and jacking in order to combat the lack of differential action.
 
