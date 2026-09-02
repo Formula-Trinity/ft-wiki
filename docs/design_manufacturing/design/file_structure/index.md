@@ -56,6 +56,24 @@ The file name for the steering column would be ***SUS-STR-0102-STEERING COLUMN**
 
 The file name for a front upright would be **SUS-UPR-0201-FRONT UPRIGHT**
 
+## EXAMPLES
+
+### BAD FILES
+
+PHOTO HERE
+
+- Not following naming convention
+- Not separated by sub-assembly
+- Unclear name convention (What is snr_mucnfl205-0 ?????)
+
+### GOOD FILES
+
+PHOTO HERE
+
+- Following naming convention
+- In a separate sub-assembly folder
+- Clear plain english naming
+
 
 
 
