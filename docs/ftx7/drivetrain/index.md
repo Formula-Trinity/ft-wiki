@@ -28,19 +28,13 @@ In the case of FTX-7, the main design choice was choosing to use a **spool** rat
   - Half shaft
   - Outer CV joint
 
-  <li>Mazda MX-5 wheel hub ×2</li>
-  <li>Custom CNC mounts ×2</li>
-  <li>Wilwood GP200 brake calipers ×3</li>
-  <li>Copper brake hard lines</li>
-  <li>Custom PTFE flex lines</li>
-
-  <li>
-    Pedal box assembly
-    <ul>
-      <li>Pedal box</li>
-      <li>Wilwood master cylinder ×2</li>
-    </ul>
-  </li>
-</ul>
+- Mazda MX-5 wheel hub ×2
+- Custom CNC mounts ×2
+- Wilwood GP200 brake calipers ×3
+- Copper brake hard lines
+- Custom PTFE flex lines
+- Pedal box assembly
+  - Pedal box
+  - Wilwood master cylinder ×2
 
 Each of these are expanded upon in their corresponding section on the wiki
