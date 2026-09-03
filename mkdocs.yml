@@ -94,8 +94,22 @@ nav:
           - Subsystem 2: ftx7/electronics/subsystem-02/index.md
   - Design & Manufacturing:
       - design_manufacturing/index.md
-      - Design Guides: design_manufacturing/design/index.md
-      - Manufacturing Guides: design_manufacturing/manufacturing/index.md
+      - Design: design_manufacturing/design/index.md
+      - Manufacturing:
+          - design_manufacturing/manufacturing/index.md
+          - General Principles: design_manufacturing/manufacturing/manufacturing-guide.md
+          - Process Guides:
+              - design_manufacturing/manufacturing/processes/index.md
+              - Bent Sheet Metal: design_manufacturing/manufacturing/processes/sheet-metal-bent.md
+              - Welded Sheet Metal: design_manufacturing/manufacturing/processes/sheet-metal-welded.md
+              - Tube & Box-Section Weldments: design_manufacturing/manufacturing/processes/tube-box-weldments.md
+              - CNC Milling: design_manufacturing/manufacturing/processes/cnc-milled.md
+              - Lathe Parts: design_manufacturing/manufacturing/processes/lathe-parts.md
+          - Workshop Reference:
+              - design_manufacturing/manufacturing/workshop-reference/index.md
+              - Materials & Stock: design_manufacturing/manufacturing/workshop-reference/materials-stock.md
+              - Fasteners: design_manufacturing/manufacturing/workshop-reference/fasteners.md
+              - Indicative Costs: design_manufacturing/manufacturing/workshop-reference/indicative-costs.md
   - Competition Overview:
       - competition/index.md
       - Static Events:
