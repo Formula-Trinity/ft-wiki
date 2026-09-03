@@ -6,5 +6,5 @@ Design and manufacturing are closely linked. Manufacturing should be considered 
 
 ## Guides
 
-- [Design Guides](./design/index.md)
-- [Manufacturing Guides](./manufacturing/index.md)
+- [Design](./design/index.md)
+- [Manufacturing](./manufacturing/index.md)
