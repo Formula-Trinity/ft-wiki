@@ -1,0 +1,5270 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Engineering documentation for Formula Trinity">
+      
+      
+      
+        <link rel="canonical" href="https://formula-trinity.github.io/ft-wiki/ftx7/rules/section-t/3-general-chassis-design/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>General Chassis Design - Formula Trinity Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#general-chassis-design" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Formula Trinity Wiki" class="md-header__button md-logo" aria-label="Formula Trinity Wiki" data-md-component="logo">
+      
+  <img src="../../../../assets/images/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Formula Trinity Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              General Chassis Design
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  FTX7
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../design_manufacturing/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Design & Manufacturing
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../competition/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Competition Overview
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../contributing/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  How to Contribute
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Formula Trinity Wiki" class="md-nav__button md-logo" aria-label="Formula Trinity Wiki" data-md-component="logo">
+      
+  <img src="../../../../assets/images/logo.png" alt="logo">
+
+    </a>
+    Formula Trinity Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FTX7
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    FTX7
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../powertrain/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Powertrain
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Powertrain
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../drivetrain/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drivetrain
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Drivetrain
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../chassis/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chassis
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chassis
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../chassis/Firewall/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Firewall
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../chassis/Frame/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frame
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../chassis/Frame%20Jig/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frame Jig
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../chassis/Gear%20Shifter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gear Shifter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../chassis/Head%20Rest/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Head Rest
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../chassis/Impact%20Attenuator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Impact Attenuator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../chassis/Seat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Seat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../suspension/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Suspension
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Suspension
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../aero/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aero
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Aero
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../aero/subsystem-01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subsystem 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../aero/aero-wiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aero Wiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../aero/nosecone-body/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nosecone & Body
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../aero/sidepods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sidepods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../aero/extras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Extras
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../vehicle-dynamics-tyre-data/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vehicle Dynamics & Tyre Data
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_7" id="__nav_2_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Vehicle Dynamics & Tyre Data
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../vehicle-dynamics-tyre-data/tyre-wiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tyre Wiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../vehicle-dynamics-tyre-data/tyre-data-wiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tyre Data Wiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../vehicle-dynamics-tyre-data/tyre-data-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tyre Data Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../vehicle-dynamics-tyre-data/lts-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LTS Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../vehicle-dynamics-tyre-data/lts-data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LTS Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../electronics/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Electronics
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_8" id="__nav_2_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Electronics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../electronics/subsystem-01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subsystem 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../electronics/subsystem-02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subsystem 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../design_manufacturing/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design & Manufacturing
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Design & Manufacturing
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../design_manufacturing/design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design Guides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../design_manufacturing/manufacturing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manufacturing Guides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../competition/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Competition Overview
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Competition Overview
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../competition/statics/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Static Events
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Static Events
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../competition/statics/design/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design Judging Event
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2_2" id="__nav_4_2_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Design Judging Event
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/statics/design/edr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineering Design Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/statics/design/overall_concept/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overall Vehicle Concept
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/statics/design/struct_design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structural Design inc. Suspension & Brakes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/statics/design/pt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Powertrain Concept & Choice, Simulation, Design & Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/statics/design/timing_planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overall Timing, Manufacturing, Procurement Plan plus Team Organisation Plan
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/statics/design/design_for_manufacture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design for Manufacture & Profit, Customer Respect and Innovation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../competition/statics/cost/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost & Manufacturing Event
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2_3" id="__nav_4_2_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Cost & Manufacturing Event
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_3_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../competition/statics/cost/pre_comp_submissions/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost Report Documents
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2_3_2" id="__nav_4_2_3_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_4_2_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Cost Report Documents
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/statics/cost/pre_comp_submissions/CCBOM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CCBOM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/statics/cost/pre_comp_submissions/explanations_report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost & Emissions Explanation Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/statics/cost/pre_comp_submissions/supporting_docs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Supporting Materials
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/statics/cost/judging/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost & Manufacturing Judging
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../competition/scrut/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scrutineering
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Scrutineering
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/scrut/tech/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tech
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/scrut/safety/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Safety
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/scrut/chassis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chassis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/scrut/tilt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tilt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/scrut/noise/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Noise
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/scrut/brakes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brakes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../competition/dynamics/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dynamic Events
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Dynamic Events
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Contribute
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#t31-general-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.1 General Requirements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="T3.1 General Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t311" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.1.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t32-minimum-material-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.2 Minimum Material Requirements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="T3.2 Minimum Material Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t321" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.2.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#table-3-minimum-material-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Table 3: Minimum Material Requirements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Table 3: Minimum Material Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t322" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.2.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t323" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.2.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t324" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.2.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t325" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.2.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t326" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.2.6
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t327" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.2.7
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t328" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.2.8
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t33-alternative-materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.3 Alternative Materials
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="T3.3 Alternative Materials">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t331" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.3.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t332" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.3.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t333" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.3.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t34-composite-structures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.4 Composite Structures
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="T3.4 Composite Structures">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t341" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.4.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t342" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.4.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t343" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.4.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t344" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.4.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t345" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.4.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t346" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.4.6
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t35-laminate-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.5 Laminate Testing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="T3.5 Laminate Testing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t351" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.5.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t352" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.5.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t353" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.5.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t354" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.5.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t355" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.5.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t356" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.5.6
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t357" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.5.7
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t358" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.5.8
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t359" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.5.9
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3510" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.5.10
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3511" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.5.11
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3512" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.5.12
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t36-structural-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.6 Structural Documentation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="T3.6 Structural Documentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t361" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.6.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t362" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.6.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t363" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.6.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t364" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.6.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t365" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.6.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t366" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.6.6
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t367" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.6.7
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t368" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.6.8
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t37-roll-hoops" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.7 Roll Hoops
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="T3.7 Roll Hoops">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t371" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.7.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t372" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.7.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t373" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.7.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t374" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.7.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t375" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.7.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t376" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.7.6
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t38-main-hoop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.8 Main Hoop
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="T3.8 Main Hoop">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t381" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.8.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t382" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.8.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t383" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.8.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t384" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.8.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t39-front-hoop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.9 Front Hoop
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="T3.9 Front Hoop">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t391" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.9.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t392" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.9.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t393" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.9.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t394" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.9.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t395" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.9.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t310-main-hoop-bracing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.10 Main Hoop Bracing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="T3.10 Main Hoop Bracing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t3101" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.10.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3102" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.10.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3103" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.10.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3104" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.10.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3105" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.10.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3106" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.10.6
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t311-front-hoop-bracing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.11 Front Hoop Bracing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="T3.11 Front Hoop Bracing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t3111" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.11.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3112" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.11.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3113" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.11.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3114" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.11.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3115" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.11.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t312-mechanically-attached-roll-hoop-bracing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.12 Mechanically Attached Roll Hoop Bracing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="T3.12 Mechanically Attached Roll Hoop Bracing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t3121" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.12.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3122" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.12.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3123" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.12.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3124" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.12.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3125" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.12.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t313-front-bulkhead" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.13 Front Bulkhead
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="T3.13 Front Bulkhead">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t3131" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.13.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3132" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.13.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3133" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.13.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t314-front-bulkhead-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.14 Front Bulkhead Support
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="T3.14 Front Bulkhead Support">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t3141" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.14.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3142" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.14.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3143" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.14.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3144" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.14.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t315-impact-structures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.15 Impact Structures
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="T3.15 Impact Structures">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t3151" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.15.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3152" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.15.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3153" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.15.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3154" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.15.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t316-bolted-primary-structure-attachments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.16 Bolted Primary Structure Attachments
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="T3.16 Bolted Primary Structure Attachments">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t3161" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.16.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3162" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.16.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3163" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.16.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3164" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.16.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3165" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.16.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3166" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.16.6
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3167" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.16.7
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t317-impact-attenuator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.17 Impact Attenuator
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="T3.17 Impact Attenuator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t3171" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.17.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3172" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.17.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3173" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.17.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3174" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.17.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3175" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.17.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3176" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.17.6
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3177" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.17.7
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3178" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.17.8
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3179" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.17.9
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t31710" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.17.10
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t318-impact-attenuator-data-requirement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.18 Impact Attenuator Data Requirement
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="T3.18 Impact Attenuator Data Requirement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t3181" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.18.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3182" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.18.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3183" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.18.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3184" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.18.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3185" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.18.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3186" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.18.6
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t319-impact-attenuator-test-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.19 Impact Attenuator Test Requirements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="T3.19 Impact Attenuator Test Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t3191" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.19.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3192" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.19.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3193" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.19.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3194" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.19.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3195" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.19.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3196" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.19.6
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t320-non-crushable-objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.20 Non-Crushable Objects
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="T3.20 Non-Crushable Objects">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#t3201" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.20.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#t3202" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        T3.20.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="general-chassis-design">General Chassis Design<a class="headerlink" href="#general-chassis-design" title="Permanent link">&para;</a></h1>
+<h3 id="t31-general-requirements">T3.1 General Requirements<a class="headerlink" href="#t31-general-requirements" title="Permanent link">&para;</a></h3>
+<h5 id="t311">T3.1.1<a class="headerlink" href="#t311" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Among other requirements, the vehicle’s structure must include:</p>
+<ul>
+<li>Two Roll Hoops that are braced</li>
+<li>A Front Bulkhead with support system and Impact Attenuator (IA)</li>
+<li>Side Impact Structures</li>
+</ul>
+</blockquote>
+<h3 id="t32-minimum-material-requirements">T3.2 Minimum Material Requirements<a class="headerlink" href="#t32-minimum-material-requirements" title="Permanent link">&para;</a></h3>
+<h5 id="t321">T3.2.1<a class="headerlink" href="#t321" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Table 3 shows the minimum requirements for the members of the Primary Structure if
+made from steel tubing.</p>
+</blockquote>
+<h3 id="table-3-minimum-material-requirements">Table 3: Minimum Material Requirements<a class="headerlink" href="#table-3-minimum-material-requirements" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Item or application</th>
+<th style="text-align: right;">Minimum wall thickness</th>
+<th style="text-align: right;">Minimum cross-sectional area</th>
+<th style="text-align: right;">Minimum area moment of inertia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main and front hoops, shoulder harness mounting bar</td>
+<td style="text-align: right;">2.0mm</td>
+<td style="text-align: right;">173mm²</td>
+<td style="text-align: right;">11320mm⁴</td>
+</tr>
+<tr>
+<td>Side impact structure, front bulkhead, roll hoop bracing, driver’s restraint harness attachment (except as noted above)</td>
+<td style="text-align: right;">1.2mm</td>
+<td style="text-align: right;">119 mm²</td>
+<td style="text-align: right;">8509 mm⁴</td>
+</tr>
+<tr>
+<td>Front bulkhead support, main hoop bracing supports</td>
+<td style="text-align: right;">1.2mm</td>
+<td style="text-align: right;">91 mm²</td>
+<td style="text-align: right;">6695 mm⁴</td>
+</tr>
+</tbody>
+</table>
+<p><small><em>Minimum Material Requirements</em></small></p>
+<h5 id="t322">T3.2.2<a class="headerlink" href="#t322" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The Primary Structure of the car must be constructed of:
+- Round, mild or alloy steel (minimum 0.1% carbon) of the minimum dimensions specified
+in <a href="#t321">T3.2.1</a>
+- Approved ‘Alternative Materials’ as per <a href="#t33-alternative-materials">T3.3</a>.
+- Approved ‘Composite Structure’ as per <a href="#t34-composite-structures">T3.4</a>.</p>
+</blockquote>
+<h5 id="t323">T3.2.3<a class="headerlink" href="#t323" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Except for inspection holes, any holes drilled in any part which is a member of the Primary
+Structure must be documented in the SES.</p>
+</blockquote>
+<h5 id="t324">T3.2.4<a class="headerlink" href="#t324" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The steel properties used for the calculations in the SES must be the lower of either the
+material datasheet properties or:</p>
+<p>Non-welded strength for continuous material calculations:</p>
+<p>i. Young’s Modulus (E) = 200 GPa
+ii. Yield Strength (Sy) = 305 MPa
+iii. Ultimate Strength (Su) = 365 MPa</p>
+<p>Welded strength for discontinuous material such as joint calculations:</p>
+<p>i. Yield Strength (Sy) = 180 MPa
+ii. Ultimate Strength (Su) = 300 MPa</p>
+</blockquote>
+<h5 id="t325">T3.2.5<a class="headerlink" href="#t325" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Any tubing with a wall thickness less than 1.2mm or a minimum area moment of inertia
+less than 6695 mm4 is considered non-structural and will be ignored when assessing
+compliance to any rule regarding the vehicle structure.</p>
+</blockquote>
+<h5 id="t326">T3.2.6<a class="headerlink" href="#t326" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>If a member of the Primary Structure (except for the roll hoops) is a bent tube or made
+from multiple tubes an additional tube must support it. This support tube must:</p>
+<ul>
+<li>Have its attachment point at the position along the bend tube where it deviates farthest
+from a straight line connecting both ends.</li>
+<li>Be of the same dimension as the supported tube(s).</li>
+<li>Terminate at a node of the chassis.</li>
+<li>Be angled no more than 30° from the plane of the supported tube(s).</li>
+</ul>
+</blockquote>
+<h5 id="t327">T3.2.7<a class="headerlink" href="#t327" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Any welded seams shape must not be mechanically altered in any way.</p>
+</blockquote>
+<h5 id="t328">T3.2.8<a class="headerlink" href="#t328" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Where bonded joints are applicable and governed by the rules, a 50% reduction shall be
+applied to all datasheet adhesive values. Properties from adhesive tests must be derived
+from a statistically significant number of samples. Bonded joints in the Primary Structure
+must be documented in the SES.</p>
+</blockquote>
+<h3 id="t33-alternative-materials">T3.3 Alternative Materials<a class="headerlink" href="#t33-alternative-materials" title="Permanent link">&para;</a></h3>
+<h5 id="t331">T3.3.1<a class="headerlink" href="#t331" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Alternative materials may be used for all parts of the Primary Structure and the TSAC with
+the following exceptions:</p>
+<ul>
+<li>The main hoop and the main hoop bracing must be steel</li>
+<li>The front hoop must be metal</li>
+<li>Any welded structures of the Primary Structure must be steel</li>
+<li>However, the front hoop may be an aluminium welded structure</li>
+</ul>
+</blockquote>
+<h5 id="t332">T3.3.2<a class="headerlink" href="#t332" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>If any materials other than steel tubing are used in the Primary Structure or the TSAC,
+physical testing is required to show equivalency to the minimum material properties for
+steel in <a href="#t32-minimum-material-requirements">T3.2</a>.</p>
+</blockquote>
+<h5 id="t333">T3.3.3<a class="headerlink" href="#t333" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Fibre reinforced laminate composites are the only permitted non-metallic alternative
+material for safety-critical components, parts of the Primary Structure, the steering, brake
+and suspension systems.</p>
+</blockquote>
+<h3 id="t34-composite-structures">T3.4 Composite Structures<a class="headerlink" href="#t34-composite-structures" title="Permanent link">&para;</a></h3>
+<h5 id="t341">T3.4.1<a class="headerlink" href="#t341" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>If composite structures are used in the Primary Structure or the TSAC, the Flexural Rigidity
+(EI) of that structure must be calculated with the tools and formulas in the SES. Any panel
+calculation must have the same composition as the structure used in the actual Primary
+Structure or TSAC.</p>
+<p>The actual geometry and curvature of the panel may be taken into account for the main
+hoop bracing support, the front hoop bracing, the front bulkhead support structure and the
+shoulder harness bar, provided the flat panel EI equivalency is greater than 60% of the
+actual EI.
+For all other areas the EI must be calculated as the EI of a flat panel about its neutral axis.</p>
+</blockquote>
+<h5 id="t342">T3.4.2<a class="headerlink" href="#t342" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>If composite materials are used in the Primary Structure or the TSAC the SES must include:</p>
+<ul>
+<li>Material type(s)</li>
+<li>Cloth weights</li>
+<li>Resin type</li>
+<li>Fibre orientation</li>
+<li>Number of layers</li>
+<li>Core material</li>
+<li>Lay-up technique</li>
+<li>3-point-bend test and shear test data (AIPs are exempt from this, but must comply with <a href="#t3173">T3.17.3</a> or <a href="#t3175">T3.17.5</a>.</li>
+</ul>
+</blockquote>
+<h5 id="t343">T3.4.3<a class="headerlink" href="#t343" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>For any laminate in the Primary Structure or the TSAC, the maximum weight content of
+parallel fibres, relative to the weight of all fibres in the laminate, is 50%. All fibres whose
+orientation fall within any 20° winder (+/-10°) count as parallel.</p>
+</blockquote>
+<h5 id="t344">T3.4.4<a class="headerlink" href="#t344" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>If an asymmetrical lay-up is used in the Primary Structure, the thinner skin must have a
+thickness &gt;= 40% of the thicker skin, or 1mm, whichever is less.</p>
+</blockquote>
+<h5 id="t345">T3.4.5<a class="headerlink" href="#t345" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Wherever backing plates are required, they must be fully supported by the structure they
+are attached to.</p>
+</blockquote>
+<h5 id="t346">T3.4.6<a class="headerlink" href="#t346" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Unidirectional fibres are not permitted in the outermost layer of any Primary Structure
+laminate.</p>
+</blockquote>
+<h3 id="t35-laminate-testing">T3.5 Laminate Testing<a class="headerlink" href="#t35-laminate-testing" title="Permanent link">&para;</a></h3>
+<h5 id="t351">T3.5.1<a class="headerlink" href="#t351" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>If composite materials are used for any part of the Primary Structure or the TSAC the team
+must:</p>
+<ul>
+<li>Build a representative test panel which must measure exactly 275mm × 500mm that has
+the same design, laminate and fabrication method as used for the respective part of the
+Primary Structure represented as a flat panel. The sides of the test panel must not be
+laminated (core material must be visible).</li>
+<li>Perform a 3-point bending test on this panel</li>
+<li>The data from these tests and pictures of the test samples and test setup must be
+included in the SES. In the pictures, the following must be identifiable: distance between
+the two supports, dimensions of the load applicator and test sample marking as per
+<a href="#t356">T3.5.6</a>. The test results must be used to derive strength and stiffness properties used in
+the SES formula for all laminate panels.</li>
+<li>Where a TSAC panel core thickness is &lt;=5mm, it is permitted to use a smaller 150mm x
+275mm test panel. The distance between the test panel supports must be &gt;=200mm
+and the load applicator must have a radius &gt;=5mm.</li>
+</ul>
+</blockquote>
+<h5 id="t352">T3.5.2<a class="headerlink" href="#t352" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>If a panel represents side impact structure it must be proven that it has at least the same
+properties as two steel tubes meeting the requirements for side impact structure tubes for
+buckling modulus, yield strength and absorbed energy.</p>
+</blockquote>
+<h5 id="t353">T3.5.3<a class="headerlink" href="#t353" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>A baseline 3-point bending test, performed with steel tube(s), must demonstrate a
+minimum rig compliance of 85% and be documented in the SES.</p>
+</blockquote>
+<h5 id="t354">T3.5.4<a class="headerlink" href="#t354" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Composite structures with different core thicknesses but otherwise identical construction
+may use material properties derived from a single test panel, except for the Front Bulkhead
+and Side Impact Structure. The panel with the thicker core must be tested and the
+structure using derived material properties may not use a core thickness of less than 67 %
+of the tested panel.</p>
+</blockquote>
+<h5 id="t355">T3.5.5<a class="headerlink" href="#t355" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>When a laminate is not quasi-isotropic i.e. the strength and stiffness is not equal in all
+directions, the results from the 3-point bending test must be assigned to the 0o lay-up
+direction and the properties oriented according to the chassis in the SES.</p>
+</blockquote>
+<h5 id="t356">T3.5.6<a class="headerlink" href="#t356" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The test samples must be presented at technical inspection. All samples must be marked
+with the laminated structure acronym and date of testing, using permanent marker,
+engraving or laser etching.</p>
+</blockquote>
+<h5 id="t357">T3.5.7<a class="headerlink" href="#t357" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The distance between the two test panel supports must be at least 400 mm.</p>
+</blockquote>
+<h5 id="t358">T3.5.8<a class="headerlink" href="#t358" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The load applicator used to test any panel or tube must be metallic and have a radius of
+50mm, other than deviations allowed under <a href="#t351">T.3.5.1</a>.</p>
+</blockquote>
+<h5 id="t359">T3.5.9<a class="headerlink" href="#t359" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The load applicator must overhang the test piece to prevent edge loading.</p>
+</blockquote>
+<h5 id="t3510">T3.5.10<a class="headerlink" href="#t3510" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>There must be no material between the load applicator and the test piece.</p>
+</blockquote>
+<h5 id="t3511">T3.5.11<a class="headerlink" href="#t3511" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Perimeter shear tests must be completed which measure the force required to push or pull
+a 25 mm diameter flat punch through a flat laminate sample.</p>
+<p>The sample must be at least 100mm × 100mm. Core and skin thicknesses must be identical
+to those used in the actual chassis structure and be manufactured using the same materials
+and processes.</p>
+<p>Where an asymmetrical lay-up is used, the thinner skin must face the punch.</p>
+</blockquote>
+<h5 id="t3512">T3.5.12<a class="headerlink" href="#t3512" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The test fixture must support the entire sample, except for a 32mm hole aligned co-axially
+with the punch. The sample must not be clamped to the fixture.</p>
+</blockquote>
+<h3 id="t36-structural-documentation">T3.6 Structural Documentation<a class="headerlink" href="#t36-structural-documentation" title="Permanent link">&para;</a></h3>
+<h5 id="t361">T3.6.1<a class="headerlink" href="#t361" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>All teams must submit a Structural Equivalency Spreadsheet (SES).</p>
+</blockquote>
+<h5 id="t362">T3.6.2<a class="headerlink" href="#t362" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The SES spreadsheet form can be downloaded from the competition website.</p>
+</blockquote>
+<h5 id="t363">T3.6.3<a class="headerlink" href="#t363" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>SE3D submission is not required for Formula Student UK.</p>
+</blockquote>
+<h5 id="t364">T3.6.4<a class="headerlink" href="#t364" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Vehicles must be fabricated in accordance with the materials and processes described in
+the SES.</p>
+</blockquote>
+<h5 id="t365">T3.6.5<a class="headerlink" href="#t365" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Teams must bring a copy of the approved SES to technical inspection.</p>
+</blockquote>
+<h5 id="t366">T3.6.6<a class="headerlink" href="#t366" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>As part of the SES submission, teams will be required to provide evidence of a new chassis
+via a written comparison describing the physical differences between the submitted
+Primary Structure design with that of the most recent previous.</p>
+<p>SES demonstrating minimal change in design between their old and new chassis will be
+passed to the Design Judges for consideration of penalty points under Rule <a href="../../section-s/5-engineering-design-event-fs/#s572">S5.7.2</a>.</p>
+<p>Photographic evidence demonstrating a ‘new chassis’ will be required for Chassis
+Scrutineering as per Rule <a href="../../section-in/5-mechanical-inspection/#in511">IN5.1.1</a>.</p>
+<p>Teams who fail to satisfy Rule <a href="../../section-a/2-vehicle-eligibility/#a22-first-year-vehicles">A2.2</a> will be disqualified from the competition.</p>
+</blockquote>
+<h5 id="t367">T3.6.7<a class="headerlink" href="#t367" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Reports submitted on time, but which do not contain the required information (e.g. a
+“placeholder report” submitted to avoid penalties but without the required data) will be
+treated as a non-submission.</p>
+</blockquote>
+<h5 id="t368">T3.6.8<a class="headerlink" href="#t368" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>SES submission will be graded based on the completeness and quality of information
+provided in SES. It will not be an appraisal of the quality of design. Grades will range from A
+to F based on the following definitions:</p>
+<p>A. Completed to a high standard with clear graphics, notes and engineering justification.</p>
+<p>B. Completed to a good standard with clear graphics and notes.</p>
+<p>C. Completed to a minimum acceptable standard.</p>
+<p>D. Notes and graphics difficult to read and/or poorly presented.</p>
+<p>E. Repeat of the same errors for the same or similar design as in a previous year’s original
+submission.</p>
+<p>F. Late submission, incorrect SES template or major sections missing such that SES is
+deemed a 'non-submission’.</p>
+<p>Grades will be published online and shared with Design Judges. No points will be awarded
+for grades A-E. An F grade will carry 10 to 50 penalty points.</p>
+</blockquote>
+<h3 id="t37-roll-hoops">T3.7 Roll Hoops<a class="headerlink" href="#t37-roll-hoops" title="Permanent link">&para;</a></h3>
+<h5 id="t371">T3.7.1<a class="headerlink" href="#t371" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Both roll hoops must be securely integrated to the Primary Structure using node-to-node
+triangulation or equivalent joining methods.</p>
+</blockquote>
+<h5 id="t372">T3.7.2<a class="headerlink" href="#t372" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The minimum radius of any bend, measured at the tube centreline, must be at least three
+times the tube outside diameter. Bends must be smooth and continuous with no evidence
+of crimping or wall failure.</p>
+</blockquote>
+<h5 id="t373">T3.7.3<a class="headerlink" href="#t373" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>In a plane perpendicular to the longitudinal axis of the vehicle and through the lower
+endpoints of the roll hoop, no part of the Primary Structure may lie below 30mm of the
+endpoints of the roll hoop.</p>
+</blockquote>
+<h5 id="t374">T3.7.4<a class="headerlink" href="#t374" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Roll hoops attached to a composite Primary Structure must be mechanically attached at the
+top and bottom of both sides of that structure and at intermediate locations if needed to
+show equivalency. The front hoop requires a minimum of six attachment points. The lower
+roll hoop tubing attachment points must be within 50mm of the endpoints of the roll hoop.</p>
+</blockquote>
+<h5 id="t375">T3.7.5<a class="headerlink" href="#t375" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Mounting plates welded to the roll hoops must be at least 2mm thick steel or 3 mm thick
+aluminium, dependent of the roll hoop material.</p>
+</blockquote>
+<h5 id="t376">T3.7.6<a class="headerlink" href="#t376" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Both roll hoops must have one 4.5 mm inspection hole in a non-critical straight location
+and its surface at this point must be unobstructed for at least 180°.</p>
+</blockquote>
+<h3 id="t38-main-hoop">T3.8 Main Hoop<a class="headerlink" href="#t38-main-hoop" title="Permanent link">&para;</a></h3>
+<h5 id="t381">T3.8.1<a class="headerlink" href="#t381" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The main hoop must be constructed of a single piece of uncut, continuous, closed section
+steel tubing.</p>
+</blockquote>
+<h5 id="t382">T3.8.2<a class="headerlink" href="#t382" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>In side view the portion of the main hoop which is above its upper attachment point to the
+side impact structure must be inclined less than 10° from vertical.</p>
+</blockquote>
+<h5 id="t383">T3.8.3<a class="headerlink" href="#t383" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>In side view any bends in the main hoop above its upper attachment point to the Primary
+Structure must be braced to a node of the main hoop bracing support structure with tubing
+meeting the requirements of main hoop bracing.</p>
+</blockquote>
+<h5 id="t384">T3.8.4<a class="headerlink" href="#t384" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>In side view any portion lower than the upper attachment point to the side impact
+structure must be inclined either forward or less than 10° rearward.</p>
+</blockquote>
+<h3 id="t39-front-hoop">T3.9 Front Hoop<a class="headerlink" href="#t39-front-hoop" title="Permanent link">&para;</a></h3>
+<h5 id="t391">T3.9.1<a class="headerlink" href="#t391" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The front hoop must be constructed of a continuous and closed section.</p>
+</blockquote>
+<h5 id="t392">T3.9.2<a class="headerlink" href="#t392" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>If the front hoop is made from more than one piece, it must be supported by node-to-node
+triangulation or an equivalent construction.</p>
+</blockquote>
+<h5 id="t393">T3.9.3<a class="headerlink" href="#t393" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>In side view, no part of the front hoop can be inclined more than 20° from vertical.</p>
+</blockquote>
+<h5 id="t394">T3.9.4<a class="headerlink" href="#t394" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>If the front hoop is a welded construction made from multiple aluminium profiles, the
+equivalent yield strength must be considered in the as-welded condition unless the team
+demonstrates and shows proof that it has been properly solution heat treated and
+artificially aged. The team must supply sufficient documentation proving the appropriate
+heat treatment process was performed.</p>
+</blockquote>
+<h5 id="t395">T3.9.5<a class="headerlink" href="#t395" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Fully laminating the front hoop to the monocoque is acceptable. Fully laminating means
+that the hoop must be encapsulated with laminate around its whole circumference, see
+Figure 5. Equivalence to <a href="#t374">T3.7.4</a> must be shown in the SES. The laminate encapsulating the
+front hoop must overlap by at least 25mm on each side. It must have the same lay-up as
+the laminate that it is connecting to.</p>
+</blockquote>
+<p><img alt="Front Hoop Laminating Requirements" src="../Images/laminating-requirements.png" />
+<small><em>Figure 5: Front hoop laminating requirements</em></small></p>
+<h3 id="t310-main-hoop-bracing">T3.10 Main Hoop Bracing<a class="headerlink" href="#t310-main-hoop-bracing" title="Permanent link">&para;</a></h3>
+<h5 id="t3101">T3.10.1<a class="headerlink" href="#t3101" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The main hoop must be supported to the front or the rear by bracing tubes on each side of
+the main hoop.</p>
+</blockquote>
+<h5 id="t3102">T3.10.2<a class="headerlink" href="#t3102" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>In side view the main hoop and the main hoop braces must not lie on the same side of a
+vertical line coincident with the top of the main hoop.</p>
+</blockquote>
+<h5 id="t3103">T3.10.3<a class="headerlink" href="#t3103" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The main hoop braces must be attached to the main hoop no lower than 160mm below the
+top-most surface of the main hoop. The included angle formed by the main hoop and the
+main hoop braces must be at least 30°.</p>
+</blockquote>
+<h5 id="t3104">T3.10.4<a class="headerlink" href="#t3104" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The main hoop braces must be straight.</p>
+</blockquote>
+<h5 id="t3105">T3.10.5<a class="headerlink" href="#t3105" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The lower ends of the main hoop braces must be supported back to the upper attachment
+point of the main hoop to the side impact structure and to the lower attachment point of
+the main hoop to the side impact structure by a node-to-node triangulated structure or
+equivalent composite structure.</p>
+</blockquote>
+<h5 id="t3106">T3.10.6<a class="headerlink" href="#t3106" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>If any item which extends outside of the Primary Structure is attached to the main hoop
+braces, additional bracing is required to prevent bending loads in a rollover situation.</p>
+</blockquote>
+<h3 id="t311-front-hoop-bracing">T3.11 Front Hoop Bracing<a class="headerlink" href="#t311-front-hoop-bracing" title="Permanent link">&para;</a></h3>
+<h5 id="t3111">T3.11.1<a class="headerlink" href="#t3111" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The front hoop bracing attaches on each side of the front hoop as well as the structure
+forward of the driver’s feet. A minimum of two tubes without any bends must be straight
+on a line in side view of the frame and must have a minimum distance of 100 mm between
+each other at the front hoop.</p>
+</blockquote>
+<h5 id="t3112">T3.11.2<a class="headerlink" href="#t3112" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The front hoop bracing structure must be attached no lower than 50mm below the top-
+most surface of the front hoop, see Figure 6.</p>
+</blockquote>
+<p><img alt="Front hoop bracing, main hoop bracing and steering wheel requirements" src="../Images/Fig6.png" /></p>
+<p><small><em>Figure 6: Front hoop bracing, main hoop bracing and steering wheel requirements</em></small></p>
+<h5 id="t3113">T3.11.3<a class="headerlink" href="#t3113" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>If the front hoop is inclined more than 10° to the rear, additional braces extending
+rearwards are required.</p>
+</blockquote>
+<h5 id="t3114">T3.11.4<a class="headerlink" href="#t3114" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Composite front hoop bracing structures and their attachments cannot be counted towards
+the front bulkhead support structures and vice-versa for the structural equivalency
+documentation.</p>
+</blockquote>
+<h5 id="t3115">T3.11.5<a class="headerlink" href="#t3115" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Cutouts in any composite Front Hoop Bracing or Front Bulkhead Support must not exceed
+625cm<sup>2</sup>.</p>
+</blockquote>
+<h3 id="t312-mechanically-attached-roll-hoop-bracing">T3.12 Mechanically Attached Roll Hoop Bracing<a class="headerlink" href="#t312-mechanically-attached-roll-hoop-bracing" title="Permanent link">&para;</a></h3>
+<h5 id="t3121">T3.12.1<a class="headerlink" href="#t3121" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Any non-welded joint at either end of a bracing must be either a double-lug joint, see
+Figure 7, or a sleeved joint, see Figure 8. Spherical rod ends are prohibited.</p>
+</blockquote>
+<p><img alt="Double lug joint" src="../Images/double-lug.png" /></p>
+<p><small><em>Figure 7: Double lug joint</em></small></p>
+<p><img alt="Sleeved joint" src="../Images/sleeved-joint.png" /></p>
+<p><small><em>Figure 8: Sleeved joint</em></small></p>
+<h5 id="t3122">T3.12.2<a class="headerlink" href="#t3122" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>If threaded fasteners are used, they are considered critical fasteners and must comply with
+<a href="../10-fasteners/#t101-critical-fasteners">T10.1</a>.</p>
+</blockquote>
+<h5 id="t3123">T3.12.3<a class="headerlink" href="#t3123" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Double lug-joints must include a capping arrangement, see Figure 7.</p>
+</blockquote>
+<h5 id="t3124">T3.12.4<a class="headerlink" href="#t3124" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>In a double lug joint each lug must be at least 4.5mm thick and the pin or bolt must be
+10mm metric grade 8.8 minimum. The attachment holes in the lugs and in the attached
+bracing must be a close fit with the pin or bolt.</p>
+</blockquote>
+<h5 id="t3125">T3.12.5<a class="headerlink" href="#t3125" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>For sleeved joints the sleeve must have a minimum length of 38mm either side of the joint
+and be a close-fit around the base tubes. The wall thickness of the sleeve must be at least
+that of the bracing tubes. The bolts must be 6mm metric grade 8.8 minimum. The holes in
+the sleeves and tubes must be a close-fit with the bolts.</p>
+</blockquote>
+<h3 id="t313-front-bulkhead">T3.13 Front Bulkhead<a class="headerlink" href="#t313-front-bulkhead" title="Permanent link">&para;</a></h3>
+<h5 id="t3131">T3.13.1<a class="headerlink" href="#t3131" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Any alternative material used for the front bulkhead must have a perimeter shear strength
+equivalent to a 1.5mm thick steel plate.</p>
+</blockquote>
+<h5 id="t3132">T3.13.2<a class="headerlink" href="#t3132" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>If the front bulkhead is part of a composite structure and is modelled as an “L” shape, the EI
+of the front bulkhead about the vertical and lateral axes must be equivalent to a steel tube
+meeting the requirements for the front bulkhead. The length of the section perpendicular
+to the bulkhead may be a maximum of 25mm measured from the rearmost face of the
+bulkhead.</p>
+</blockquote>
+<h5 id="t3133">T3.13.3<a class="headerlink" href="#t3133" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>In front view the driver’s feet must be within the outside perimeter of the Front Bulkhead.</p>
+</blockquote>
+<h3 id="t314-front-bulkhead-support">T3.14 Front Bulkhead Support<a class="headerlink" href="#t314-front-bulkhead-support" title="Permanent link">&para;</a></h3>
+<h5 id="t3141">T3.14.1<a class="headerlink" href="#t3141" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The front bulkhead must be supported back to the front hoop by a minimum of three tubes
+on each side; an upper member, a lower member and diagonal bracing to provide
+triangulation.</p>
+<ul>
+<li>The upper support member must be attached a maximum of 50mm below the top-most
+surface of the front bulkhead and a maximum of 50mm below to 100mm above the
+intersection of the front hoop and upper side impact member.</li>
+</ul>
+<p>If the attachment point of the upper support member is greater than 100mm above the
+upper side impact member, node-to-node triangulated bracing is required to transfer
+load to the main hoop.</p>
+<ul>
+<li>The lower support member must be attached to the base of the front bulkhead and the
+base of the front hoop.</li>
+<li>The diagonal bracing must triangulate the upper and lower support members node-to-
+node.</li>
+</ul>
+</blockquote>
+<h5 id="t3142">T3.14.2<a class="headerlink" href="#t3142" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>If the front bulkhead support is part of a composite structure, it must have equivalent EI to
+the sum of the EI of the six baseline steel tubes that it replaces.</p>
+</blockquote>
+<h5 id="t3143">T3.14.3<a class="headerlink" href="#t3143" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The EI of the vertical side of the front bulkhead support structure must be equivalent to at
+least the EI of one baseline steel tube that it replaces.</p>
+</blockquote>
+<h5 id="t3144">T3.14.4<a class="headerlink" href="#t3144" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The perimeter shear strength of the monocoque laminate in the front bulkhead support
+structure must be at least 4kN.</p>
+</blockquote>
+<h3 id="t315-impact-structures">T3.15 Impact Structures<a class="headerlink" href="#t315-impact-structures" title="Permanent link">&para;</a></h3>
+<h5 id="t3151">T3.15.1<a class="headerlink" href="#t3151" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The Side Impact Structure must consist of at least three steel tubes, see <a href="#t32-minimum-material-requirements">T3.2</a>, on each side
+of the cockpit, see Figure 9.</p>
+<ul>
+<li>The upper member must connect the main hoop and the front hoop. It must be at a
+height between 240mm and 320mm above the lowest point inside the chassis between
+the front and main hoop.</li>
+<li>The lower member must connect the bottom of the main hoop and the bottom of the
+front hoop.</li>
+<li>The diagonal member must triangulate the upper and lower member between the roll
+hoops node-to-node.</li>
+</ul>
+</blockquote>
+<p><img alt="Side impact structure" src="../Images/side-impact-struct.png" />
+<small><em>Figure 9: Side impact structure</em></small></p>
+<h5 id="t3152">T3.15.2<a class="headerlink" href="#t3152" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Other impact structures, see <a href="../../section-cv/1-internal-combustion-engine-powertrains/#cv132">CV1.3.2</a>, <a href="../../section-ev/4-tractive-system/#ev442">EV4.4.2</a> and <a href="../../section-ev/5-tractive-system-energy-storage/#ev552">EV5.5.2</a>, must be:</p>
+<ul>
+<li>
+<p>Fully triangulated structures.</p>
+</li>
+<li>
+<p>Consist of at least three steel tubes, see <a href="#t32-minimum-material-requirements">T3.2</a>, on each side and rearward of the
+component(s) requiring protection.</p>
+</li>
+<li>
+<p>If the component projects outwards to the side of the roll hoops, the front of the
+component must also be protected.</p>
+</li>
+<li>
+<p>The upper member must not be higher than 320mm above the lowest point inside the
+chassis between the front and main hoops.</p>
+</li>
+</ul>
+</blockquote>
+<h5 id="t3153">T3.15.3<a class="headerlink" href="#t3153" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>No part of the TS may be within 25mm of the rearmost impact structure of the vehicle
+(non-structural cooling ducts are excluded from this requirement).</p>
+</blockquote>
+<h5 id="t3154">T3.15.4<a class="headerlink" href="#t3154" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>If the impact structure is part of a composite structure, the following is required:</p>
+<ul>
+<li>The region of the structure up to a height of 320mm above the lowest point inside the
+chassis between the front and main hoops must have an EI equal to the three baseline
+steel tubes that it replaces, see Figure 10.</li>
+<li>The vertical side impact structure must have an EI equivalent to two baseline steel tubes
+and half the horizontal floor must have an EI equivalent to one baseline steel tube.</li>
+<li>
+<p>The vertical side impact structure must have an absorbed energy equivalent to two
+baseline steel tubes, exceeding 65J.</p>
+</li>
+<li>
+<p>The perimeter shear strength must be at least 7.5kN.</p>
+</li>
+</ul>
+</blockquote>
+<p><img alt="Monocoque Side Impact Structure" src="../Images/monocoque-side-impact.png" />
+<small><em>Figure 10: Monocoque Side Impact Structure</em></small></p>
+<h3 id="t316-bolted-primary-structure-attachments">T3.16 Bolted Primary Structure Attachments<a class="headerlink" href="#t316-bolted-primary-structure-attachments" title="Permanent link">&para;</a></h3>
+<h5 id="t3161">T3.16.1<a class="headerlink" href="#t3161" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>If two parts of the Primary Structure are bolted together, each attachment point between
+the two parts must be able to carry a load of 30kN in any direction.</p>
+</blockquote>
+<h5 id="t3162">T3.16.2<a class="headerlink" href="#t3162" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Data obtained from the laminate perimeter shear strength test must be used to prove that
+adequate shear area is provided.</p>
+</blockquote>
+<h5 id="t3163">T3.16.3<a class="headerlink" href="#t3163" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Each attachment point requires a minimum of two 8mm metric grade 8.8 bolts and steel
+backing plates with a minimum thickness of 2mm.</p>
+</blockquote>
+<h5 id="t3164">T3.16.4<a class="headerlink" href="#t3164" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>For the attachment of front hoop bracing, main hoop bracing, and main hoop bracing
+support to the Primary Structure, the use of one 10mm metric grade 8.8 bolt is sufficient, if
+the bolt is on the centreline of the tube, see Figure 11.</p>
+</blockquote>
+<p><img alt="alt text" src="../Images/Bolted-bracing.png" />
+<small><em>Figure 11: Bolted roll hoop bracing support</em></small></p>
+<h5 id="t3165">T3.16.5<a class="headerlink" href="#t3165" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>When using bolted joints within the Primary Structure, no crushing of the laminate core
+material is permitted.</p>
+</blockquote>
+<h5 id="t3166">T3.16.6<a class="headerlink" href="#t3166" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>For bolted AIP to Front Bulkhead attachments, and if two or more panels or plates in the
+Primary Structure are bolted together, a minimum of one 8 mm metric grade 8.8 bolt must
+be used for each 200 mm increment of reference perimeter.</p>
+<ul>
+<li>The bolts must be evenly spaced around the circumference.</li>
+<li>Smaller bolts may be used if equivalency is proven and the number of bolts is
+  increased accordingly.</li>
+<li>The reference perimeter is the outside edge of the flange at the connection
+  between the AIP and front bulkhead or the two panels/plates.</li>
+<li>The bolts are considered critical fasteners, must comply with T10 and require steel
+  backing plates with a minimum thickness of 2mm.</li>
+</ul>
+</blockquote>
+<h5 id="t3167">T3.16.7<a class="headerlink" href="#t3167" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Where blind inserts are used for attachments per <a href="#t3166">T3.16.6</a>, physical tests that prove the
+attachment can withstand &gt;=15kN must be completed and documented in the SES.</p>
+</blockquote>
+<h3 id="t317-impact-attenuator">T3.17 Impact Attenuator<a class="headerlink" href="#t317-impact-attenuator" title="Permanent link">&para;</a></h3>
+<h5 id="t3171">T3.17.1<a class="headerlink" href="#t3171" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Each vehicle must be equipped with an IA Assembly, consisting of an Impact Attenuator (IA)
+and Anti-Intrusion Plate (AIP).</p>
+</blockquote>
+<h5 id="t3172">T3.17.2<a class="headerlink" href="#t3172" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The IA must be:</p>
+<ul>
+<li>Installed forward of the front bulkhead,</li>
+<li>At least 100mm high and 200mm wide for a minimum distance of 200mm forward of
+the front bulkhead,</li>
+<li>No portion of the front face of the IA can be positioned more than 350 mm above the
+ground,</li>
+<li>Not able to penetrate the front bulkhead in the event of an impact,</li>
+<li>Attached securely and directly to the AIP, by welding or a minimum of four (4) 8mm
+metric grade 8.8 bolts. The bolts are considered critical fasteners and must comply with
+T10.1,</li>
+<li>Not part of the non-structural bodywork,</li>
+<li>Designed with a closed front section,</li>
+<li>No wider or higher than the AIP.</li>
+</ul>
+</blockquote>
+<h5 id="t3173">T3.17.3<a class="headerlink" href="#t3173" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The AIP must be 1.5mm solid steel, 4.0mm solid aluminium or permitted alternative
+(<a href="#t3175">T3.17.5</a>).</p>
+<ul>
+<li>If the AIP is bolted to the front bulkhead, it must be the same size as the outside
+dimensions of the front bulkhead and comply with <a href="#t3166">T3.16.6</a>,</li>
+<li>If it is welded to the front bulkhead, it must extend at least to the centreline of the front
+bulkhead tubing in all directions,</li>
+<li>The AIP must not extend past the outside edges of the front bulkhead.</li>
+</ul>
+</blockquote>
+<h5 id="t3174">T3.17.4<a class="headerlink" href="#t3174" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Alternative methods of attaching the IA to the AIP are permissible if equivalency to four (4)
+8mm metric grade 8.8 bolts is proven.</p>
+</blockquote>
+<h5 id="t3175">T3.17.5<a class="headerlink" href="#t3175" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Alternative AIP designs are permissible if equivalency to <a href="#t3173">T3.17.3</a> is proven by physical
+testing as per <a href="#t319-impact-attenuator-test-requirements">T3.19</a>.</p>
+</blockquote>
+<h5 id="t3176">T3.17.6<a class="headerlink" href="#t3176" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The attachment of the IA and AIP must be designed to provide an adequate load path for
+transverse and vertical loads in the event of off-centre and off-axis impacts. Segmented
+foam attenuators must have the segments bonded together to prevent sliding or
+parallelogramming.</p>
+</blockquote>
+<h5 id="t3177">T3.17.7<a class="headerlink" href="#t3177" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The attachment of the IA and/or AIP to a monocoque structure must comply with <a href="#t3166">T3.16.6</a>
+and requires an approved SES, as per <a href="#t36-structural-documentation">T3.6</a>.</p>
+</blockquote>
+<h5 id="t3178">T3.17.8<a class="headerlink" href="#t3178" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>If a team uses a standard FSAE IA and the front bulkhead  width is greater than 400mm
+and/or its height is greater than 350mm, a diagonal or X-bracing made from 25mm ×
+1.5mm steel tubing, or an approved equivalent per <a href="#t32-minimum-material-requirements">T3.2</a>, must be included in the front
+bulkhead.</p>
+</blockquote>
+<h5 id="t3179">T3.17.9<a class="headerlink" href="#t3179" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>If the standard IA is the honeycomb type:
+- The IA material must be pre-crushed type
+- Adhesive used to mount the IA to the AIP must have a shear strength of at least 24
+MPa</p>
+</blockquote>
+<h5 id="t31710">T3.17.10<a class="headerlink" href="#t31710" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>If a standard IA is used but does not comply with the requirements of <a href="#t3178">T3.17.8</a>, physical
+testing must be carried out to prove that the AIP does not permanently deflect more than
+25 mm.</p>
+</blockquote>
+<h3 id="t318-impact-attenuator-data-requirement">T3.18 Impact Attenuator Data Requirement<a class="headerlink" href="#t318-impact-attenuator-data-requirement" title="Permanent link">&para;</a></h3>
+<h5 id="t3181">T3.18.1<a class="headerlink" href="#t3181" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>All teams must submit an IA Data report using the Impact Attenuator Data (IAD) template
+provided on the Formula Student website.</p>
+<ul>
+<li>If a report does not use this template, it will automatically incur a 10-point design
+penalty,</li>
+<li>Templates from other Formula Student/FSAE competitions are not acceptable. The
+report will still be assessed to ensure that the IA meets the rules requirements and
+to allow the team to compete,</li>
+<li>Minor violations in report layout will be dealt with via the downgrading process
+outlined in Rule <a href="#t3185">T3.18.5</a>.</li>
+</ul>
+</blockquote>
+<h5 id="t3182">T3.18.2<a class="headerlink" href="#t3182" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Reports submitted late will incur lateness penalties as described in the Key Dates document
+published on the Formula Student website. However, these reports will still be assessed to
+ensure that the IA meets the rules requirements and to allow the team to compete.</p>
+</blockquote>
+<h5 id="t3183">T3.18.3<a class="headerlink" href="#t3183" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Reports submitted on time, but which do not contain the required information (e.g. a
+“placeholder report” submitted to avoid penalties but without the required test data) will
+be treated as a non-submission and dealt with according to Rule <a href="#t3182">T3.18.2</a>.</p>
+</blockquote>
+<h5 id="t3184">T3.18.4<a class="headerlink" href="#t3184" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Reports will be assessed by a team of judges using a common approach. A selection of
+reports will be moderated by the Lead IAD Judge to ensure consistency.</p>
+</blockquote>
+<h5 id="t3185">T3.18.5<a class="headerlink" href="#t3185" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Reports will be assessed according to the following process, in order to grade them from A
+to F:</p>
+<ul>
+<li>Reports are initially assigned a grade according to the type of testing carried out.
+Dynamic tests are initially assigned a ‘B’ grade; Quasi-static (crush) tests a ‘C’ grade;
+and teams using a Standard IA an ‘E’ grade.</li>
+<li>The report is then assessed to ensure that the IA meets the rules requirements for
+energy absorption, deceleration levels, dimensions, mounting arrangements etc.
+Impact Attenuators which do not meet these requirements will automatically incur a
+10-point penalty, and the team will be contacted by the Judges to determine
+appropriate modifications or re-design to allow them to compete.</li>
+<li>If the IA design meets the rules, the report will then be assessed for quality. Minor items
+of missing information or poor explanation or presentation may lead to the report
+being downgraded by up to two grades. Teams will be contacted and asked to supply
+missing information, but the downgrade will remain. A high-quality report may be
+upgraded by up to two grades.</li>
+<li>IA reports for a standard FSAE IA may be upgraded by up to two grades if they include
+additional analysis or testing – for example finite element simulation or testing of
+material samples.</li>
+</ul>
+</blockquote>
+<h5 id="t3186">T3.18.6<a class="headerlink" href="#t3186" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Once the report has been graded, the grade will be converted into design penalty points as
+follows:</p>
+<ul>
+<li>A = 0 points; B = 0 points; C = 1 point; D = 4 points; E = 8 points; F = 10 points.</li>
+<li>These penalties will be forwarded to the Head Design Judge for inclusion in the overall
+design score.</li>
+</ul>
+</blockquote>
+<h3 id="t319-impact-attenuator-test-requirements">T3.19 Impact Attenuator Test Requirements<a class="headerlink" href="#t319-impact-attenuator-test-requirements" title="Permanent link">&para;</a></h3>
+<h5 id="t3191">T3.19.1<a class="headerlink" href="#t3191" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The IA assembly, when mounted on the front of a vehicle with a total mass of 300 kg and
+impacting a solid, non-yielding impact barrier with a velocity of impact of 7 m/s, must meet
+the following requirements:</p>
+<ul>
+<li>Decelerate the vehicle at a rate not exceeding 20g average and 40g peak,</li>
+<li>The energy absorbed in this event must meet or exceed 7350 J,</li>
+<li>Teams using the standard IA are not required to submit test data with their IAD report,
+but all other requirements must be included.</li>
+</ul>
+</blockquote>
+<h5 id="t3192">T3.19.2<a class="headerlink" href="#t3192" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>During the IA test:</p>
+<ul>
+<li>The IA must be attached to the AIP using the intended vehicle attachment method,</li>
+<li>The IA assembly must be attached to a test fixture that has geometry, stiffness and
+strength equal to or greater than the intended chassis. When alternative materials are
+used for the AIP, the test fixture must be a copy of the intended chassis (i.e. materials,
+lay-up, joining methods),</li>
+<li>There must be at least 50mm clearance rearwards of the AIP to the test fixture,</li>
+<li>No part of the AIP may permanently deflect more than 25mm beyond the position of
+the AIP before the test.</li>
+<li>The test fixture must not show any signs of failure (e.g. yielding, cracks) after the test.</li>
+</ul>
+</blockquote>
+<h5 id="t3193">T3.19.3<a class="headerlink" href="#t3193" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Teams using IAs (typically structural noses) directly attached to the front bulkhead, which
+shortcut the load path through the bulk of the AIP, must conduct an additional test. This
+test must prove that the AIP can withstand a load of 120kN (300kg multiplied by 40g),
+where the load applicator matches the minimum IA dimensions.</p>
+</blockquote>
+<h5 id="t3194">T3.19.4<a class="headerlink" href="#t3194" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Vehicles with aerodynamic devices and/or sensors in front of the AIP must not exceed the
+peak deceleration of <a href="#t3191">T3.19.1</a> for the combination of their IA assembly and the non-
+crushable object(s). Any of the following three methods may be used to prove the design
+does not exceed 120kN:</p>
+<ul>
+<li>Physical testing of the IA assembly including any attached non-crushable object(s), or
+structurally representative dummies, in front of the AIP,</li>
+<li>Combining the peak force from physical testing of the IA assembly with the failure load
+for the mounting of the non-crushable object(s), calculated from fastener shear and/or
+link buckling,</li>
+<li>Combining the “standard” IA peak load of 95kN with the failure load for the mounting of
+the non-crushable object(s), calculated from fastener shear and/or link buckling.</li>
+</ul>
+</blockquote>
+<h5 id="t3195">T3.19.5<a class="headerlink" href="#t3195" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Dynamic testing (sled, pendulum, drop tower, etc) of the IA may only be conducted at a
+dedicated test facility. This facility may be part of the university but must be supervised by
+professional staff. Teams are not allowed to design their own dynamic test apparatus.</p>
+</blockquote>
+<h5 id="t3196">T3.19.6<a class="headerlink" href="#t3196" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>When using acceleration data from the dynamic test, the average deceleration must be
+calculated based on the raw unfiltered data. If peaks above the 40g limit are present in the
+data, a 100 Hz, 3rd order, low pass Butterworth (−3 dB at 100Hz) filter may be applied.</p>
+</blockquote>
+<h3 id="t320-non-crushable-objects">T3.20 Non-Crushable Objects<a class="headerlink" href="#t320-non-crushable-objects" title="Permanent link">&para;</a></h3>
+<h5 id="t3201">T3.20.1<a class="headerlink" href="#t3201" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>All non-crushable objects (e.g. pedals, master cylinders, hydraulic reservoirs) must be
+rearward of the rear most plane of the front bulkhead and at least 25mm behind the AIP at
+any time, except for sensors, aerodynamic devices and their mountings.</p>
+</blockquote>
+<h5 id="t3202">T3.20.2<a class="headerlink" href="#t3202" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>All mountings for sensors and aerodynamic devices must attach to the chassis rearwards of
+the AIP. Tabs/brackets must not extend more than 25 mm forward of the AIP. During
+frontal impact, all non-crushable objects must be able to move fully reearwards of the AIP.</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

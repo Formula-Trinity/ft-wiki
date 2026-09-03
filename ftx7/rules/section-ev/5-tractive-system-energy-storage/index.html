@@ -1,0 +1,4058 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Engineering documentation for Formula Trinity">
+      
+      
+      
+        <link rel="canonical" href="https://formula-trinity.github.io/ft-wiki/ftx7/rules/section-ev/5-tractive-system-energy-storage/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Tractive System Energy Storage - Formula Trinity Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tractive-system-energy-storage" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Formula Trinity Wiki" class="md-header__button md-logo" aria-label="Formula Trinity Wiki" data-md-component="logo">
+      
+  <img src="../../../../assets/images/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Formula Trinity Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tractive System Energy Storage
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  FTX7
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../design_manufacturing/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Design & Manufacturing
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../competition/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Competition Overview
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../contributing/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  How to Contribute
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Formula Trinity Wiki" class="md-nav__button md-logo" aria-label="Formula Trinity Wiki" data-md-component="logo">
+      
+  <img src="../../../../assets/images/logo.png" alt="logo">
+
+    </a>
+    Formula Trinity Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FTX7
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    FTX7
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../powertrain/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Powertrain
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Powertrain
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../drivetrain/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drivetrain
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Drivetrain
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../chassis/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chassis
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chassis
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../chassis/Firewall/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Firewall
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../chassis/Frame/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frame
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../chassis/Frame%20Jig/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frame Jig
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../chassis/Gear%20Shifter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gear Shifter
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../chassis/Head%20Rest/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Head Rest
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../chassis/Impact%20Attenuator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Impact Attenuator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../chassis/Seat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Seat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../suspension/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Suspension
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Suspension
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../aero/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aero
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Aero
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../aero/subsystem-01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subsystem 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../aero/aero-wiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aero Wiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../aero/nosecone-body/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nosecone & Body
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../aero/sidepods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sidepods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../aero/extras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Extras
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../vehicle-dynamics-tyre-data/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vehicle Dynamics & Tyre Data
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_7" id="__nav_2_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Vehicle Dynamics & Tyre Data
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../vehicle-dynamics-tyre-data/tyre-wiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tyre Wiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../vehicle-dynamics-tyre-data/tyre-data-wiki/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tyre Data Wiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../vehicle-dynamics-tyre-data/tyre-data-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tyre Data Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../vehicle-dynamics-tyre-data/lts-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LTS Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../vehicle-dynamics-tyre-data/lts-data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LTS Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../electronics/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Electronics
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_8" id="__nav_2_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Electronics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../electronics/subsystem-01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subsystem 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../electronics/subsystem-02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subsystem 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../design_manufacturing/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design & Manufacturing
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Design & Manufacturing
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../design_manufacturing/design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design Guides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../design_manufacturing/manufacturing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manufacturing Guides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../competition/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Competition Overview
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Competition Overview
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../competition/statics/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Static Events
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Static Events
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../competition/statics/design/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design Judging Event
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2_2" id="__nav_4_2_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Design Judging Event
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/statics/design/edr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineering Design Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/statics/design/overall_concept/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overall Vehicle Concept
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/statics/design/struct_design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structural Design inc. Suspension & Brakes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/statics/design/pt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Powertrain Concept & Choice, Simulation, Design & Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/statics/design/timing_planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overall Timing, Manufacturing, Procurement Plan plus Team Organisation Plan
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/statics/design/design_for_manufacture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design for Manufacture & Profit, Customer Respect and Innovation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../competition/statics/cost/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost & Manufacturing Event
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2_3" id="__nav_4_2_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Cost & Manufacturing Event
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_3_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../competition/statics/cost/pre_comp_submissions/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost Report Documents
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2_3_2" id="__nav_4_2_3_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_4_2_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Cost Report Documents
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/statics/cost/pre_comp_submissions/CCBOM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CCBOM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/statics/cost/pre_comp_submissions/explanations_report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost & Emissions Explanation Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/statics/cost/pre_comp_submissions/supporting_docs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Supporting Materials
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/statics/cost/judging/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost & Manufacturing Judging
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../competition/scrut/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scrutineering
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Scrutineering
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/scrut/tech/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tech
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/scrut/safety/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Safety
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/scrut/chassis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chassis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/scrut/tilt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tilt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/scrut/noise/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Noise
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../competition/scrut/brakes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brakes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../competition/dynamics/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dynamic Events
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Dynamic Events
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Contribute
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ev51-definitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.1 Definitions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="EV5.1 Definitions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ev511" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.1.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev512" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.1.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev513" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.1.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev514" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.1.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev515" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.1.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ev52-allowed-tractive-system-cells" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.2 Allowed Tractive System Cells
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="EV5.2 Allowed Tractive System Cells">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ev521" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.2.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev522" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.2.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ev53-tractive-system-energy-storage-general-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.3 Tractive System Energy Storage – General Requirements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="EV5.3 Tractive System Energy Storage – General Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ev531" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.3.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev532" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.3.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev533" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.3.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev534" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.3.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev535" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.3.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev536" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.3.6
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev537" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.3.7
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev538" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.3.8
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev539" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.3.9
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ev54-tractive-system-energy-storage-electrical-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.4 Tractive System Energy Storage – Electrical Configuration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="EV5.4 Tractive System Energy Storage – Electrical Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ev541" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.4.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev542" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.4.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev543" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.4.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev544" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.4.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev545" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.4.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev546" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.4.6
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev547" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.4.7
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev548" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.4.8
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev549" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.4.9
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ev55-tractive-system-energy-storage-mechanical-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5 Tractive System Energy Storage – Mechanical Configuration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="EV5.5 Tractive System Energy Storage – Mechanical Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ev551" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev552" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev553" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev554" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev555" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev556" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.6
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev557" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.7
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev558" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.8
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev559" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.9
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev5510" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.10
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev5511" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.11
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev5512" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.12
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev5513" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.13
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev5514" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.14
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev5515" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.15
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev5516" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.16
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev5517" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.17
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev5518" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.18
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev5519" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.19
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev5520" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.20
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev5521" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.5.21
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ev56-accumulator-isolation-relays" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.6 Accumulator Isolation Relays
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="EV5.6 Accumulator Isolation Relays">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ev561" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.6.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev562" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.6.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev563" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.6.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ev57-pre-charge-circuit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.7 Pre-Charge Circuit
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="EV5.7 Pre-Charge Circuit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ev571" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.7.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev572" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.7.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ev58-accumulator-management-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.8 Accumulator Management System
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="EV5.8 Accumulator Management System">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ev581" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.8.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev582" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.8.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev583" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.8.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev584" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.8.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev585" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.8.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev586" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.8.6
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev587" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.8.7
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev588" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.8.8
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev589" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.8.9
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev5810" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.8.10
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev5811" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.8.11
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ev5812" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EV5.8.12
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="tractive-system-energy-storage">Tractive System Energy Storage<a class="headerlink" href="#tractive-system-energy-storage" title="Permanent link">&para;</a></h1>
+<h3 id="ev51-definitions">EV5.1 Definitions<a class="headerlink" href="#ev51-definitions" title="Permanent link">&para;</a></h3>
+<h5 id="ev511">EV5.1.1<a class="headerlink" href="#ev511" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Cell – a battery cell or super-capacitor.</p>
+</blockquote>
+<h5 id="ev512">EV5.1.2<a class="headerlink" href="#ev512" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Cell Energy – the maximum cell voltage times the nominal capacity of the used cell.</p>
+</blockquote>
+<h5 id="ev513">EV5.1.3<a class="headerlink" href="#ev513" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>TS Accumulator – all cells that store the electrical energy to be used by the TS as a whole.</p>
+</blockquote>
+<h5 id="ev514">EV5.1.4<a class="headerlink" href="#ev514" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Tractive System Accumulator Container (TSAC) – the container itself, which contains the
+TS accumulator.</p>
+</blockquote>
+<h5 id="ev515">EV5.1.5<a class="headerlink" href="#ev515" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>TS Accumulator Segments – sub-divisions of the TS accumulator.</p>
+</blockquote>
+<h3 id="ev52-allowed-tractive-system-cells">EV5.2 Allowed Tractive System Cells<a class="headerlink" href="#ev52-allowed-tractive-system-cells" title="Permanent link">&para;</a></h3>
+<h5 id="ev521">EV5.2.1<a class="headerlink" href="#ev521" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>All types of cells except molten salt and thermal batteries are allowed.</p>
+</blockquote>
+<h5 id="ev522">EV5.2.2<a class="headerlink" href="#ev522" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Fuel cells are prohibited.</p>
+</blockquote>
+<h3 id="ev53-tractive-system-energy-storage-general-requirements">EV5.3 Tractive System Energy Storage – General Requirements<a class="headerlink" href="#ev53-tractive-system-energy-storage-general-requirements" title="Permanent link">&para;</a></h3>
+<h5 id="ev531">EV5.3.1<a class="headerlink" href="#ev531" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>All cells that store the TS energy must be enclosed in a TSAC.</p>
+</blockquote>
+<h5 id="ev532">EV5.3.2<a class="headerlink" href="#ev532" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Each TS accumulator segment must not exceed:
+- a maximum voltage of 120 VDC,
+- a maximum energy of 6 MJ, see EV5.1.2,
+- a maximum mass of 12kg.</p>
+</blockquote>
+<h5 id="ev533">EV5.3.3<a class="headerlink" href="#ev533" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>If spare TS accumulators are used, they must be of the same size, weight and type as
+those that are replaced.</p>
+</blockquote>
+<h5 id="ev534">EV5.3.4<a class="headerlink" href="#ev534" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Spare cells must be stored in an electrically insulated container made of fire-retardant
+material, see T1.2.1. The container must be labelled according to EV5.3.8.</p>
+</blockquote>
+<h5 id="ev535">EV5.3.5<a class="headerlink" href="#ev535" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Spare accumulators and spare cells should be presented at technical inspection.</p>
+</blockquote>
+<h5 id="ev536">EV5.3.6<a class="headerlink" href="#ev536" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>It must be possible to open the TSAC for technical inspection.</p>
+</blockquote>
+<h5 id="ev537">EV5.3.7<a class="headerlink" href="#ev537" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Each TSAC must be removable from the vehicle while still remaining rules compliant
+without the need to install extra components. A dummy connector or similar may be used
+to restore the system’s isolation, see EV4.5.</p>
+</blockquote>
+<h5 id="ev538">EV5.3.8<a class="headerlink" href="#ev538" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The vehicle number, the university name and the ESO phone number(s) must be displayed
+and written in Roman Sans-Serif characters of at least 20mm high on the lid of each TSAC.
+The characters must be clearly visible and placed on a high contrast background.</p>
+</blockquote>
+<h5 id="ev539">EV5.3.9<a class="headerlink" href="#ev539" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>All TS Accumulators using chemistries other than lead acid must be:
+(a) Directly accessible with a fire extinguisher nozzle of 35mm diameter x 150mm long,
+without removing body panels and with the driver seated normally in the vehicle.
+Covers which can be easily "punched through" are acceptable.</p>
+<p>Any such cover or access location must be identified using the appropriate symbol
+below and be clearly visible to marshals approaching the car.</p>
+</blockquote>
+<div style="height: 204px;" aria-hidden="true"></div>
+
+<p><small><em>Figure 27: Fire Port marking</em></small></p>
+<blockquote>
+<p>If the TS Accumulator(s) is positioned greater than 50mm inboard of the access
+location, then a tube of at least 35mm diameter must be present to direct the
+discharge from the extinguisher towards the TS Accumulator(s). The tube must be no
+more than 750mm in length. Any access tube must be separated from the driver by a
+firewall as specified in T4.8.
+(b) Identified with the symbol below (minimum height 75mm and showing the
+appropriate battery chemistry) on each side of the car AND adjacent to any labels
+required by EV5.3.9(a).</p>
+</blockquote>
+<div style="height: 278px;" aria-hidden="true"></div>
+
+<p><small><em>Figure 28: Battery Chemistry marking</em></small></p>
+<h3 id="ev54-tractive-system-energy-storage-electrical-configuration">EV5.4 Tractive System Energy Storage – Electrical Configuration<a class="headerlink" href="#ev54-tractive-system-energy-storage-electrical-configuration" title="Permanent link">&para;</a></h3>
+<h5 id="ev541">EV5.4.1<a class="headerlink" href="#ev541" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Every TSAC must contain at least one fuse and at least two AIRs, see EV5.6 and EV3.2.7.</p>
+</blockquote>
+<h5 id="ev542">EV5.4.2<a class="headerlink" href="#ev542" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>LVS must not be included in the TSAC except where inherently required. Exceptions
+include the AIRs, TS DC/DC converters, the Accumulator Management System (AMS), the
+Insulation Monitoring Device (IMD), parts of the TSAL and cooling fans.</p>
+</blockquote>
+<h5 id="ev543">EV5.4.3<a class="headerlink" href="#ev543" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Maintenance plugs must allow electrical separation of all TS accumulator segments, see
+EV5.3.2. The separation must affect both poles of all segments including first and last
+segment.</p>
+</blockquote>
+<h5 id="ev544">EV5.4.4<a class="headerlink" href="#ev544" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Maintenance plugs must:
+- Not require tools to separate the TS accumulator segments,
+- Be non-conductive on surfaces that do not provide any electrical connection,
+- Be designed in a way, that it is physically impossible to electrically connect them in any
+way other than the design intent configuration,
+- Be designed such that it is clearly visible whether the connection is open or closed.
+Electrically controlled switches must not be used.</p>
+</blockquote>
+<h5 id="ev545">EV5.4.5<a class="headerlink" href="#ev545" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Each TS accumulator segment must be electrically insulated by the use of suitable rigid
+and fire retardant, see T1.2.1, material between the segments and on top of the segment
+to prevent arc flashes caused by inter-segment contact or by parts/tools accidentally
+falling into the TSAC during maintenance.</p>
+</blockquote>
+<h5 id="ev546">EV5.4.6<a class="headerlink" href="#ev546" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Every wire used in an TSAC, regardless of whether it is part of the LVS or TS, must be
+follow EV4.5.2, EV4.5.3 and EV4.5.5.</p>
+</blockquote>
+<h5 id="ev547">EV5.4.7<a class="headerlink" href="#ev547" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Each TSAC must have a prominent indicator, a voltmeter or a red LED visible even in bright
+sunlight that will illuminate continuously whenever a voltage greater than 60 VDC or half
+the nominal TS voltage, whichever is lower, is present at the vehicle side of the AIRs.</p>
+</blockquote>
+<h5 id="ev548">EV5.4.8<a class="headerlink" href="#ev548" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The indicator must be clearly visible while disconnecting the TSAC from the vehicles. The
+indicator must be clearly marked with “Voltage Indicator”</p>
+</blockquote>
+<h5 id="ev549">EV5.4.9<a class="headerlink" href="#ev549" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The indicator must be hard-wired electronics without software control, directly and only
+supplied by the TS from the vehicle side of the AIRs, and always working, even if the
+accumulator is disconnected from the LVS or removed from the vehicle.</p>
+</blockquote>
+<h3 id="ev55-tractive-system-energy-storage-mechanical-configuration">EV5.5 Tractive System Energy Storage – Mechanical Configuration<a class="headerlink" href="#ev55-tractive-system-energy-storage-mechanical-configuration" title="Permanent link">&para;</a></h3>
+<h5 id="ev551">EV5.5.1<a class="headerlink" href="#ev551" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>All TSACs must lie fully within, and be attached to, the Primary Structure, or any structure
+fixed to the Primary Structure, which meets the minimum specification for impact
+structures. In side view, the TSACs may not exceed the height of the impact structure, see
+T3.15.2.</p>
+</blockquote>
+<h5 id="ev552">EV5.5.2<a class="headerlink" href="#ev552" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>All TSACs must be protected from impacts, see T3.15.2 and be no higher than their
+attendant impact structure. No part of the TSAC may be part of the primary structure.</p>
+</blockquote>
+<h5 id="ev553">EV5.5.3<a class="headerlink" href="#ev553" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>All TSAC materials and mounts must be fire retardant, see T1.2.1. All calculations must be
+conducted for an ambient temperature of 60°C except for metallic materials and
+continuous fibre-reinforced laminates. Where materials are used within the TSAC which
+do not meet the requirements of T1.2.1 the team must be able to justify why they were
+used in preference to a fire-retardant material.</p>
+</blockquote>
+<h5 id="ev554">EV5.5.4<a class="headerlink" href="#ev554" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The design of the TSAC and its contents, calculations and/or tests must be documented in
+the SES. This includes materials used, drawings, images, fastener locations, segment
+weight, cell and segment position and any proof of equivalence.</p>
+</blockquote>
+<h5 id="ev555">EV5.5.5<a class="headerlink" href="#ev555" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The TSAC(s) must be constructed of steel or aluminium. With the following requirements:
+- The floor of the TSAC must be at least 1.25mm thick if made from steel or 3.2mm if
+made from aluminium,
+- The internal and external vertical walls, covers and lids must be at least 0.9mm thick if
+made from steel or 2.3mm if made from aluminium.</p>
+<p>Alternative materials are allowed with proof of equivalency per T3.3 or for composite
+materials per EV5.5.6. When alternative materials are used, test samples must be
+presented at technical inspection.</p>
+</blockquote>
+<h5 id="ev556">EV5.5.6<a class="headerlink" href="#ev556" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Composite TSAC(s) must satisfy the following requirements:
+- Data obtained from the laminate perimeter shear strength test and three point
+bending test, see T3.5, should be used to prove adequate strength is provided,
+- Each attachment point requires steel backing plates with a minimum thickness of
+2mm. Alternate materials may be used for backing plates if equivalency is approved,</p>
+</blockquote>
+<h5 id="ev557">EV5.5.7<a class="headerlink" href="#ev557" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The floor and walls of the TSAC must be joined by welds, bonding and/or fasteners.
+- Fastened connections between the floor and any vertical wall of each section must
+have at least 2 fasteners,
+- Fastened connections between internal vertical walls and external vertical walls must
+be located in the top half of the internal vertical wall,
+- Sections containing 8kg or less must have a minimum of 2 fasteners connecting any
+two vertical walls,
+- Sections containing between 8kg and 12kg must have a minimum of 3 fasteners
+connecting any two vertical walls.</p>
+</blockquote>
+<h5 id="ev558">EV5.5.8<a class="headerlink" href="#ev558" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The TSAC must include electrically insulating internal vertical walls with a minimum of
+75% of the height of the external vertical walls, which divide the TSAC into section of a
+maximum of 12kg.</p>
+<p>NOTE: This is less restrictive than the Formula Student Germany 2026 Rules, if you plan to
+compete at other events the internal walls must extend up to the lid.</p>
+</blockquote>
+<h5 id="ev559">EV5.5.9<a class="headerlink" href="#ev559" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The accumulator segments, see EV5.3.2, must be separated by a rigid, electrically
+insulating and fire-retardant barrier, see T1.2.1.</p>
+</blockquote>
+<h5 id="ev5510">EV5.5.10<a class="headerlink" href="#ev5510" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The TSAC and the mounting of the TSAC to the chassis, each segment to the TSAC and
+each cell within a segment must be designed to withstand the accelerations according to
+T9.2.</p>
+<p>All TSAC attachment points must follow EV5.5.16. TSAC(s) made of materials as stated in
+EV5.5.5 or EV5.5.6 may need further reinforcement in order to comply with this rule.</p>
+</blockquote>
+<h5 id="ev5511">EV5.5.11<a class="headerlink" href="#ev5511" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Tabs of pouch cells must not carry mechanical loads and must not press into the pouch.
+Pouch cells must only carry mechanical loads on the large surface areas. The load must be
+distributed over at least 80% of each surface carrying the load.</p>
+</blockquote>
+<h5 id="ev5512">EV5.5.12<a class="headerlink" href="#ev5512" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Friction based cell mounting requires physical testing to prove the cells are retained when
+subjected to the required loads. Mechanically representative test cells or mock-up cells
+are permissible for these tests.</p>
+</blockquote>
+<h5 id="ev5513">EV5.5.13<a class="headerlink" href="#ev5513" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>To fulfil EV 5.5.10, a cell may be loaded with a maximum shear stress of 0.05MPa and a
+compressive stress of 1.0MPa.  When calculating the stress, only 80% of the nominal large
+cell surface area may be used.</p>
+</blockquote>
+<h5 id="ev5514">EV5.5.14<a class="headerlink" href="#ev5514" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>All fasteners used within or to mount the TSAC must comply with T10. Fasteners within
+the TSAC used for non-structural TSAC parts (e.g. PCBs etc.) do not have to follow T10 if
+the fasteners are made of electrically non-conductive material or other than stated in
+T10.1.2, may be of any diameter. Non-structural fasteners used to mount tabs of pouch
+cells must comply with T10 with the exception of T10.1.2.</p>
+</blockquote>
+<h5 id="ev5515">EV5.5.15<a class="headerlink" href="#ev5515" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The AIRs and the main fuse, see EV3.2.7, must be separated with an electrically insulated
+and fire-retardant material, see T1.2.1, from the cells within the TSAC (see EV5.1.3). Air is
+not considered to be a suitable insulation material in this case.</p>
+</blockquote>
+<h5 id="ev5516">EV5.5.16<a class="headerlink" href="#ev5516" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The TSAC must be attached to the chassis by a minimum of two mounts. Any brackets
+used to mount the TSAC must be made of steel 1.6mm thick or aluminium 4mm thick and
+must have gussets to carry bending loads.</p>
+</blockquote>
+<h5 id="ev5517">EV5.5.17<a class="headerlink" href="#ev5517" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Holes, both internal and external, in the TSAC are only allowed for the wiring-harness,
+ventilation, cooling or fasteners.  Holes may extend to the edge of a wall.  The TSAC must
+still be compliant with all other rules, especially the ones concerning its structural
+requirements.  External holes must be sealed according to EV4.5. The total cutout area
+must be below 25% of the area of the respective single wall.</p>
+</blockquote>
+<h5 id="ev5518">EV5.5.18<a class="headerlink" href="#ev5518" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>External openings for cooling and connected cooling ducts must not point towards the
+driver, or if the accumulator is out of the car, towards the operator of the accumulator
+hand cart even though there is a firewall, see T4.8, in between.  Ducts and their mounting
+must be fire retardant, see T1.2.1, and properly sealed.</p>
+</blockquote>
+<h5 id="ev5519">EV5.5.19<a class="headerlink" href="#ev5519" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>A sticker according to “ISO 7010-W012” (triangle with black lightning bolt on yellow
+background) with triangle side length of at least 100mm and the text “Always Energized”
+must be applied on every TSAC. The sticker must also contain the text “High Voltage” if
+the voltage is more than 60VDC or 25VAC.</p>
+</blockquote>
+<h5 id="ev5520">EV5.5.20<a class="headerlink" href="#ev5520" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Every TSAC must be able to vent gas to prevent high-pressure in the TSAC.</p>
+</blockquote>
+<h5 id="ev5521">EV5.5.21<a class="headerlink" href="#ev5521" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Where there are liquid cooling elements within the accumulator container, teams must
+demonstrate how they have been designed, manufactured and tested to ensure that
+cooling liquid cannot leak into the accumulator.</p>
+</blockquote>
+<h3 id="ev56-accumulator-isolation-relays">EV5.6 Accumulator Isolation Relays<a class="headerlink" href="#ev56-accumulator-isolation-relays" title="Permanent link">&para;</a></h3>
+<h5 id="ev561">EV5.6.1<a class="headerlink" href="#ev561" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>At least two AIRs must be fitted inside each TSAC.</p>
+</blockquote>
+<h5 id="ev562">EV5.6.2<a class="headerlink" href="#ev562" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The AIRs must open both poles of the TS accumulator. If the AIRs are open, no TS voltage
+may be present outside of the TSAC and the vehicle side of the AIRs must be galvanically
+isolated from the accumulator side, see EV1.2.1.</p>
+</blockquote>
+<h5 id="ev563">EV5.6.3<a class="headerlink" href="#ev563" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The AIRs must be mechanical relays of a “normally open” type. Solid-state relays are
+prohibited.</p>
+</blockquote>
+<h3 id="ev57-pre-charge-circuit">EV5.7 Pre-Charge Circuit<a class="headerlink" href="#ev57-pre-charge-circuit" title="Permanent link">&para;</a></h3>
+<h5 id="ev571">EV5.7.1<a class="headerlink" href="#ev571" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>A circuit that ensures that the voltage at the vehicle side of the AIRs is pre-charged to at
+least 95 % of the actual TS accumulator voltage before closing the second AIR must be
+implemented. Therefore the intermediate circuit voltage must be measured.</p>
+</blockquote>
+<h5 id="ev572">EV5.7.2<a class="headerlink" href="#ev572" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The pre-charge circuit must use a mechanical, normally open type relay. All pre-charge
+current must pass through this relay.</p>
+</blockquote>
+<h3 id="ev58-accumulator-management-system">EV5.8 Accumulator Management System<a class="headerlink" href="#ev58-accumulator-management-system" title="Permanent link">&para;</a></h3>
+<h5 id="ev581">EV5.8.1<a class="headerlink" href="#ev581" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Each TS accumulator must be monitored by an AMS whenever the LVS is active, or the
+accumulator is connected to a charger.</p>
+</blockquote>
+<h5 id="ev582">EV5.8.2<a class="headerlink" href="#ev582" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Every TSAC must contain its full AMS including its own and AMS exclusive SDC power
+stage, see EV 6.1</p>
+</blockquote>
+<h5 id="ev583">EV5.8.3<a class="headerlink" href="#ev583" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The AMS must continuously measure
+- All cell voltages,
+- The TS current,
+- The temperature of thermally critical cells,
+- For lithium-based cells: the temperature of at least 30 % of the cells equally
+distributed within the TSAC(s).</p>
+</blockquote>
+<h5 id="ev584">EV5.8.4<a class="headerlink" href="#ev584" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>Cell temperature must be measured at the negative terminal of the respective cell or at a
+location representative of the cell’s maximum temperature.  The sensor used must be in
+direct contact with the electrically exposed negative terminal (or location representative
+of the cell’s maximum temperature) or less than 10mm along the high current path away
+from the terminal in direct contact with the respective busbar.</p>
+<p>Where the sensor placement is not at the negative terminal (or less than 10mm along the
+high current path from it), the team must justify the placement in the ESF.  The
+justification must quantify the measurement error, considering thermal resistance and
+cooling effects.  For pouch cells the reference point for error evaluation is the point where
+the tab leaves pouch bag.</p>
+<p>It is acceptable to monitor multiple cells with one sensor if the above requirements are
+met for all cells sensed by the sensor.</p>
+<p>If thermal adhesive is used to ensure contact between the cell and temperature sensor,
+the maximum permitted temperature must be reduced, and the reduction justified in the
+ESF.</p>
+</blockquote>
+<h5 id="ev585">EV5.8.5<a class="headerlink" href="#ev585" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The maximum cell temperature is 60°C or the limit stated in the cell data sheet,
+whichever is lower.</p>
+</blockquote>
+<h5 id="ev586">EV5.8.6<a class="headerlink" href="#ev586" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>An independent cell temperature monitoring device may be provided by the officials
+during accumulator inspection and must be installed.</p>
+<p>The device must be placed on the warmest negative cell terminal of the TSAC and in
+direct contact with the terminal or less then 30mm away from it on the busbar.</p>
+</blockquote>
+<h5 id="ev587">EV5.8.7<a class="headerlink" href="#ev587" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The AMS must switch off the TS via the shutdown circuit, if critical voltage, temperature
+or current values according to the cell manufacturer’s datasheet or these rules
+persistently occurs for more than:
+- 500ms for voltage and current values,
+- 1s for temperature values.</p>
+<p>The accuracy, noise and sample rate of the measurement must be taken into account.</p>
+</blockquote>
+<h5 id="ev588">EV5.8.8<a class="headerlink" href="#ev588" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>AMS cell voltage measurement inputs, temperature measurement inputs and supply
+voltage of decentralized AMS slaves may be rated below the maximum TS voltage if the
+team can demonstrate that the chosen rating is appropriate for the situation.EV9</p>
+</blockquote>
+<h5 id="ev589">EV5.8.9<a class="headerlink" href="#ev589" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>A red indicator light in the cockpit that is easily visible from inside and outside the cockpit
+even in bright sunlight and clearly marked with the lettering “AMS” must light up if the
+AMS opens the shutdown circuit. It must stay illuminated until the error state has been
+manually reset, see EV6.1.6. Signals controlling this indicator are SCS, see T11.9.</p>
+</blockquote>
+<h5 id="ev5810">EV5.8.10<a class="headerlink" href="#ev5810" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>AMS signals are System Critical Signals, see T11.9. The loss of any measurement
+connection, see EV5.8.3, must result in an opened Shutdown Circuit.</p>
+</blockquote>
+<h5 id="ev5811">EV5.8.11<a class="headerlink" href="#ev5811" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>It must be possible to individually disconnect the current sensor, one temperature sensor
+and one cell voltage measurement wire during technical inspection, if any wire used.</p>
+</blockquote>
+<h5 id="ev5812">EV5.8.12<a class="headerlink" href="#ev5812" title="Permanent link">&para;</a></h5>
+<blockquote>
+<p>The AMS must be able to read and display all measured values according to EV5.8.2,
+including a single overview, e.g. by connecting a laptop to the AMS. This may be
+requested by officials anywhere, at any time, e.g. within a Dynamic Area.</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
