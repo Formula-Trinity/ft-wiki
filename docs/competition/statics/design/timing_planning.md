@@ -36,4 +36,5 @@ workshop due to size.
 
 - Include validation activities in the project plan, particularly when introducing a new design or process.
 - Allocate enough time to act on test results rather than scheduling validation immediately before competition.
+- Set an internal powertrain completion target well before competition. The FTX7 debrief suggested approximately two months to allow time for integration, controlled testing, repairs and validation.
 - When the plan changes, record what changed, why it changed and what the team did in response.
