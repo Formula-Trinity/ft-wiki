@@ -1,6 +1,7 @@
 # Safety
 
-**Note:** *[Technical](../tech/index.md) and Safety scrutineering are typically done at the same time, so line between the two is blurred*
+!!! note
+    [Technical](../tech/index.md) and Safety scrutineering are typically done at the same time, so the line between the two is blurred.
 
 Safety Scrutineering assesses whether the car can be operated safely. This includes both specific rule requirements and also more general hazards identified during inspection.
 
@@ -11,6 +12,16 @@ Expect mounted parts to be pushed or shaken during inspection. The floor, bodywo
 Scrutineers inspect critical fasteners closely and may ask which locking method has been used. Check that each critical fastener has the required thread engagement, washers and positive locking method. This includes fasteners on items such as the chain guard and suspension springs. Do not use nylon-insert lock nuts where heat from the engine or brakes could affect them, use a suitable heat-resistant locking method (k-nuts).
 
 Bring the complete set of driver equipment for inspection. At FSUK 2026, drivers did not need to wear the full suit while it was being checked. Hand restraints should be looped through the harness before it is fastened. Check the current harness requirements carefully if the seat is reclined, particularly the anti-submarine belt arrangement.
+
+## FTX7 findings at FSUK 2026
+
+FTX7 initially failed the following Safety items. Both were corrected in the pit lane and the car subsequently passed Safety scrutineering. These are historical findings, so always check the current rules.
+
+!!! warning "Driver's equipment"
+    One pair of driver's shoes did not have the required standard-approval markings and was labelled for non-track use only.
+
+!!! warning "Wheel fasteners"
+    The wheel studs were free to move or rotate within the hubs. Retaining plates were welded in the pit lane to connect the studs and prevent this movement.
 
 ## Checklist
 
