@@ -59,6 +59,83 @@ nav:
   - Home: index.md
   - FTX7:
       - ftx7/index.md
+      - FSUK 2026 Rules:
+          - ftx7/rules/index.md
+          - Abbreviations: ftx7/rules/abbreviations.md
+          - Rule Sections:
+            - Section A - Administrative Regulations:
+                - A1 Competition Overview: ftx7/rules/section-a/1-competition-overview.md
+                - A2 Vehicle Eligibility: ftx7/rules/section-a/2-vehicle-eligibility.md
+                - A3 Rules of Conduct: ftx7/rules/section-a/3-rules-of-conduct.md
+                - A4 General Requirements for Teams & Participants: ftx7/rules/section-a/4-general-req.md
+                - A5 Documentation & Deadlines: ftx7/rules/section-a/5-docs-deadlines.md
+                - A6 General Rules: ftx7/rules/section-a/6-general-rules.md
+            - Section T - General Technical Requirements:
+                - T1 Definitions: ftx7/rules/section-t/1-definitions.md
+                - T2 General Design Requirements: ftx7/rules/section-t/2-general-design-requirements.md
+                - T3 General Chassis Design: ftx7/rules/section-t/3-general-chassis-design.md
+                - T4 Cockpit: ftx7/rules/section-t/4-cockpit.md
+                - T5 Driver Restraint System: ftx7/rules/section-t/5-driver-restraint-system.md
+                - T6 Brake System: ftx7/rules/section-t/6-brake-system.md
+                - T7 Powertrain: ftx7/rules/section-t/7-powertrain.md
+                - T8 Aerodynamic Devices: ftx7/rules/section-t/8-aerodynamic-devices.md
+                - T9 Critical Components: ftx7/rules/section-t/9-critical-fasteners.md
+                - T10 Fasteners: ftx7/rules/section-t/10-fasteners.md
+                - T11 Electrical Components: ftx7/rules/section-t/11-electrical-components.md
+                - T12 Vehicle Identification: ftx7/rules/section-t/12-vehicle-identification.md
+                - T13 Vehicle and Driver Equipment: ftx7/rules/section-t/13-vehicle-and-driver-equipment.md
+                - T14 [DV Only] Autonomous System: ftx7/rules/section-t/14-autonomous-system.md
+                - T15 [DV Only] Autonomous System Brake: ftx7/rules/section-t/15-autonomous-system-brake.md
+            - Section CV - Internal Combustion Engine Vehicles:
+                - CV1 Internal Combustion Engine Powertrains: ftx7/rules/section-cv/1-internal-combustion-engine-powertrains.md
+                - CV2 Fuel and Fuel System: ftx7/rules/section-cv/2-fuel-and-fuel-system.md
+                - CV3 Exhaust System and Noise Control: ftx7/rules/section-cv/3-exhaust-system-and-noise-control.md
+                - CV4 Shutdown System: ftx7/rules/section-cv/4-shutdown-system.md
+                - CV5 LV Hybrid System: ftx7/rules/section-cv/5-lv-hybrid-system.md
+            - Section EV - Electric Vehicles:
+                - EV1 Definitions: ftx7/rules/section-ev/1-definitions.md
+                - EV2 Electric Powertrain: ftx7/rules/section-ev/2-electric-powertrain.md
+                - EV3 General Requirements: ftx7/rules/section-ev/3-general-requirements.md
+                - EV4 Tractive System: ftx7/rules/section-ev/4-tractive-system.md
+                - EV5 Tractive System Energy Storage: ftx7/rules/section-ev/5-tractive-system-energy-storage.md
+                - EV6 EV Shutdown Circuit and Systems: ftx7/rules/section-ev/6-ev-shutdown-circuit-and-systems.md
+                - EV7 Chargers: ftx7/rules/section-ev/7-chargers.md
+                - EV8 Tractive System Accumulator Container Hand Cart: ftx7/rules/section-ev/8-tractive-system-accumulator-container-hand-cart.md
+                - EV9 Electrical System Form: ftx7/rules/section-ev/9-electrical-system-form.md
+            - Section AFV - Alternative Fuel Vehicles:
+                - AFV1 Alternative Fuel Vehicles: ftx7/rules/section-afv/1-alternative-fuel-vehicles.md
+            - Section IN - Technical Inspections:
+                - IN1 General: ftx7/rules/section-in/1-general.md
+                - IN2 Motorsport UK Safety Inspection: ftx7/rules/section-in/2-motorsport-uk-safety-inspection.md
+                - IN3 [EV Only] Accumulator Inspection: ftx7/rules/section-in/3-accumulator-inspection.md
+                - IN4 [EV Only] Electrical Inspection: ftx7/rules/section-in/4-electrical-inspection.md
+                - IN5 Mechanical Inspection: ftx7/rules/section-in/5-mechanical-inspection.md
+                - IN6 [DV Only] Autonomous System Inspection: ftx7/rules/section-in/6-autonomous-system-inspection.md
+                - IN7 Tilt Test: ftx7/rules/section-in/7-tilt-test.md
+                - IN8 Vehicle Weighing: ftx7/rules/section-in/8-vehicle-weighing.md
+                - IN9 [EV Only] Rain Test: ftx7/rules/section-in/9-rain-test.md
+                - IN10 Noise Test: ftx7/rules/section-in/10-noise-test.md
+                - IN11 Brake Test: ftx7/rules/section-in/11-brake-test.md
+                - IN12 Post Event Inspection: ftx7/rules/section-in/12-post-event-inspection.md
+                - IN13 Driver Egress Test: ftx7/rules/section-in/13-driver-egress-test.md
+            - Section S - Static Events:
+                - S1 Static Event No-Show Penalty: ftx7/rules/section-s/1-static-event-no-show-penalty.md
+                - S2 Business Plan Presentation (BPP) - FS and Concept Class: ftx7/rules/section-s/2-business-plan-presentation(bpp)-fs-and-concept-class.md
+                - S3 Cost and Manufacturing Event - FS: ftx7/rules/section-s/3-cost-and-manufacturing-event-fs.md
+                - S4 Cost and Manufacturing Event - Concept: ftx7/rules/section-s/4-cost-and-manufacturing-event-concept.md
+                - S5 Engineering Design Event - FS: ftx7/rules/section-s/5-engineering-design-event-fs.md
+                - S6 Engineering Design Event - Concept: ftx7/rules/section-s/6-engineering-design-event-concept.md
+                - S7 Lap Time Simulation (LTS): ftx7/rules/section-s/7-lap-time-simulation(lts).md
+            - Section D - Dynamic Events:
+                - D1 Dynamic Events General: ftx7/rules/section-d/1-dynamic-events-general.md
+                - D2 Driving Rules: ftx7/rules/section-d/2-driving-rules.md
+                - D3 Weather Conditions: ftx7/rules/section-d/3-weather-conditions.md
+                - D4 Skidpad Event: ftx7/rules/section-d/4-skidpad-event.md
+                - D5 Acceleration Event: ftx7/rules/section-d/5-acceleration-event.md
+                - D6 Autocross Event: ftx7/rules/section-d/6-autocross-event.md
+                - D7 Endurance and Efficiency Event: ftx7/rules/section-d/7-endurance-and-efficiency-event.md
+                - D8 [DV Only] Trackdrive Event: ftx7/rules/section-d/8-trackdrive-event.md
+                - D9 Dynamic Events Penalties: ftx7/rules/section-d/9-dynamic-events-penalties.md
       - Powertrain:
           - ftx7/powertrain/index.md
       - Drivetrain:
