@@ -9,7 +9,7 @@ Highlight any rules you expect questions about and be prepared to explain how th
 
 Do not expect every check to involve a measuring tool. Scrutineers may move the suspension, shake mounted components or ask a driver to press a pedal firmly. Measure and test these items in the workshop rather than relying on them looking acceptable at competition.
 
-## FTX7 findings at FSUK 2026
+## FTX7 Non-Conformities at FSUK 2026
 
 FTX7 initially failed the following Technical items. They were corrected in the pit lane and the car subsequently passed Technical scrutineering. These are historical findings rather than a substitute for the current rules.
 
