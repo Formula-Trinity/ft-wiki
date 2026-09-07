@@ -33,7 +33,8 @@ loose cables and unfinished gear shifting system.
 
 ## Team Debrief Notes
 
-**NOTE:** *These notes were recorded by team members immediately after judging. They summarise verbal comments and questions from the judges and should not be treated as official feedback.*
+!!! note "Unofficial feedback"
+    These notes were recorded by team members immediately after judging. They summarise verbal comments and questions from the judges and should not be treated as official feedback.
 
 ### Presenting the Design
 

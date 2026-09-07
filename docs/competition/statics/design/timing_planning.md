@@ -32,7 +32,8 @@ workshop due to size.
 
 ## Team Debrief Notes
 
-**NOTE:** *These notes were recorded by team members immediately after judging. They summarise verbal comments and questions from the judges and should not be treated as official feedback.*
+!!! note "Unofficial feedback"
+    These notes were recorded by team members immediately after judging. They summarise verbal comments and questions from the judges and should not be treated as official feedback.
 
 - Include validation activities in the project plan, particularly when introducing a new design or process.
 - Allocate enough time to act on test results rather than scheduling validation immediately before competition.
