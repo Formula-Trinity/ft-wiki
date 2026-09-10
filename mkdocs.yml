@@ -138,6 +138,12 @@ nav:
                 - D9 Dynamic Events Penalties: ftx7/rules/section-d/9-dynamic-events-penalties.md
       - Powertrain:
           - ftx7/powertrain/index.md
+          - How an Engine Works: ftx7/powertrain/how-an-engine-works/index.md
+          - Cooling System: ftx7/powertrain/cooling-system/index.md
+          - Exhaust: ftx7/powertrain/exhaust/index.md
+          - Intake: ftx7/powertrain/intake/index.md
+          - Muffler: ftx7/powertrain/muffler/index.md
+          - Oil Sump: ftx7/powertrain/oil-sump/index.md
       - Drivetrain:
           - ftx7/drivetrain/index.md
       - Chassis:
