@@ -34,6 +34,12 @@
       Types of Fuel Injection
     </a>
   </li>
+
+  <li>
+    <a href="./injector_flow_rate/Injector-Flow-Rate.md">
+      Injector Flow Rate
+    </a>
+  </li>
 </ul>
 
 <h2>General Information</h2>
