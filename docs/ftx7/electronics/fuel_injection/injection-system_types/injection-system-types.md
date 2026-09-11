@@ -1,90 +1,42 @@
-<h1>Injection-System Types</h1>
+# Injection-System Types
 
-<h2>Direct Injection</h2>
+## Direct Injection
 
-<p>
-  In a direct-injection system, fuel is injected directly into the main
-  combustion chamber of each cylinder.
-</p>
+In a direct-injection system, fuel is injected directly into the main combustion chamber of each cylinder.
 
-<p>
-  Only air enters the cylinder during the intake stroke. The air and fuel are
-  mixed inside the combustion chamber after the fuel is injected.
-</p>
+Only air enters the cylinder during the intake stroke. The air and fuel are mixed inside the combustion chamber after the fuel is injected.
 
-<p>
-  Injection is intermittent and may be controlled sequentially or individually
-  for each cylinder.
-</p>
+Injection is intermittent and may be controlled sequentially or individually for each cylinder.
 
-<h2>Indirect Injection</h2>
+## Indirect Injection
 
-<p>
-  In an indirect-injection system, fuel is injected outside the main combustion
-  chamber. The resulting air–fuel mixture is then drawn into the cylinder.
-</p>
+In an indirect-injection system, fuel is injected outside the main combustion chamber. The resulting air–fuel mixture is then drawn into the cylinder.
 
-<h4>Manifold Injection</h4>
+#### Manifold Injection
 
-<p>
-  Manifold-injection systems are commonly used in petrol-powered engines,
-  including Otto-cycle and Wankel engines.
-</p>
+Manifold-injection systems are commonly used in petrol-powered engines, including Otto-cycle and Wankel engines.
 
-<p>
-  In a manifold-injection system, air and fuel are mixed outside the combustion
-  chamber before being drawn into the engine.
-</p>
+In a manifold-injection system, air and fuel are mixed outside the combustion chamber before being drawn into the engine.
 
-<p>
-  The two main types of manifold injection are:
-</p>
+The two main types of manifold injection are:
 
-<ul>
-  <li>Multi-point injection</li>
-  <li>Single-point injection</li>
-</ul>
+- Multi-point injection
+- Single-point injection
 
-<h4>Multi-Point Injection</h4>
+#### Multi-Point Injection
 
-<p>
-  Multi-point injection, also known as <strong>port injection</strong>, uses a
-  separate injection point for each cylinder.
-</p>
+Multi-point injection, also known as **port injection**, uses a separate injection point for each cylinder.
 
-<p>
-  Fuel is injected into the intake port immediately upstream of each cylinder's
-  intake valve. Most multi-point systems use one injector per cylinder.
-</p>
+Fuel is injected into the intake port immediately upstream of each cylinder's intake valve. Most multi-point systems use one injector per cylinder.
 
-<p>
-  This provides more precise control over fuel distribution than a single-point
-  system.
-</p>
+This provides more precise control over fuel distribution than a single-point system.
 
-<p align="center">
-  <img
-    src="../images/PortInjection_v_DirectInjection.jpg"
-    alt="PortvDirect"
-    width="600"
-  >
-</p>
+![Diagram comparing port injection and direct injection](../images/PortInjection_v_DirectInjection.jpg)
 
-<p align="center">
-  <em>Figure 1: Diagram displaying the difference between Port Injection and Direct Injection.</em>
-</p>
+*Figure 1: Diagram displaying the difference between port injection and direct injection.*
 
+#### Single-Point Injection
 
-<h4>Single-Point Injection</h4>
+Single-point injection, also known as **throttle-body injection**, uses a single injector located in the throttle body.
 
-<p>
-  Single-point injection, also known as
-  <strong>throttle-body injection</strong>, uses a single injector located in
-  the throttle body.
-</p>
-
-<p>
-  The throttle body is mounted on the intake manifold in a position similar to
-  that of a carburettor. Fuel is mixed with the incoming air before the mixture
-  enters the intake manifold.
-</p>
+The throttle body is mounted on the intake manifold in a position similar to that of a carburettor. Fuel is mixed with the incoming air before the mixture enters the intake manifold.
