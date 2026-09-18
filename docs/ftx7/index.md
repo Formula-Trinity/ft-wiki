@@ -11,6 +11,7 @@ The car is being developed into Formula Trinity’s FS Class entry for Formula S
 - [Chassis](chassis/index.md)
 - [Suspension](suspension/index.md)
 - [Aerodynamics](aero/index.md)
+- [Vehicle Dynamics & Tyre Data](vehicle-dynamics-tyre-data/index.md)
 - [Electronics](electronics/index.md)
 
 ![FTX7](../assets/images/ftx7/render.png)

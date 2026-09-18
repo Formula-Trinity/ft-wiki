@@ -38,6 +38,19 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
 
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
 # ==================================
 #        END OF DO NOT TOUCH...
 # ==================================
@@ -52,29 +65,66 @@ nav:
           - ftx7/drivetrain/index.md
       - Chassis:
           - ftx7/chassis/index.md
+          - Firewall: ftx7/chassis/Firewall/index.md
+          - Frame: ftx7/chassis/Frame/index.md
+          - Frame Jig: ftx7/chassis/Frame Jig/index.md
+          - Gear Shifter: ftx7/chassis/Gear Shifter/index.md
+          - Head Rest: ftx7/chassis/Head Rest/index.md
+          - Impact Attenuator: ftx7/chassis/Impact Attenuator/index.md
+          - Seat: ftx7/chassis/Seat/index.md
       - Suspension:
           - ftx7/suspension/index.md
       - Aero:
           - ftx7/aero/index.md
+          - Subsystem 1: ftx7/aero/subsystem-01/index.md
+          - Aero Wiki: ftx7/aero/aero-wiki/index.md
+          - Nosecone & Body: ftx7/aero/nosecone-body/index.md
+          - Sidepods: ftx7/aero/sidepods/index.md
+          - Extras: ftx7/aero/extras/index.md
+      - Vehicle Dynamics & Tyre Data:
+          - ftx7/vehicle-dynamics-tyre-data/index.md
+          - Tyre Wiki: ftx7/vehicle-dynamics-tyre-data/tyre-wiki/index.md
+          - Tyre Data Wiki: ftx7/vehicle-dynamics-tyre-data/tyre-data-wiki/index.md
+          - Tyre Data Guide: ftx7/vehicle-dynamics-tyre-data/tyre-data-guide/index.md
+          - LTS Guide: ftx7/vehicle-dynamics-tyre-data/lts-guide/index.md
+          - LTS Data: ftx7/vehicle-dynamics-tyre-data/lts-data/index.md
       - Electronics:
           - ftx7/electronics/index.md
           - Subsystem 1: ftx7/electronics/subsystem-01/index.md
           - Subsystem 2: ftx7/electronics/subsystem-02/index.md
-  - Manufacturing:
-      - manufacturing/index.md
+  - Design & Manufacturing:
+      - design_manufacturing/index.md
+      - Design Guides: design_manufacturing/design/index.md
+      - Manufacturing Guides: design_manufacturing/manufacturing/index.md
+  - Competition Overview:
+      - competition/index.md
+      - Static Events:
+        - competition/statics/index.md
+        - Design Judging Event:
+          - competition/statics/design/index.md
+          - Engineering Design Report: competition/statics/design/edr.md
+          - Overall Vehicle Concept: competition/statics/design/overall_concept.md
+          - Structural Design inc. Suspension & Brakes: competition/statics/design/struct_design.md
+          - Powertrain Concept & Choice, Simulation, Design & Analysis: competition/statics/design/pt.md
+          - Overall Timing, Manufacturing, Procurement Plan plus Team Organisation Plan: competition/statics/design/timing_planning.md
+          - Design for Manufacture & Profit, Customer Respect and Innovation: competition/statics/design/design_for_manufacture.md
+        - Cost & Manufacturing Event:
+          - competition/statics/cost/index.md
+          - Cost Report Documents:
+            - competition/statics/cost/pre_comp_submissions/index.md
+            - CCBOM: competition/statics/cost/pre_comp_submissions/CCBOM.md
+            - Cost & Emissions Explanation Report: competition/statics/cost/pre_comp_submissions/explanations_report.md
+            - Supporting Materials: competition/statics/cost/pre_comp_submissions/supporting_docs.md
+          - Cost & Manufacturing Judging: competition/statics/cost/judging/index.md
+
+      - Scrutineering:
+        - competition/scrut/index.md
+        - Tech: competition/scrut/tech/index.md
+        - Safety: competition/scrut/safety/index.md
+        - Chassis: competition/scrut/chassis/index.md
+        - Tilt: competition/scrut/tilt/index.md
+        - Noise: competition/scrut/noise/index.md
+        - Brakes: competition/scrut/brakes/index.md
+      - Dynamic Events:
+        - competition/dynamics/index.md
   - How to Contribute: contributing.md
-
-markdown_extensions:
-  - admonition
-  - tables
-  - attr_list
-  - md_in_html
-
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-
-  - toc:
-      permalink: true
