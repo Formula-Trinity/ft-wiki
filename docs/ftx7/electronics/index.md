@@ -128,11 +128,11 @@ Main protection and distribution
 
 | Section | Purpose | Detail page |
 |---|---|---|
-| Battery and charging | Stores and restores electrical energy | [LV Battery](../03-lv-power-distribution/lv-battery/index.md) |
-| LVMS | Manually isolates the low-voltage system | [LVMS](../04-shutdown-safety/lv-master-switch-lvms/index.md) |
-| Protection | Fuses and relays protect wires and loads | [Fuse and Relay Box](../03-lv-power-distribution/fuse-relay-box/index.md) |
-| Grounding | Provides safe and stable current return paths | [Grounding and Bonding](../03-lv-power-distribution/grounding-and-bonding/index.md) |
-| Wiring | Connects all components and carries power/signals | [Wiring Harness](../09-wiring-harness/index.md) |
+| Battery and charging | Stores and restores electrical energy | [LV Battery](../04-lv-power-distribution/lv-battery/index.md) |
+| LVMS | Manually isolates the low-voltage system | [LVMS](../05-shutdown-safety/lv-master-switch-lvms/index.md) |
+| Protection | Fuses and relays protect wires and loads | [Fuse and Relay Box](../04-lv-power-distribution/fuse-relay-box/index.md) |
+| Grounding | Provides safe and stable current return paths | [Grounding and Bonding](../04-lv-power-distribution/grounding-and-bonding/index.md) |
+| Wiring | Connects all components and carries power/signals | [Wiring Harness](../10-wiring-harness/index.md) |
 
 ---
 
@@ -184,12 +184,12 @@ Fuel-pump and ignition/injection relay coils
 
 Detailed pages:
 
-- [Shutdown Circuit](../04-shutdown-safety/shutdown-circuit-sdc/index.md)
-- [BSPD](../04-shutdown-safety/bspd/index.md)
-- [SCM](../04-shutdown-safety/safety-circuit-monitor-scm/index.md)
-- [BOTS](../04-shutdown-safety/brake-over-travel-switch-bots/index.md)
-- [Inertia Switch](../04-shutdown-safety/inertia-switch/index.md)
-- [Shutdown Buttons](../04-shutdown-safety/shutdown-buttons/index.md)
+- [Shutdown Circuit](../05-shutdown-safety/shutdown-circuit-sdc/index.md)
+- [BSPD](../05-shutdown-safety/bspd/index.md)
+- [SCM](../05-shutdown-safety/safety-circuit-monitor-scm/index.md)
+- [BOTS](../05-shutdown-safety/brake-over-travel-switch-bots/index.md)
+- [Inertia Switch](../05-shutdown-safety/inertia-switch/index.md)
+- [Shutdown Buttons](../05-shutdown-safety/shutdown-buttons/index.md)
 
 ---
 
