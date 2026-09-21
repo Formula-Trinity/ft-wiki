@@ -18,3 +18,18 @@ Each department creates BOMs for several reasons;
 
 The BOM template can be seen below;
 
+![BOM](../assets/BOM.png)
+
+## Status (Dropdown)
+
+This tab shows the current state that the part is in. The dropdown options are shown below:
+
+![BOM](../assets/Status.png)
+
+* **Not Started** No design work has begun on the part
+* **In Progress** Design work has begun on the part
+* **Released** The design has been completed, reviewed and finalised
+* **Manufactured** The part has been made
+
+***Important Note:*** Parts may only be marked as **RELEASED** Following a design review by either IC Team Captain, IC Head of Engineering and/or IC Head of Manufacturing
+
