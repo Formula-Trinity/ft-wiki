@@ -53,7 +53,7 @@ Again, most parts should fall within one of the options. In the unlikely case th
 
 ## Part
 
-A plain English description of the part. This should match the name in the SolidWorks file (See [File Structure](../file_structure/)
+A plain English description of the part. This should match the name in the SolidWorks file (See [File Structure](../file_structure/))
 
 ## M/B (Dropdown)
 
@@ -75,6 +75,24 @@ Upon selecting a PMFT option, you must then select a corresponding **component**
 
 The dropdown for the **component** column will only show eligible options that match your **PMFT** choice.
 
+![BOM](../assets/Component.png)
+
+*When material is selected in PMFT column, corresponding options appear in the component column. This is again to remain consistent with FSUK BOM standards*
+
+***IMPORTANT*** Every process, material and fastener (you will not use the tooling option most likely) for every component MUST be included. Failure to do so will result in penalties at competition.
+
+This means every bolt and washer goes under fasteners, every hand finish or deburr under processes.
+
+![BOM](../assets/GOOD_BOM.png)
+
+*An example of a good BOM entry, every detail included down to bolts, washers and hand finishing. Quantities are not included and are covered in thr **Quantities** section. Note how commenting is used to give extra context.*
+
+## Quantity
+
+There are two main cases for inputting quantities into the BOM...
+
+* **Processes:** The amount of hours the process takes
+* **Parts (Such as bolts, washers, or a part itself):** The actual quantity used
 
 
 
