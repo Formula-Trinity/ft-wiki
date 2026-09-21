@@ -94,6 +94,27 @@ There are two main cases for inputting quantities into the BOM...
 * **Processes:** The amount of hours the process takes
 * **Parts (Such as bolts, washers, or a part itself):** The actual quantity used
 
+The example from earlier, this time including cost is shown below:
+
+![BOM](../assets/COST_BOM.png)
+*Note the level of annotation in the above figure is purely for the purpose of the Wiki, and shouldn't be like that on the actual BOM*
+
+## CAD File
+
+Should contain a hyperlink to the CAD file for the part saved on OneDrive
+
+## Technical drawing
+
+Should contain a hyperlink to the SolidWorks technical drawing file for the part saved on OneDrive
+
+## Revision (Dropdown)
+
+Details what revision of the part is currently active (A,B,C...Z)
+
+## Owner
+
+Details who is responsible for the design of the part. If there are multiple people, all should be included.
+
 
 
 
