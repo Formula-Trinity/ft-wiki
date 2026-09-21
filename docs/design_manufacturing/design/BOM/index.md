@@ -61,12 +61,21 @@ This column states if the part is **Made** (M) or **Bought** (B)
 
 ![BOM](../assets/MakeBuy.png)
 
-## PMFT (Dropdown)
-	
+## PMFT and Component (Dropdowns)
+
+These two columns will be dealt with together as they are heavily linked to one another
+
+### There are four options for the PMFT column:
 * **Process:**	Describes all the steps required for manufacturing
 * **Material:**	The raw materials used
 * **Fastner:**	The fastners used to assemble the part
 * **Tooling:**	Any tooling required for manufacturing
+
+Upon selecting a PMFT option, you must then select a corresponding **component**
+
+The dropdown for the **component** column will only show eligible options that match your **PMFT** choice.
+
+
 
 
 
