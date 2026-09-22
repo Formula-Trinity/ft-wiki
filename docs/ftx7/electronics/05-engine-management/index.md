@@ -17,3 +17,7 @@ Describe what is included in this section and what is explicitly out of scope.
 - [Lambda and Exhaust Sensing](./lambda-and-exhaust-sensing/index.md)
 - [Engine Sensors](../01-components/index.md)
 - [Sensor Calibration](./calibration/index.md)
+
+## Open issues
+
+- [ ]

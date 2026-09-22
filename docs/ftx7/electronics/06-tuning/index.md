@@ -13,3 +13,7 @@ Tuning is a big part of getting the engine running optimally, this section will 
 - [Spark Advance](./tables/Advance.md)
 - [Volumetric Efficienty (VE)](./tables/VE.md)
 - [Air-Fuel Ratio Target (AFR)](./tables/AFR.md)
+
+## Open issues
+
+- [ ]
