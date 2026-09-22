@@ -1,11 +1,11 @@
 # Electronics Overview
 
-> **Vehicle:** FTX7 \
-> **Electronics Lead:** Michał Otrębski \
-> **Engine:** Honda CBR600RR 2003-4 \
-> **Electrical system:** 12 V Low-Voltage System \
-> **Document status:** Draft \
-> **Last reviewed:**  30/07/2026 
+> **Vehicle:** FTX7  
+> **Electronics Lead:** Michał Otrębski  
+> **Engine:** Honda CBR600RR 2003-4  
+> **Electrical system:** 12 V Low-Voltage System  
+> **Document status:** Draft  
+> **Last reviewed:**  30/07/2026  
 
 ---
 
