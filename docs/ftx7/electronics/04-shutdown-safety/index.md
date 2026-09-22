@@ -11,3 +11,7 @@
 - [Shutdown Buttons](../01-components/safety/emergency-switch.md)
 - [Ignition, Injection and Fuel-Pump Shutdown Relays](./shutdown-relays/index.md)
 - [Brake Light](../01-components/safety/brake-light.md)
+
+## Open issues
+
+- [ ]

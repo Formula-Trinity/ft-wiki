@@ -56,3 +56,7 @@
 - [Distribution Posts](./consumables/distribution-post.md)
 - [Terminals](./consumables/terminals.md)
 - [Harness Tape](./consumables/tape.md)
+  
+## Open issues
+
+- [ ]
