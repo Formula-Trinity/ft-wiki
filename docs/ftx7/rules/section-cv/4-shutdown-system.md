@@ -1,0 +1,26 @@
+# Shutdown System
+
+### CV4.1 Shutdown Circuit
+
+##### CV4.1.1
+
+> The shutdown circuit directly controls all electrical power to the ignition, fuel injectors and
+> all fuel pumps. It must act through a minimum of two mechanical relays (or equivalent
+> solid-state switching devices). One relay for the fuel pump and at least one relay for
+> injection and ignition.
+>
+> An explanatory schematic of the required shutdown circuit is shown in Figure 26.
+
+##### CV4.1.2
+
+> The shutdown circuit is defined as a series connection of at least the LVMS, see [T11.3](../section-t/11-electrical-components.md/#t113-low-voltage-master-switch), the
+> BSPD, see [T11.6](../section-t/11-electrical-components.md/#t116-brake-system-plausibility-device), three shutdown buttons, see [T11.4](../section-t/11-electrical-components.md/#t114-shutdown-buttons), the BOTS, see [T6.2](../section-t/6-brake-system.md/#t62-brake-over-travel-switch) and the inertia
+> switch, see [T11.5](../section-t/11-electrical-components.md/#t115-inertia-switch).
+
+##### CV4.1.3
+
+> All circuits that are part of the shutdown circuit must be designed in a way, that in the de-
+> energized/disconnected state they open the shutdown circuit.
+
+![Shutdown Circuit](Images/shutdown.png)
+<small><em>Figure 26: Explanatory example schematic of the required shutdown circuit</em></small>

@@ -4,6 +4,7 @@
 ## Engine
 
 - [Engine Control Module (ECM)](./engine/MS3.md)
+- [LV Battery](./engine/battery.md)
 - [Ignition Driver](./engine/ignition-driver.md)
 - [Ignition Coil](./engine/ignition-coil.md)
 - [Spark Plug](./engine/spark-plug.md)
@@ -41,6 +42,9 @@
 - [Safety Circuit Monitor (SCM)](./safety/SCM.md)
 - [Inertia Switch](./safety/inertia.md)
 - [Emergency Shutdown Switch](./safety/emergency-switch.md)
+- [Brake Light](./safety/brake-light.md)
+- [Low Voltage Master Switch](./safety/LVMS.md)
+- [Relay & Fuse Box](./safety/fuse-relay.md)
 
 ## Consumables
 

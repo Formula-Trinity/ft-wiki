@@ -1,11 +1,11 @@
 # Electronics Overview
 
-> **Vehicle:** FTX7 \
-> **Electronics Lead:** Michał Otrębski \
-> **Engine:** Honda CBR600RR 2003-4 \
-> **Electrical system:** 12 V Low-Voltage System \
-> **Document status:** Draft \
-> **Last reviewed:**  30/07/2026 
+> **Vehicle:** FTX7  
+> **Electronics Lead:** Michał Otrębski  
+> **Engine:** Honda CBR600RR 2003-4  
+> **Electrical system:** 12 V Low-Voltage System  
+> **Document status:** Draft  
+> **Last reviewed:**  30/07/2026  
 
 ---
 
@@ -128,11 +128,11 @@ Main protection and distribution
 
 | Section | Purpose | Detail page |
 |---|---|---|
-| Battery and charging | Stores and restores electrical energy | [LV Battery](../03-lv-power-distribution/lv-battery/index.md) |
-| LVMS | Manually isolates the low-voltage system | [LVMS](../04-shutdown-safety/lv-master-switch-lvms/index.md) |
-| Protection | Fuses and relays protect wires and loads | [Fuse and Relay Box](../03-lv-power-distribution/fuse-relay-box/index.md) |
-| Grounding | Provides safe and stable current return paths | [Grounding and Bonding](../03-lv-power-distribution/grounding-and-bonding/index.md) |
-| Wiring | Connects all components and carries power/signals | [Wiring Harness](../09-wiring-harness/index.md) |
+| Battery and charging | Stores and restores electrical energy | [LV Battery](../04-lv-power-distribution/lv-battery/index.md) |
+| LVMS | Manually isolates the low-voltage system | [LVMS](../05-shutdown-safety/lv-master-switch-lvms/index.md) |
+| Protection | Fuses and relays protect wires and loads | [Fuse and Relay Box](../04-lv-power-distribution/fuse-relay-box/index.md) |
+| Grounding | Provides safe and stable current return paths | [Grounding and Bonding](../04-lv-power-distribution/grounding-and-bonding/index.md) |
+| Wiring | Connects all components and carries power/signals | [Wiring Harness](../10-wiring-harness/index.md) |
 
 ---
 
@@ -144,12 +144,12 @@ The shutdown circuit is a hardwired safety chain. When any required device opens
 
 | Device | Purpose | Current implementation |
 |---|---|---|
-| LVMS | Isolates the 12 V system | Mechanical rotary switch |
-| Shutdown buttons | Allow driver or marshal shutdown | 3 × 40 mm, brand/model TBD |
-| BSPD | Detects simultaneous hard braking and excessive throttle | Custom team-designed circuit |
-| BOTS | Detects excessive brake-pedal travel | 40mm,  |
-| Inertia switch | Opens the circuit during a severe impact | Sensata Crash Sensor |
-| SCM | Monitors shutdown-circuit condition and reports status | Custom team-designed unit |
+| [LVMS](./01-components/safety/LVMS.md) | Isolates the 12 V system | Mechanical rotary switch |
+| [Shutdown buttons](./01-components/safety/emergency-switch.md) | Allow driver or marshal shutdown | 3 × 40 mm, brand/model TBD |
+| [BSPD](./01-components/safety/BSPD.md) | Detects simultaneous hard braking and excessive throttle | Custom team-designed circuit |
+| [BOTS](./05-shutdown-safety/brake-over-travel-switch-bots/index.md) | Detects excessive brake-pedal travel | 40mm,  |
+| [Inertia switch](./01-components/safety/inertia.md) | Opens the circuit during a severe impact | Sensata Crash Sensor |
+| [SCM](./01-components/safety/SCM.md) | Monitors shutdown-circuit condition and reports status | Custom team-designed unit |
 
 ### Safe result
 
@@ -184,12 +184,12 @@ Fuel-pump and ignition/injection relay coils
 
 Detailed pages:
 
-- [Shutdown Circuit](../04-shutdown-safety/shutdown-circuit-sdc/index.md)
-- [BSPD](../04-shutdown-safety/bspd/index.md)
-- [SCM](../04-shutdown-safety/safety-circuit-monitor-scm/index.md)
-- [BOTS](../04-shutdown-safety/brake-over-travel-switch-bots/index.md)
-- [Inertia Switch](../04-shutdown-safety/inertia-switch/index.md)
-- [Shutdown Buttons](../04-shutdown-safety/shutdown-buttons/index.md)
+- [Shutdown Circuit](./05-shutdown-safety/shutdown-circuit-sdc/index.md)
+- [BSPD](./01-components/safety/BSPD.md)
+- [SCM](./01-components/safety/SCM.md)
+- [BOTS](./05-shutdown-safety/brake-over-travel-switch-bots/index.md)
+- [Inertia Switch](./01-components/safety/inertia.md)
+- [Shutdown Buttons](./01-components/safety/emergency-switch.md)
 
 ---
 
@@ -218,7 +218,7 @@ It can only self reset after 10s of the condition being remmoved
 | Trip delay | 500ms* |
 | Reset behaviour | 10s* after conditions have been removed |
 
-[Open BSPD documentation](../04-shutdown-safety/bspd/index.md)
+[Open BSPD documentation](./01-components/safety/BSPD.md)
 
 ---
 
@@ -250,7 +250,7 @@ A foolproof solution is to use a proper PCB connector like a molex to connect to
 | Can the SCM open the shutdown circuit? | No |
 | Does the SCM contain programmable logic? | No |
 
-[Open SCM documentation](../04-shutdown-safety/safety-circuit-monitor-scm/index.md)
+[Open SCM documentation](./01-components/safety/SCM.md)
 
 ---
 
@@ -288,12 +288,12 @@ The Honda CBR600RR engine is controlled by a MegaSquirt ECU using a fully sequen
 
 Detailed pages:
 
-- [ECU](../05-engine-management/ecu/index.md)
-- [Ignition](../05-engine-management/ignition/index.md)
-- [Fuel Injection](../05-engine-management/fuel-injection/index.md)
-- [Fuel-Pump Control](../05-engine-management/fuel-pump-control/index.md)
-- [Engine Sensors](../05-engine-management/engine-sensors/index.md)
-- [Calibration](../05-engine-management/calibration/index.md)
+- [ECU](./01-components/engine/MS3.md)
+- [Ignition](./06-engine-management%20WIP/ignition/index.md)
+- [Fuel Injection](./06-engine-management%20WIP/fuel-injection/index.md)
+- [Fuel-Pump Control](./06-engine-management%20WIP/fuel-pump-control/index.md)
+- [Engine Sensors](./06-engine-management%20WIP/engine-sensors/index.md)
+- [Calibration](./06-engine-management%20WIP/calibration/index.md)
 
 ---
 
@@ -340,9 +340,8 @@ There are many possible display values to be shown but the main ones are:
 
 Detailed pages:
 
-- [Dashboard](../06-driver-controls-hmi/dashboard/index.md)
-- [Indicators and Warnings](../06-driver-controls-hmi/indicators-and-warnings/index.md)
-- [Driver Controls](../06-driver-controls-hmi/driver-controls/index.md)
+- [Dashboard](./Dashboard/dashboard.md)
+- [Indicators and Warnings](./Dashboard/indicators-warnings.md)
 
 ---
 
@@ -363,7 +362,7 @@ Detailed pages:
 | Inertia Switch | Shutdown circuit / SCM | Impact shutdown | TBD |
 | Neutral Switch | Dashboard | Indicate Neutral | TBD |
 | Brake Light Switch | Brake Light | Indicate Braking | TBD |
-[Open sensor documentation](../07-sensors-data-acquisition/index.md)
+[Open sensor documentation](./08-sensors-data-acquisition%20WIP/index.md)
 
 ---
 
@@ -401,12 +400,12 @@ This section is intentionally left open until the vehicle wiring architecture is
 
 Detailed pages:
 
-- [Harness Architecture](../09-wiring-harness/harness-architecture/index.md)
-- [Connector Catalogue](../09-wiring-harness/connector-catalogue/index.md)
-- [Pinouts](../09-wiring-harness/pinouts/index.md)
-- [Wire Sizing and Protection](../09-wiring-harness/wire-sizing-and-protection/index.md)
-- [Routing and Separation](../09-wiring-harness/routing-and-separation/index.md)
-- [Grounding and EMC](../09-wiring-harness/shielding-and-emc/index.md)
+- [Harness Architecture](./10-wiring-harness/harness-architecture/index.md)
+- [Connector Catalogue](./10-wiring-harness/connector-catalogue/index.md)
+- [Pinouts](./10-wiring-harness/pinouts/index.md)
+- [Wire Sizing and Protection](./10-wiring-harness/wire-sizing-and-protection/index.md)
+- [Routing and Separation](./10-wiring-harness/routing-and-separation/index.md)
+- [Grounding and EMC](./10-wiring-harness/shielding-and-emc/index.md)
 
 ---
 
@@ -442,6 +441,6 @@ Every subsystem must have a repeatable test.
 | Ignition/injection relay de-energized | Engine torque stops |  |
 | Low battery voltage | System fails safely |  |
 
-Detailed test planning in [Testing and Validation](../12-testing-validation/index.md).
+Detailed test planning in [Testing and Validation](../13-testing-validation/index.md).
 
 ---
