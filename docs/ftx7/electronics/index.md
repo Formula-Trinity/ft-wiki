@@ -284,7 +284,7 @@ The Honda CBR600RR engine is controlled by a MegaSquirt ECU using a fully sequen
 Detailed pages:
 
 - [ECU](./01-components/engine/MS3.md)
-- [Ignition](./06-engine-management%20WIP/ignition/index.md)
+- [Ignition](./06-engine-management/ignition/ignition.md)
 - [Fuel Injection](./06-engine-management%20WIP/fuel-injection/index.md)
 - [Fuel-Pump Control](./06-engine-management%20WIP/fuel-pump-control/index.md)
 - [Engine Sensors](./06-engine-management%20WIP/engine-sensors/index.md)

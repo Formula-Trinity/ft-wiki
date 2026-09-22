@@ -1,6 +1,6 @@
 # Fuel Injection
 
-![Fuel injector cutaway](images/PetrolDirectInjectionBMW.jpg)
+![Fuel injector cutaway](../images/PetrolDirectInjectionBMW.jpg)
 
 *Figure 1: A cutaway model of a petrol direct-injected engine.*
 
