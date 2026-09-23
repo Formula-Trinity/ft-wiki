@@ -1,6 +1,6 @@
 # How a Fuel Injector Works
 
-![Fuel injector](../images/Fuel-Injector_Cross-Section.jpg)
+![Fuel injector](../../images/Fuel-Injector_Cross-Section.jpg)
 
 *Figure 1: Example of an electronic fuel injector.*
 
