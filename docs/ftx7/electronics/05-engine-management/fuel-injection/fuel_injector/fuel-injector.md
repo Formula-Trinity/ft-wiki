@@ -1,10 +1,8 @@
-# Fuel Injector 
+# How a Fuel Injector Works
 
-![Fuel injector](images/Fuel-Injector_Cross-Section.jpg)
+![Fuel injector](../../images/Fuel-Injector_Cross-Section.jpg)
 
 *Figure 1: Example of an electronic fuel injector.*
-
->Part number: 16450MEE003 (Primary)
 
 A fuel injector is an electrically controlled valve. Pressurised fuel is supplied to the injector by the fuel pump and held behind a small nozzle. When the ECU sends an electrical signal to the injector, current flows through an electromagnetic coil called a solenoid.
 

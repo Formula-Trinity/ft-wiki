@@ -90,6 +90,66 @@ nav:
           - LTS Data: ftx7/vehicle-dynamics-tyre-data/lts-data/index.md
       - Electronics:
           - ftx7/electronics/index.md
+          - Rules and Compliance:
+            - ftx7/electronics/02-rules-compliance/index.md
+            - Scope and coverage: ftx7/electronics/02-rules-compliance/scope-and-coverage.md
+            - T — Technical Requirements:
+              - ftx7/electronics/02-rules-compliance/section-t/index.md
+              - T1 — Definitions Used by Electronics: ftx7/electronics/02-rules-compliance/section-t/t1-definitions.md
+              - T2 — General Design and Electrical Installation: ftx7/electronics/02-rules-compliance/section-t/t2-general-design.md
+              - T3 — Chassis Interfaces and Front Sensors: ftx7/electronics/02-rules-compliance/section-t/t3-chassis.md
+              - T4 — Cockpit, Firewall and Driver Access: ftx7/electronics/02-rules-compliance/section-t/t4-cockpit.md
+              - T5 — Driver Protection Interfaces: ftx7/electronics/02-rules-compliance/section-t/t5-driver-protection.md
+              - T6 — Brake System:
+                - ftx7/electronics/02-rules-compliance/section-t/t6-brakes/index.md
+                - T6.1 — Brake System Interfaces: ftx7/electronics/02-rules-compliance/section-t/t6-brakes/general.md
+                - T6.2 — Brake Over-Travel Switch: ftx7/electronics/02-rules-compliance/section-t/t6-brakes/bots.md
+                - T6.3 — Brake Light: ftx7/electronics/02-rules-compliance/section-t/t6-brakes/brake-light.md
+              - T7 — Powertrain Electrical Interfaces: ftx7/electronics/02-rules-compliance/section-t/t7-powertrain.md
+              - T8 — Powered Aerodynamics Interfaces: ftx7/electronics/02-rules-compliance/section-t/t8-aerodynamics.md
+              - T10 — Critical Fasteners at Electrical Interfaces: ftx7/electronics/02-rules-compliance/section-t/t10-fasteners.md
+              - T11 — Electrical Components:
+                - ftx7/electronics/02-rules-compliance/section-t/t11-electrical/index.md
+                - T11.1 — Low Voltage System: ftx7/electronics/02-rules-compliance/section-t/t11-electrical/lv-system.md
+                - T11.2 — Master Switches: ftx7/electronics/02-rules-compliance/section-t/t11-electrical/master-switches.md
+                - T11.3 — Low Voltage Master Switch: ftx7/electronics/02-rules-compliance/section-t/t11-electrical/lvms.md
+                - T11.4 — Shutdown Buttons: ftx7/electronics/02-rules-compliance/section-t/t11-electrical/shutdown-buttons.md
+                - T11.5 — Inertia Switch: ftx7/electronics/02-rules-compliance/section-t/t11-electrical/inertia-switch.md
+                - T11.6 — Brake System Plausibility Device: ftx7/electronics/02-rules-compliance/section-t/t11-electrical/bspd.md
+                - T11.7 — Low Voltage Batteries: ftx7/electronics/02-rules-compliance/section-t/t11-electrical/lv-battery.md
+                - T11.9 — System Critical Signals: ftx7/electronics/02-rules-compliance/section-t/t11-electrical/critical-signals.md
+                - T11.10 — System Status Light: ftx7/electronics/02-rules-compliance/section-t/t11-electrical/status-light.md
+                - T11.11 — Sensors and Electrical Components Mounting: ftx7/electronics/02-rules-compliance/section-t/t11-electrical/mounting.md
+              - T12.3 — Timing Equipment: ftx7/electronics/02-rules-compliance/section-t/t12-timing.md
+              - T13.5 — Cameras and Recording Equipment: ftx7/electronics/02-rules-compliance/section-t/t13-cameras.md
+            - CV — Combustion Vehicle Requirements:
+              - ftx7/electronics/02-rules-compliance/section-cv/index.md
+              - CV1 — Starter and Throttle Interfaces: ftx7/electronics/02-rules-compliance/section-cv/cv1-starter-throttle.md
+              - CV2 — Fuel and Injection Interfaces: ftx7/electronics/02-rules-compliance/section-cv/cv2-fuel-injection.md
+              - CV4 — Shutdown System: ftx7/electronics/02-rules-compliance/section-cv/cv4-shutdown.md
+            - IN — Technical Inspections:
+              - ftx7/electronics/02-rules-compliance/section-in/index.md
+              - IN1 — Inspection Readiness and Changes: ftx7/electronics/02-rules-compliance/section-in/in1-general.md
+              - IN5 — Mechanical Inspection Evidence: ftx7/electronics/02-rules-compliance/section-in/in5-mechanical.md
+              - IN7 — Tilt Test Interfaces: ftx7/electronics/02-rules-compliance/section-in/in7-tilt.md
+              - IN10 — Noise, ECU Speed and Shutdown Tests: ftx7/electronics/02-rules-compliance/section-in/in10-noise-shutdown.md
+              - IN11 — Brake-Light Inspection: ftx7/electronics/02-rules-compliance/section-in/in11-brake-light.md
+              - IN12 — Post-Event Electrical Condition: ftx7/electronics/02-rules-compliance/section-in/in12-post-event.md
+              - IN13 — Driver Egress with Electronics Installed: ftx7/electronics/02-rules-compliance/section-in/in13-egress.md
+            - A — Rules, Documents and Operations:
+              - ftx7/electronics/02-rules-compliance/section-a/index.md
+              - A1 / A3 — Ruleset and Clarifications: ftx7/electronics/02-rules-compliance/section-a/ruleset.md
+              - A5 — Electronics Documentation and Submissions: ftx7/electronics/02-rules-compliance/section-a/submissions.md
+              - A6 — Testing, Engine Running and Work Safety: ftx7/electronics/02-rules-compliance/section-a/operations.md
+              - A6.13 — Team Radios and Telemetry: ftx7/electronics/02-rules-compliance/section-a/radios-telemetry.md
+            - D — Dynamic Operations:
+              - ftx7/electronics/02-rules-compliance/section-d/index.md
+              - D — Starting, Restarts and Endurance: ftx7/electronics/02-rules-compliance/section-d/starting-endurance.md
+            - S — Static-Event Evidence:
+              - ftx7/electronics/02-rules-compliance/section-s/index.md
+              - S3 — Electronics Cost and Manufacturing Evidence: ftx7/electronics/02-rules-compliance/section-s/cost-manufacturing.md
+              - S5 / S7 — Design and Validation Evidence: ftx7/electronics/02-rules-compliance/section-s/design-validation.md
+            - Conditional systems: ftx7/electronics/02-rules-compliance/conditional-systems.md
           - Subsystem 1: ftx7/electronics/subsystem-01/index.md
           - Subsystem 2: ftx7/electronics/subsystem-02/index.md
   - Design & Manufacturing:

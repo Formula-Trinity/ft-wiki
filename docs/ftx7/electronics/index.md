@@ -1,11 +1,11 @@
 # Electronics Overview
 
-> **Vehicle:** FTX7 \
-> **Electronics Lead:** Michał Otrębski \
-> **Engine:** Honda CBR600RR 2003-4 \
-> **Electrical system:** 12 V Low-Voltage System \
-> **Document status:** Draft \
-> **Last reviewed:**  30/07/2026 
+> **Vehicle:** FTX7  
+> **Electronics Lead:** Michał Otrębski  
+> **Engine:** Honda CBR600RR 2003-4  
+> **Electrical system:** 12 V Low-Voltage System  
+> **Document status:** Draft  
+> **Last reviewed:**  30/07/2026  
 
 ---
 
@@ -14,19 +14,14 @@
 - [Components](./01-components/index.md)
 - [Rules and Compliance](./02-rules-compliance/index.md)
 - [Electrical Architecture](./03-electrical-architecture/index.md)
-- [Low-Voltage Power Distribution](./04-lv-power-distribution/index.md)
-- [Shutdown and Safety](./05-shutdown-safety/index.md)
-- [Engine Management](./06-engine-management/index.md)
-- [Tuning](./07-tuning/index.md)
-- [Sensors and Data Acquisition](./08-sensors-data-acquisition/index.md)
-- [Communications and Telemetry](./09-communications-telemetry/index.md)
-- [Wiring Harness](./10-wiring-harness/index.md)
-- [PCBs and Embedded Software](./11-pcbs-embedded-software/index.md)
-- [Auxiliary Electrical Systems](./12-auxiliaries/index.md)
-- [Testing and Validation](./13-testing-validation/index.md)
-- [Scrutineering and Evidence](./14-scrutineering-evidence/index.md)
-- [Operations and Maintenance](./15-operations-maintenance/index.md)
-- [BOM and Change Control](./16-bom-change-control/index.md)
+- [Shutdown and Safety](./04-shutdown-safety/index.md)
+- [Engine Management](./05-engine-management/index.md)
+- [Tuning](./06-tuning/index.md)
+- [Communications and Telemetry](./07-communications-telemetry/index.md)
+- [Wiring Harness](./08-wiring-harness/index.md)
+- [PCBs and Embedded Software](./09-pcbs-embedded-software/index.md)
+- [Testing and Validation](./10-testing-validation/index.md)
+- [Scrutineering and Evidence](./11-scrutineering-evidence/index.md)
   
 ---
 
@@ -289,7 +284,7 @@ The Honda CBR600RR engine is controlled by a MegaSquirt ECU using a fully sequen
 Detailed pages:
 
 - [ECU](./01-components/engine/MS3.md)
-- [Ignition](./06-engine-management%20WIP/ignition/index.md)
+- [Ignition](./06-engine-management/ignition/ignition.md)
 - [Fuel Injection](./06-engine-management%20WIP/fuel-injection/index.md)
 - [Fuel-Pump Control](./06-engine-management%20WIP/fuel-pump-control/index.md)
 - [Engine Sensors](./06-engine-management%20WIP/engine-sensors/index.md)
