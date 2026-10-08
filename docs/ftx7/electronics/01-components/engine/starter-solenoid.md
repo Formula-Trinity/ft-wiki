@@ -18,7 +18,4 @@ When the ignition switch is turned to the start position, current flows through 
 
 The closed contacts complete the circuit between the battery and the starter motor, allowing the motor to crank the engine. When the start signal is removed, the solenoid is de-energised and the contacts open, disconnecting the motor.
 
-A standalone starter solenoid operates as a high-current relay. A solenoid mounted directly on a starter motor can also move the starter pinion into engagement with the engine’s ring gear.
-
-
-Insufficient battery power can prevent the solenoid from operating correctly and may cause repeated clicking. Common causes include a discharged battery, loose or corroded connections, and damaged battery cables.
+A standalone starter solenoid operates as a high-current relay. Insufficient battery power can prevent the solenoid from operating correctly and may cause repeated clicking. Common causes include a discharged battery, loose or corroded connections, and damaged battery cables.

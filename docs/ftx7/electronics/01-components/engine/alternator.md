@@ -15,6 +15,6 @@ Its operation is:
 
  - **Rotor:** permanent magnets rotate with the engine's crankshaft
  - **Stator:** stationary copper windings generate AC as the rotor's magnetic field sweeps past them.
-  - **Separate regulator/rectifier:** converts that AC into DC and regulates the voltage for charging the battery and powering the electrical system.
+ - **Separate [regulator/rectifier](./regulator.md):** converts that AC into DC and regulates the voltage for charging the battery and powering the electrical system.
 
 Because it uses permanent magnets, it doesn’t need an electrically powered rotor field winding or brushes. Regulation happens through the regulator/rectifier rather than by adjusting the rotor’s magnetic field.

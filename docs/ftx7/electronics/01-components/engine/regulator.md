@@ -1,6 +1,6 @@
 # Regulator
 
-![Regulator](images/Regulator.png)
+![Regulator](images/Regulator.jpg)
 
 *Figure 1: The voltage regulator/rectifier*
 
