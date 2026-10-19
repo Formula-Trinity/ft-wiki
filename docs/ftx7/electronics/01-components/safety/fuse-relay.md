@@ -1,5 +1,6 @@
 # Fuses and Relays
 
+![Relay and Fuse Box](./images/fuse-relay.jpg)
 
 ## Why do we need it?
 
