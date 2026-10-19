@@ -1,6 +1,6 @@
 # Raspberry Pi
 
-![Raspberry Pi 4 Model B](images/raspberry-pi-4b.jpg){ width="300" }
+![Raspberry Pi 4 Model B](images/raspberry-pi-4b.jpg){ width="600" }
 
 ## Why do we need it?
 
@@ -20,9 +20,9 @@ The [Electronics Overview](../../index.md) lists the Raspberry Pi as a Raspberry
 
 ### Power supply
 
-![Aideepen 12 V to 5 V converter](images/12v-5v-converter.jpg){ width="300" }
+![Aideepen 12 V to 5 V converter](images/12v-5v-converter.jpg){ width="450" }
 
 [Aideepen DC 12V to 5V Converter](https://www.amazon.co.uk/dp/B0CLP7BK1Z) 
 
-The Raspberry Pi needs 5 V, but the car runs on 12 V. A step-down converter is used to reduce the 12 V supply to 5 V, and the wiring schematic shows it powering the Raspberry Pi through a USB-A to USB-C cable.
+The Raspberry Pi needs 5 V, but the car runs on 12 V. A step-down converter is used to reduce the 12 V supply to 5 V, and the wiring schematic shows it powering the Raspberry Pi through a USB-A to USB-C cable. The stepdown converted was used because the Pi requires around 3A of power which is what the regulator supplies.
 

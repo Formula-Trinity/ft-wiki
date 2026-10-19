@@ -10,4 +10,7 @@ An indicator LED is a small light mounted in the dashboard that shows the driver
 
 ## FTX7
 
-The LED used is a green 12 V indicator that fits a 16 mm hole in the panel. It is held in with a fixing nut, has screw terminals and is rated IP44.
+The LED used is a green and white 12 V indicator that fits a 16 mm hole in the panel. It is held in with a fixing nut, has screw terminals and is rated IP44. 
+
+The Neutral light uses the White light.
+The Power light uses the Green light.

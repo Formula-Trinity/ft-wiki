@@ -25,6 +25,6 @@ The FTX7 fuse ratings were chosen from recommended datasheets and measured curre
 
 On the wiring schematic, the 100 A battery fuse is between the battery and the LVMS, and the 25 A main fuse comes after the LVMS. The other fuses protect the individual injector, fuel pump, fan, ECU and ignition supplies.
 
-The wiring schematic shows five relays: FP Safety, Fan Relay, FP Relay, Injectors and Ignition. The Electronics Overview states that the end of the shutdown circuit feeds the fuel pump and ignition/injection relay coils, so when the shutdown circuit opens the fuel pump, ignition and injectors all lose power. The fuel pump and radiator fan are also controlled by the ECU through relays.
+The wiring schematic shows five relays: FP Safety, Fan Relay, FP Relay, Injectors and Ignition. The Electronics Overview states that the end of the shutdown circuit feeds the fuel pump and ignition/injection relay coils, so when the shutdown circuit opens the fuel pump, ignition and injectors all lose power. The radiator fan is also controlled by the ECU through a relaya.
 
-The design report states that the relays are standard 4-pin automotive relays capable of handling 40A each, which is far beyond the current draw of the car.
+The design report states that the relays are standard 4-pin automotive relays capable of handling 40A each, which is far beyond the current draw of each section.

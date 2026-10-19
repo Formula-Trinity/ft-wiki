@@ -2,7 +2,7 @@
 
 ![Starter push button switch](images/starter-switch.jpg){ width="300" }
 
-[Starter Push Button Switch](https://www.switchelectronics.co.uk/products/starter-push-button-switch) 
+[Starter Push Button Switch](https://www.switchelectronics.co.uk/products/red-off-on-illuminated-engine-starter-push-switch-spst-50a-12v-sci-a2-23b) 
 
 ## Why do we need it?
 
@@ -16,6 +16,6 @@ For FTX7, actuating the starter switch energises the [starter solenoid](../engin
 
 When the driver releases the switch, the solenoid coil is de-energised, its main contacts open and the starter motor is disconnected.
 
-It is fed from the 12 V supply after the LVMS and connects to pin 86 of the starter solenoid, with pin 85 going to ground. The design report says that a 4 pin heavy duty starter solenoid was chosen as it is able to handle the current that the starter pulls.
+It is fed from the 12 V supply after the LVMS and connects to large pin of the starter solenoid, with the other large contact going to the starter, the smaller contacts are the signal wires for actuating the solenoid. one is connected to the starter switch and the other contact is grounded, when the start switch is pressed the power going through the solenoid closes the main contacts and allows current to flow.. The design report says that a 4 pin heavy duty starter solenoid was chosen as it is able to handle the current that the starter pulls.
 
-The switch used is a momentary push button, meaning it only makes contact while it is held down. The seller lists it as rated for 10 A at 12 V DC, with screw terminals, a waterproof rubber button and a 16 mm mounting hole.
+The switch used is a momentary push button, meaning it only makes contact while it is held down.

@@ -1,5 +1,7 @@
 # Inertia Switch
 
+![Inertia](./images/inertia.png){width="400"}
+
 ## Why do we need it?
 
 An inertia switch is a mechanical switch that opens automatically if the car experiences a large, sudden deceleration such as in a crash. Once triggered it stays open until someone resets it by hand.

@@ -1,5 +1,7 @@
 # Display
 
+![Raspberry Pi Display 2 5-inch](./images/Display.jpg)
+
 ## Why do we need it?
 
 The display presents vehicle and engine information to the driver. It allows more information to be shown than would be possible using individual warning lights alone.
