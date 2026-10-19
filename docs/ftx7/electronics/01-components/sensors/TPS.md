@@ -1,0 +1,1 @@
+https://atpower.com/product/wabash-sensor-971rps-throttle-position-sensor-tps/
