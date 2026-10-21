@@ -1,4 +1,4 @@
-# Design Guides
+# Design
 
 This section is the home for design standards and processes. It currently covers how parts are named and organised, and how departments should create and maintain their own Bills of Materials (BOMs).
 
