@@ -31,5 +31,5 @@ Particular attention should be paid to:
 - consistency between documents
 - compliance with the submission requirements
 
-**!!! warning: check the submission requirements !!!**  
-Only submit the documents required by the current year's rules. FTX7 received a **5-point pre-event penalty** for submitting an additional fourth document outside the required submission set.
+!!! warning "Check the submission requirements"
+    Only submit the documents required by the current year's rules. FTX7 received a **5-point pre-event penalty** for submitting an additional fourth document outside the required submission set.

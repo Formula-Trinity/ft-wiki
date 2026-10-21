@@ -9,6 +9,7 @@ This documents Formula Trinity’s design, manufacturing, testing, and developme
 ## Start Here
 
 - [FTX7](ftx7/index.md) — FSUK 2026 competition entry's car.
+      - [FSUK 2026 Rules](ftx7/rules/index.md)
       - [Powertrain](ftx7/powertrain/index.md)
       - [Drivetrain](ftx7/drivetrain/index.md)
       - [Chassis](ftx7/chassis/index.md)

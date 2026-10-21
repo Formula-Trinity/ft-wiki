@@ -9,11 +9,13 @@ Up to **10 team members** can attend the session. The exact format and number of
 ## What to Bring
 
 - A printed copy of the CCBOM for reference during discussion.
-- A searchable copy (*using* `ctrl+F`) of the CCBOM on a laptop so selected components can be found quickly.
+- A searchable copy (*using* `ctrl+F`) of the CCBOM on a fully charged laptop so selected components can be found quickly.
 - Two full printed sets of drawings so multiple judges can inspect them at the same time.
 - Assembly drawings and fully dimensioned manufacturing drawings for the selected area.
 
 The drawings and CCBOM should work as a complete manufacturing package: together, they should contain enough info for someone outside the team to make and assemble the relevant components.
+
+Practise navigating both the printed and digital reports before competition. Everyone attending should know how to find the CCBOM assemblies, labour rates, fastener and material costs, process costs and supporting tables. A dedicated navigation practice prevents the team appearing unfamiliar with information that is already present.
 
 ---
 
@@ -76,6 +78,8 @@ Topics included:
 - submitted manufacturing drawings
 
 The exact direction of the discussion will depend on the judging panel and the answers given by the team.
+
+Verify suggested costing factors against the current year's rules before changing the report. Be prepared to explain whether items such as machine depreciation, maintenance, utilities or workshop floor space are required, excluded, included elsewhere or added as a team assumption. A judge's industrial experience may inform a question without making that costing method a competition requirement.
 
 ---
 

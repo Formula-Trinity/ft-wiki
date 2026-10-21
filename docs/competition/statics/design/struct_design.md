@@ -32,7 +32,8 @@ compliance both questionable.
 
 ## Team Debrief Notes
 
-**NOTE:** *These notes were recorded by team members immediately after judging. They summarise verbal comments and questions from the judges and should not be treated as official feedback.*
+!!! note "Unofficial feedback"
+    These notes were recorded by team members immediately after judging. They summarise verbal comments and questions from the judges and should not be treated as official feedback.
 
 - Support simulation and design calculations with physical testing wherever possible.
 - Force and displacement measurements on suspension and structural members can be used to validate predicted behaviour.

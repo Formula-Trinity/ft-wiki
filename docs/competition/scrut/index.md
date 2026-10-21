@@ -15,6 +15,8 @@ Only four team members are allowed in the scrutineering area with the car at a t
 
 If an issue is found, you return to the pits to try fix it, and return to scrutineering for reinspection.
 
+At FSUK 2026, FTX7 initially failed a number of items during the combined Technical and Safety inspection. The team corrected them in the pit lane, presented the car for reinspection (*a few times*) and eventually passed the Technical, Safety and Chassis stages. The findings are recorded on the [Tech](./tech/index.md) and [Safety](./safety/index.md) pages as historical lessons.
+
 At FSUK 2026, scrutineering was open from Wednesday morning until Sunday at noon. The pits were also open from 07:00 to 23:00 each day. This is when you should inspect, repair and prepare the car between scrutineering attempts.
 
 The completeness of the pre-scrutineering form determines the team's position in the initial queue on the first day. Once that queue has cleared, access is generally first come, first served.

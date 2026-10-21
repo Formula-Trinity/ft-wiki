@@ -11,4 +11,6 @@ Sequence matters. Within each assembly, list materials, manufacturing operations
 - Include the processes used to join components and complete each assembly.
 - Check that quantities, materials and processes agree with the submitted drawings.
 - Confirm that cost and carbon data use consistent, justifiable assumptions.
+- Export and print the final report early enough to correct page numbering or formatting problems.
+- Check the printed copy for page order, cropped content, section boundaries and missing assembly operations.
 - Ask someone unfamiliar with the assembly to use the CCBOM and drawings to explain how it would be manufactured.
