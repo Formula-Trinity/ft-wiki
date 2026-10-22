@@ -199,7 +199,7 @@ nav:
           - design_manufacturing/design/index.md
           - Part Naming & File Structure: design_manufacturing/design/file_structure/index.md
           - Bill of Materials (BOM): design_manufacturing/design/BOM/index.md
-          - Drawings: design_manufacturing/design/drawings/index.md
+          - Drawing Templates: design_manufacturing/design/drawings/index.md
   - Competition Overview:
       - competition/index.md
       - Static Events:
