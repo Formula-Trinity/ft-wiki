@@ -18,5 +18,3 @@
 A brake fluid pressure sensor senses the brake fluid pressure in a hydraulic braking system. The sensor is a type of pressure switch that shows and alerts a fault in the braking system.
 
 The Bosch Motorsport PSS-260 measures brake hydraulic pressure from 0 to 260 bar with a 2 ms response time — fast enough to capture individual ABS (anti-lock braking system) modulation events and brake pressure traces during a lap. It connects directly to any ECU or data logger analog input with a 5 V supply.
-
-The ratiometric 5 V output characteristic is 0.5 V = 0 bar, 4.5 V = 260 bar; sensitivity 15.38 mV/bar.

@@ -1,12 +1,12 @@
+# Ignition Driver
 
+![Quadspark with Harness](../images/quadspark_with_harness.jpg#right)
 
 The ignition driver provides the electrical interface between the MegaSquirt ECU and the ignition coils.
 
 The ECU produces a low-power ignition control signal, but the primary winding of an ignition coil requires a much larger current. The ignition driver allows the ECU to control this current without the high ignition-coil current passing directly through the ECU output.
 
 Bruce uses external ignition drivers because the ignition coils are "dumb" coils and do not contain their own high-current switching electronics.
-
-![Quadspark with Harness](../images/quadspark_with_harness.jpg#right)
 
 ## Connection
 

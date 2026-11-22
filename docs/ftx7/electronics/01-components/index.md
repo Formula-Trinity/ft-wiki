@@ -9,6 +9,7 @@
 - [Ignition Coil](./engine/ignition-coil.md)
 - [Spark Plug](./engine/spark-plug.md)
 - [Fuel Injector](./engine/fuel-injector.md)
+- [Fuel Pump](./engine/fuel-pump.md)
 - [Alternator](./engine/alternator.md)
 - [Radiator Fan](./engine/rad-fan.md)
 - [Starter Motor](./engine/starter-motor.md)

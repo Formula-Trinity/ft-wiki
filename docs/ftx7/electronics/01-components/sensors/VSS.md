@@ -12,4 +12,4 @@
 
 The vehicle speed sensor (VSS) detects rotation within the transmission and produces electrical pulses whose frequency increases with speed. These pulses allow the vehicle’s electronics to calculate road speed for the speedometer.
 
-The VSS is a Hall-effect sensor which uses detects magnetic-field changes as gear teeth on the gearbox output shaft, which has a 4 teeth gear. The sensor produces digital pulses, with a higher pulse frequency indicating faster rotation. 
+The VSS is a Hall-effect sensor which detects magnetic-field changes as gear teeth on the gearbox output shaft, which has a 4 teeth gear. The sensor produces digital pulses, with a higher pulse frequency indicating faster rotation. 

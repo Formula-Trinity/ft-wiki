@@ -4,13 +4,17 @@
 **System:** Engine Management  
 **Vehicle:** Bruce  
 
+![MS3X](./images/MS3X.jpg){width = "400"}
+
+[MegaSquirt 3 Documentation](./images/MS3XV357_Hardware-1.3.pdf)
+
 ## Da Blurb
 
 The MegaSquirt 3 (MS3) is the main engine-management controller used on Bruce.
 
 It processes information from engine sensors and uses this information, together with the stored engine calibration, to determine how the engine should be controlled.
 
-Its main responsibilities include controlling fuel injection and ignition timing.
+Its main responsibilities i2nclude controlling fuel injection and ignition timing.
 
 ## System Role
 
@@ -28,7 +32,8 @@ Typical sensor information used by the ECU includes:
 - manifold absolute pressure (MAP);
 - manifold / intake air temperature (MAT);
 - coolant temperature (CLT);
-- lambda / air-fuel information.
+- lambda / air-fuel information;
+- Vehicle Speed (VSS).
 
 The ECU uses these measurements to determine the current operating state of the engine.
 
@@ -45,9 +50,9 @@ The current Bruce ECU arrangement uses MegaSquirt 3 hardware together with an MS
 
 Current team notes describe the ECU as containing three PCBs:
 
-1. the main MegaSquirt board;
-2. the MS3 processor board;
-3. an additional expansion / connectivity board.
+1. the main MegaSquirt board
+2. the MS3 processor board
+3. an additional expansion / connectivity board (MS3X)
 
 The exact identity and purpose of each PCB should be confirmed from the physical ECU and team schematics.
 
@@ -57,7 +62,7 @@ The MS3X expansion board increases the number of inputs and outputs available to
 
 This allows the ECU to interface with additional engine sensors and actuators without requiring all functions to be handled by the original mainboard.
 
-The exact MS3X inputs and outputs currently used by Bruce should be documented from the wiring loom and ECU configuration.
+The Primary benefit of the MS3X is the expansion to 8 ignition and injection drivers as well as a CAM input, this allows us to run a fully sequential setup on our 4 cylinder CBR600rr.
 
 ## Engine Position
 
@@ -79,9 +84,9 @@ If a camshaft position sensor is used, this provides additional information allo
 
 This timing information is required so that fuel injection and ignition occur at the correct point in the engine cycle.
 
-## Calibration
+## Mapping
 
-The MS3 behaviour is determined partly by its calibration.
+The MS3 behaviour is determined partly by its Mapping.
 
 Important parameters include:
 

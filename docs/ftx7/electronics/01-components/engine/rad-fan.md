@@ -4,6 +4,8 @@
 **System:** Engine Cooling / Auxiliary Electrical  
 **Vehicle:** Bruce  
 
+![Radiator Fan](./images/Rad-Fan.png)
+
 ## Da Blurb
 
 The radiator fan provides forced airflow through the radiator when natural airflow through the vehicle is insufficient.
@@ -28,9 +30,7 @@ Electrical Supply → Fan Motor → Increased Radiator Airflow
 
 The coolant temperature sensor (CLT) allows the engine-management system to monitor engine temperature.
 
-Depending on Bruce's current wiring and calibration, the radiator fan may be switched automatically when coolant temperature passes a configured threshold.
-
-The exact switching strategy should be verified against the ECU configuration and wiring diagram.
+The fan is controlled by the ECU and is automatically switched based on the temperature from the CLT.
 
 ## Electrical Control
 
@@ -46,7 +46,7 @@ The control side requires relatively little current.
 
 The relay then switches the larger current required by the fan motor.
 
-The exact Bruce fan-control circuit should be confirmed from the electrical schematic.
+The relay is switched using a spare grounding relay pin on the ECU which allows the ECU to control the switching of the relay.
 
 ## Control Strategy
 
@@ -69,7 +69,6 @@ Fan switches on at upper threshold
 → fan remains on  
 → fan switches off at lower threshold
 
-
 ## Inspection / Testing
 
 Useful checks include:
@@ -83,4 +82,3 @@ Useful checks include:
 - confirm correct direction of airflow;
 - confirm the configured fan-on and fan-off temperatures;
 - monitor coolant temperature during testing.
-
